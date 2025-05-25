@@ -43,7 +43,7 @@ export default {
     generatedPreview() {
       return `
         <html>
-          <head><style>${this.effect.css}</style></head>
+          <head>${this.effect.link ?? ''}<style>${this.effect.css}</style></head>
           <body>
             ${this.effect.html}
             <script>${this.effect.js}<\/script>
@@ -216,25 +216,24 @@ export default {
 .tab-content,
 .tab-content_result {
   background: #0d1117;
-  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 0 0 6px 6px;
   height: 300px;
   max-height: 350px; 
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
-
   overflow-y: auto; 
   overflow-x: auto;
 }
 .tab-content_result {
   background: white;
+  max-height: 600px; 
 }
 
 iframe {
   width: 100%;
-  max-width: 800px;
-  height: 250px;
+  max-width: 1000px;
+  height: 100%;
   border: none;
   display: block;
 }
