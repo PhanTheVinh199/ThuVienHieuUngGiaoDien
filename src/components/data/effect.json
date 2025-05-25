@@ -68,6 +68,7 @@
     "effects": [
       {
         "id": 1,
+        "author" : "Thế Vĩnh",
         "type" : "Text",
         "title": "Bounce Text",
         "html": "<h1 class='bounce'>Hello</h1>",
