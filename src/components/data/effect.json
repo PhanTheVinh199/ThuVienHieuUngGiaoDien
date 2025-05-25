@@ -1,28 +1,31 @@
 [
-  {
-    "category": "hover",
-    "effects": [
-      {
-        "id": 1,
-        "title": "Hover Scale",
-        "html": "<div class='container'><div class='box'>Hover me</div></div>",
-        "css": ".box { transition: 0.3s; } .box:hover { transform: scale(1.2); }",
-        "js": ""
-      },
-      {
-        "id": 2,
-        "title": "Hover Glow",
-        "html": "<div class='glow'>Glow me</div>",
-        "css": ".glow:hover { box-shadow: 0 0 10px cyan; }",
-        "js": ""
-      }
-    ]
-  },
+ {
+  "category": "hover",
+  "effects": [
+    {
+      "id": 1,
+      "type": "Text",
+      "title": "Hover Color Fade",
+      "html": "<p class='hover-text1'>Hover over this text</p>",
+      "css": ".hover-text1 { transition: color 0.4s ease; cursor: pointer; font-size: 18px; } .hover-text1:hover { color: #ff5722; }",
+      "js": ""
+    },
+    {
+      "id": 2,
+      "type": "Button",
+      "title": "Button Background Fade",
+      "html": "<button class='hover-btn1'>Hover me</button>",
+      "css": ".hover-btn1 { background-color: #6200ea; color: white; padding: 12px 24px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; transition: background-color 0.3s ease; } .hover-btn1:hover { background-color: #3700b3; }",
+      "js": ""
+    }
+  ]
+},
   {
     "category": "animation",
     "effects": [
       {
         "id": 1,
+        "type" : "Text",
         "title": "Bounce Text",
         "html": "<h1 class='bounce'>Hello</h1>",
         "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
@@ -30,6 +33,7 @@
       },
       {
         "id": 2,
+        "type" : "Button",
         "title": "Pulse Button",
         "html": "<button class='pulse'>Click</button>",
         "css": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } } .pulse { animation: pulse 1s infinite; }",
@@ -37,9 +41,37 @@
       },
       {
         "id": 3,
-        "title": "Fade In Box",
-        "html": "<div class='fade-in-box'>Fade Me</div>",
-        "css": ".fade-in-box { opacity: 0; animation: fadeIn 2s forwards; } @keyframes fadeIn { to { opacity: 1; } }",
+        "type" : "Box",
+        "title": "Pulse Button",
+        "html": "<button class='pulse'>Click</button>",
+        "css": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } } .pulse { animation: pulse 1s infinite; }",
+        "js": ""
+      }
+    ]
+  },
+  {
+    "category": "scroll",
+    "effects": [
+      {
+        "id": 1,
+        "type" : "Text",
+        "title": "Bounce Text",
+        "html": "<h1 class='bounce'>Hello</h1>",
+        "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
+        "js": ""
+      }
+    ]
+  }
+  ,
+  {
+    "category": "3d",
+    "effects": [
+      {
+        "id": 1,
+        "type" : "Text",
+        "title": "Bounce Text",
+        "html": "<h1 class='bounce'>Hello</h1>",
+        "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
         "js": ""
       }
     ]
