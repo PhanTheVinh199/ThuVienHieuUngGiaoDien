@@ -220,12 +220,12 @@ export default {
   border: 1px solid #ccc;
   border-radius: 0 0 6px 6px;
   height: 300px;
-  max-height: 350px; /* fix chiều cao khung */
+  max-height: 350px; 
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
 
-  overflow-y: auto; /* bật thanh cuộn dọc */
-  overflow-x: auto; /* bật thanh cuộn ngang */
+  overflow-y: auto; 
+  overflow-x: auto;
 }
 .tab-content_result {
   background: white;
@@ -234,7 +234,7 @@ export default {
 iframe {
   width: 100%;
   max-width: 800px;
-  height: 200px;
+  height: 250px;
   border: none;
   display: block;
 }

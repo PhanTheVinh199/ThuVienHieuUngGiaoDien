@@ -61,20 +61,118 @@
         "js": ""
       }
     ]
-  }
-  ,
+  },
   {
-    "category": "3d",
-    "effects": [
-      {
-        "id": 1,
-        "author" : "Thế Vĩnh",
-        "type" : "Text",
-        "title": "Bounce Text",
-        "html": "<h1 class='bounce'>Hello</h1>",
-        "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
-        "js": ""
-      }
-    ]
-  }
+  "category": "3d",
+  "effects": [
+    {
+      "id": 1,
+      "author": "Thế Vĩnh",
+      "type": "Text",
+      "title": "Text 3D đơn giản bằng text-shadow",
+      "html": "<section class='effect-container'><div class='text-3d-simple'>Simple 3D Text</div></section>",
+      "css": ".effect-container { background: #1f1f1f; padding: 25px 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(255 255 255 / 0.05); max-width: 900px; margin: 20px auto; text-align: center; } .text-3d-simple { font-size: 60px; font-weight: bold; color: #3498db; text-shadow: 1px 1px 0 #2980b9, 2px 2px 0 #2471a3, 3px 3px 0 #1b4f72, 4px 4px 5px rgba(0,0,0,0.5); user-select: none; }",
+      "js": ""
+    },
+    {
+      "id": 2,
+      "author": "Thế Vĩnh",
+      "type": "Text",
+      "title": "Text 3D bóng nổi (extrude) bằng nhiều text-shadow",
+      "html": "<section class='effect-container'><div class='text-3d-extrude'>Extruded 3D Text</div></section>",
+      "css": ".effect-container { background: #1f1f1f; padding: 25px 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(255 255 255 / 0.05); max-width: 900px; margin: 20px auto; text-align: center; } .text-3d-extrude { font-size: 60px; font-weight: 900; color: #fff; text-shadow: 1px 1px 0 #e74c3c, 2px 2px 0 #c0392b, 3px 3px 0 #922b21, 4px 4px 0 #641e16; user-select: none; }",
+      "js": ""
+    },
+    {
+      "id": 3,
+      "author": "Thế Vĩnh",
+      "type": "Text",
+      "title": "Text 3D bóng đậm (heavy shadow)",
+      "html": "<section class='effect-container'><div class='text-3d-heavy-shadow'>Heavy Shadow 3D Text</div></section>",
+      "css": ".effect-container { background: #1f1f1f; padding: 25px 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(255 255 255 / 0.05); max-width: 900px; margin: 20px auto; text-align: center; } .text-3d-heavy-shadow { font-size: 72px; font-weight: 700; color: #ff6f61; text-shadow: 0 1px 0 #d54b43, 0 2px 0 #d54b43, 0 3px 0 #d54b43, 0 4px 0 #d54b43, 0 5px 0 #d54b43, 0 6px 1px rgba(0,0,0,0.2), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3); user-select: none; }",
+      "js": ""
+    },
+    {
+      "id": 4,
+      "author": "Thế Vĩnh",
+      "type": "Text",
+      "title": "Text 3D Neon Glow",
+      "html": "<section class='effect-container'><div class='text-3d-neon'>Neon Glow 3D Text</div></section>",
+      "css": ".effect-container { background: #1f1f1f; padding: 25px 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(255 255 255 / 0.05); max-width: 900px; margin: 20px auto; text-align: center; } .text-3d-neon { font-size: 72px; color: #0ff; text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff; user-select: none; }",
+      "js": ""
+    },
+    {
+      "id": 5,
+      "author": "Thế Vĩnh",
+      "type": "Text",
+      "title": "Text 3D nhiều lớp bằng text-shadow chồng lên nhau",
+      "html": "<section class='effect-container'><div class='text-3d-multilayer'>Multi-layer 3D Text</div></section>",
+      "css": ".effect-container { background: #1f1f1f; padding: 25px 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(255 255 255 / 0.05); max-width: 900px; margin: 20px auto; text-align: center; } .text-3d-multilayer { font-size: 70px; font-weight: 700; color: #3498db; text-shadow: 1px 1px 0 #2980b9, 2px 2px 0 #2471a3, 3px 3px 0 #1b4f72, 4px 4px 0 #145a32, 5px 5px 0 #0f2a1f, 6px 6px 0 #0a1c13, 7px 7px 0 #051109, 8px 8px 0 #030805, 9px 9px 0 #010402, 10px 10px 5px rgba(0, 0, 0, 0.7); user-select: none; display: inline-block; }",
+      "js": ""
+    },
+    {
+      "id": 6,
+      "author": "Thế Vĩnh",
+      "type": "Text",
+      "title": "Text 3D đổ bóng nghiêng",
+      "html": "<section class='effect-container'><div class='text-3d-angled'>Angled Shadow 3D Text</div></section>",
+      "css": ".effect-container { background: #1f1f1f; padding: 25px 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(255 255 255 / 0.05); max-width: 900px; margin: 20px auto; text-align: center; } .text-3d-angled { font-size: 60px; font-weight: 900; color: #fff; text-shadow: 3px 3px 0 #666, 6px 6px 0 #333; user-select: none; }",
+      "js": ""
+    },
+    {
+      "id": 7,
+      "author": "Thế Vĩnh",
+      "type": "Button",
+      "title": "Nút 3D Hiệu ứng nhấn nút",
+      "html": "<button class='btn-3d'>Click Me</button>",
+      "css": ".btn-3d { background: linear-gradient(145deg, #4a90e2, #357ABD); border: none; border-radius: 8px; color: white; padding: 12px 28px; font-size: 18px; font-weight: 600; cursor: pointer; box-shadow: 0 5px 0 #2a5dab, 0 10px 15px rgba(0, 0, 0, 0.3); transition: all 0.2s ease; user-select: none; outline: none; } .btn-3d:active { transform: translateY(7px); box-shadow: 0 1px 0 #2a5dab, 0 2px 5px rgba(0, 0, 0, 0.2); }",
+      "js": ""
+    },
+    {
+      "id": 8,
+      "author": "Thế Vĩnh",
+      "type": "Button",
+      "title": "Nút 3D Tăng Kích Thước Hover",
+      "html": "<button class='btn-glow'>Click Me</button>",
+      "css": ".btn-glow { background: linear-gradient(145deg, #6a11cb, #2575fc); border: none; border-radius: 12px; color: white; padding: 14px 36px; font-size: 20px; font-weight: 700; cursor: pointer; box-shadow: 0 4px 15px rgba(101, 84, 255, 0.6), inset 0 -3px 8px rgba(255, 255, 255, 0.3); transition: all 0.3s ease; user-select: none; outline: none; position: relative; overflow: hidden; } .btn-glow::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at center, rgba(255,255,255,0.4), transparent 70%); transform: rotate(45deg); transition: all 0.5s ease; pointer-events: none; } .btn-glow:hover { box-shadow: 0 6px 25px rgba(101, 84, 255, 0.9), inset 0 -3px 12px rgba(255, 255, 255, 0.5); transform: translateY(-3px) scale(1.05); } .btn-glow:hover::before { top: -20%; left: -20%; background: radial-gradient(circle at center, rgba(255,255,255,0.7), transparent 70%); } .btn-glow:active { transform: translateY(2px) scale(0.98); box-shadow: 0 3px 10px rgba(101, 84, 255, 0.4), inset 0 -2px 6px rgba(255, 255, 255, 0.2); }",
+      "js": ""
+    },
+    {
+      "id": 9,
+      "author": "Thế Vĩnh",
+      "type": "Button",
+      "title": "Nút Flip 3D",
+      "html": "<div class='scene' tabindex='0' role='button' aria-pressed='false'> <div class='face front'>Click Me</div> <div class='face back'>Back</div> <div class='face top'>Thanks, friend!</div> </div>",
+      "css": ".scene { width: 100px; height: 50px; position: relative; transform-style: preserve-3d; transition: transform 0.8s; cursor: pointer; user-select: none; outline: none; } .scene.flipped { transform: rotateX(-90deg); } .face { position: absolute; width: 100px; height: 50px; background: rgba(0, 150, 255, 0.9); border: 1px solid #000000; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: bold; color: white; backface-visibility: hidden; border-radius: 5px; } .front { transform: translateZ(25px); background: black; color: white; border: 1px solid white; } .back { transform: rotateY(180deg) translateZ(25px); background: white; color: black; } .top { transform: rotateX(90deg) translateZ(25px); background: white; color: black; }",
+      "js": "const btn = document.querySelector('.scene'); btn.addEventListener('click', () => { btn.classList.toggle('flipped'); const pressed = btn.classList.contains('flipped'); btn.setAttribute('aria-pressed', pressed); }); btn.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); } });"
+    },
+    {
+      "id": 10,
+      "author": "Thế Vĩnh",
+      "type": "Box",
+      "title": "Hộp 3D Xoay Điều Khiển",
+      "html": "<h3 style='text-align:center; color:#000; font-family: Arial, sans-serif;'>Hộp 3D Xoay Kéo Chuột</h3><div class='cube' id='cube'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
+      "css": ".cube { position: relative; width: 120px; height: 120px; transform-style: preserve-3d; transition: transform 1s; cursor: grab; margin: 0 auto; } .cube:active { cursor: grabbing; } .face { position: absolute; width: 120px; height: 120px; background: rgba(0, 150, 255, 0.8); border: 2px solid #fff; box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: bold; color: white; user-select: none; } .front  { transform: translateZ(60px); background: #1e90ff; } .back   { transform: rotateY(180deg) translateZ(60px); background: #007acc; } .right  { transform: rotateY(90deg) translateZ(60px); background: #3399ff; } .left   { transform: rotateY(-90deg) translateZ(60px); background: #2673d9; } .top    { transform: rotateX(90deg) translateZ(60px); background: #4da6ff; } .bottom { transform: rotateX(-90deg) translateZ(60px); background: #0066cc; }",
+      "js": "const cube = document.getElementById('cube'); let rotateX = -20; let rotateY = 20; let dragging = false; let lastX, lastY; function updateRotation() { cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`; } cube.addEventListener('mousedown', (e) => { dragging = true; lastX = e.clientX; lastY = e.clientY; cube.style.transition = 'none'; }); window.addEventListener('mouseup', () => { dragging = false; cube.style.transition = 'transform 1s'; }); window.addEventListener('mousemove', (e) => { if (!dragging) return; const deltaX = e.clientX - lastX; const deltaY = e.clientY - lastY; rotateY += deltaX * 0.5; rotateX -= deltaY * 0.5; rotateX = Math.min(Math.max(rotateX, -90), 90); updateRotation(); lastX = e.clientX; lastY = e.clientY; }); updateRotation();"
+    },
+    {
+      "id": 11,
+      "author": "Thế Vĩnh",
+      "type": "Box",
+      "title": "Hộp 3D Tự Xoay",
+      "html": "<div class='cube' id='cube'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
+      "css": "body { background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; perspective: 800px; font-family: Arial, sans-serif; color: #222; } .cube { position: relative; width: 120px; height: 120px; transform-style: preserve-3d; animation: autoRotate 15s linear infinite; cursor: default; border-radius: 10px; } .face { position: absolute; width: 120px; height: 120px; border: 2px solid rgba(0, 0, 0, 0.1); box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: 700; color: #222; user-select: none; text-shadow: none; } .front  { transform: translateZ(60px); background: linear-gradient(145deg, #6a11cb, #2575fc); box-shadow: 0 0 10px rgba(37, 117, 252, 0.6); color: #fff; } .back   { transform: rotateY(180deg) translateZ(60px); background: linear-gradient(145deg, #fc5c7d, #6a82fb); box-shadow: 0 0 10px rgba(252, 92, 125, 0.6); color: #fff; } .right  { transform: rotateY(90deg) translateZ(60px); background: linear-gradient(145deg, #f7971e, #ffd200); box-shadow: 0 0 10px rgba(255, 210, 0, 0.6); color: #222; } .left   { transform: rotateY(-90deg) translateZ(60px); background: linear-gradient(145deg, #11998e, #38ef7d); box-shadow: 0 0 10px rgba(56, 239, 125, 0.6); color: #222; } .top    { transform: rotateX(90deg) translateZ(60px); background: linear-gradient(145deg, #f85032, #e73827); box-shadow: 0 0 10px rgba(231, 56, 39, 0.6); color: #fff; } .bottom { transform: rotateX(-90deg) translateZ(60px); background: linear-gradient(145deg, #0f2027, #203a43, #2c5364); box-shadow: 0 0 10px rgba(44, 83, 100, 0.6); color: #fff; } @keyframes autoRotate { from { transform: rotateX(0deg) rotateY(0deg); } to { transform: rotateX(360deg) rotateY(360deg); } }",
+      "js": ""
+    },
+    {
+      "id": 12,
+      "author": "Thế Vĩnh",
+      "type": "Box",
+      "title": "",
+      "html": "",
+      "css": "",
+      "js": ""
+    }
+  ]
+}
 ]
