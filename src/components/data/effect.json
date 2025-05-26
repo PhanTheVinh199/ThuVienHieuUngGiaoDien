@@ -106,7 +106,97 @@
         "id": 11,
         "type": "Icon",
         "author": "Thế Vĩnh",
-        "title": "Hover Color Fade",
+        "title": "Basic Hover Icons",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='icon-container'> <i class='icon fa fa-home zoom-in'></i> <i class='icon fa fa-user rotate'></i> <i class='icon fa fa-heart color-change'></i> <i class='icon fa fa-star bounce'></i> <i class='icon fa fa-camera fade'></i> <i class='icon fa fa-cogs shadow'></i> <i class='icon fa fa-search flip'></i> <i class='icon fa fa-play grow-shrink'></i> <i class='icon fa fa-phone skew'></i> <i class='icon fa fa-music spin'></i> </div>",
+        "css": ".icon-container { display: flex; gap: 20px; justify-content: center; padding: 50px; flex-wrap: wrap; /* Allow icons to wrap to the next line */ } .icon { font-size: 45px; color: #000000; transition: all 0.3s ease; } .icon.zoom-in:hover { transform: scale(1.3); } .icon.rotate:hover { transform: rotate(45deg); } .icon.color-change:hover { color: #e74c3c; } .icon.bounce:hover { animation: bounce 0.6s ease-in-out; } @keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0); } } .icon.fade:hover { opacity: 0.5; } .icon.shadow:hover { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); } .icon.flip:hover { transform: rotateY(180deg); } .icon.grow-shrink:hover { transform: scale(1.5); } .icon.skew:hover { transform: skewX(20deg); } .icon.spin:hover { animation: spin 1s linear infinite; } @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }",
+        "js": ""
+      },
+      {
+        "id": 12,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "The background around the icon grows larger.",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { background: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon-effect .fa-icon:after { top: -7px; left: -7px; padding: 7px; box-shadow: 0 0 0 4px #fff; transition: transform 0.2s, opacity 0.2s; transform: scale(.8); opacity: 0; } .fa-icon-effect-a .fa-icon:hover { background: rgba(255, 255, 255, 1); color: #41ab6b; } .fa-icon-effect-a .fa-icon:hover:after { transform: scale(1); opacity: 1; }",
+        "js": ""
+      },
+      {
+        "id": 13,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "The background around the icon shrinks.",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { color: #000; box-shadow: 0 0 0 3px #fff; transition: color 0.3s; } .fa-icon-effect .fa-icon:after { top: -2px; left: -2px; padding: 2px; background: #fcfcfc33; transition: transform 0.2s, opacity 0.2s; } .fa-icon-effect-a .fa-icon:hover { color: #eea303; } .fa-icon-effect-a .fa-icon:hover:after { transform: scale(0.85); }",
+        "js": ""
+      },
+      {
+        "id": 14,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "The background fades around the icon.",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { box-shadow: 0 0 0 4px #fff; transition: color 0.3s; } .fa-icon-effect .fa-icon:after { top: -2px; left: -2px; padding: 2px; background: #ffffff72; transition: transform 0.2s, opacity 0.3s; } .fa-icon-effect-a .fa-icon { color: #000; } .fa-icon-effect-a .fa-icon:hover { color: #fff; } .fa-icon-effect-a .fa-icon:hover:after { transform: scale(1.3); opacity: 0; }",
+        "js": ""
+      },
+      {
+        "id": 15,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "The icon has dashed borders around it",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { width: 92px; height: 92px; box-shadow: 0 0 0 4px rgba(255, 255, 255, 1); } .fa-icon-effect .fa-icon:before { line-height: 92px; } .fa-icon-effect .fa-icon:after { top: -4px; left: -4px; padding: 0; border: 4px dashed #fff; } .fa-icon-effect .fa-icon:hover { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); color: #fff; }",
+        "js": ""
+      },
+      {
+        "id": 16,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "The icon moves to the right and then returns from the left",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { box-shadow: 0 0 0 4px rgba(255, 255, 255, 1); overflow: fadden; -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s; -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s; transition: background 0.3s, color 0.3s, box-shadow 0.3s; } .fa-icon-effect .fa-icon:after { display: none; } .fa-icon-effect .fa-icon:hover { background: rgba(255, 255, 255, 1); color: #702fa8; box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3); } .fa-icon-effect-a .fa-icon:hover:before { -webkit-animation: toRightFromLeft 0.3s forwards; -moz-animation: toRightFromLeft 0.3s forwards; animation: toRightFromLeft 0.3s forwards; } @keyframes toRightFromLeft { 49% { transform: translate(100%); } 50% { opacity: 0; transform: translate(-100%); } 51% { opacity: 1; } }",
+        "js": ""
+      },
+      {
+        "id": 17,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "Color change icon",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { box-shadow: 0 0 0 4px rgba(255, 255, 255, 1); transition: background 0.2s, color 0.2s; } .fa-icon-effect .fa-icon:hover { background: rgba(255, 255, 255, 1); color: #64bb5d; }",
+        "js": ""
+      },
+      {
+        "id": 18,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "An additional circular border appears around the icon",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { box-shadow: 0 0 0 4px rgba(255, 255, 255, 1); transition: background 0.2s, color 0.2s; } .fa-icon-effect .fa-icon:hover { color: #fff; } .fa-icon-effect .fa-icon:after { top: -8px; left: -8px; padding: 8px; z-index: -1; opacity: 0; } .fa-icon-effect-a .fa-icon:hover:after { opacity: 1; box-shadow: 3px 3px 0 rgba(255, 255, 255, 1); }",
+        "js": ""
+      },
+      {
+        "id": 19,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "The background ripples like a wave",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
+        "css": "body { background-color: #000000; } .fa-icon-wrap { text-align: center; margin: 40px auto; display: flex; justify-content: center; align-items: center; gap: 30px; } .fa-icon { display: flex; justify-content: center; align-items: center; font-size: 30px; cursor: pointer; width: 90px; height: 90px; border-radius: 50%; text-align: center; position: relative; z-index: 1; color: #fff; background-color: rgba(255, 255, 255, 0.1); transition: background 0.2s, color 0.2s; } .fa-icon:after { pointer-events: none; position: absolute; width: 100%; height: 100%; border-radius: 50%; content: ''; box-sizing: content-box; } .fa-icon-effect .fa-icon { background: rgba(255, 255, 255, 0.1); transition: transform ease-out 0.1s, background 0.2s; } .fa-icon-effect .fa-icon:hover { background: rgba(255, 255, 255, 0.05); transform: scale(0.93); color: #fff; } .fa-icon-effect .fa-icon:hover:after { animation: sonarEffect 1.3s ease-out 75ms; } @keyframes sonarEffect { 0% { opacity: 0.3; } 40% { opacity: 0.5; box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5); } 100% { box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5); transform: scale(1.5); opacity: 0; } }",
+        "js": ""
+      },
+      {
+        "id": 20,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "A light streak flashes across the icon",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<a class='glassIco'><i class='fab fa-facebook-f'></i></a> <a class='glassIco'><i class='fab fa-instagram'></i></a> <a class='glassIco'><i class='fab fa-linkedin-in'></i></a> <a class='glassIco'><i class='fab fa-whatsapp'></i></a>",
         "css": ".flex-center { display: flex; justify-content: center; align-items: center; } html, body { padding: 0; margin: 0; height: 100%; position: relative; background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%); font-family: Arial, sans-serif; overflow-x: hidden; } .glassIco { --width: 100px; box-sizing: border-box; width: var(--width); height: var(--width); color: #fff; font-size: 30px; border-radius: 5px; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(2px); border: 1px solid rgba(255, 255, 255, 0.2); border-right-color: rgba(255, 255, 255, 0.1); border-bottom-color: rgba(255, 255, 255, 0.1); box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); text-decoration: none; margin: 20px; overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; cursor: pointer; transition: transform 200ms ease; } .glassIco::before { content: ''; position: absolute; display: block; width: 50%; height: 100%; background: rgba(255, 255, 255, 0.5); filter: blur(0px); transition: 400ms; transform: skewX(45deg) translateX(calc(var(--width) + 50%)); top: 0; left: 0; pointer-events: none; z-index: 1; } .glassIco:hover { transform: translateY(-20px); } .glassIco:hover::before { transform: skewX(45deg) translateX(calc(var(--width) * -1 - 50%)); filter: blur(8px); } .glassIco > * { opacity: 0.8; position: relative; z-index: 2; pointer-events: none; } body { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; min-height: 100vh; gap: 20px; }",
