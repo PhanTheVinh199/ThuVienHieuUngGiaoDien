@@ -19,7 +19,7 @@ function toggleSubmenu() {
           <li><RouterLink to="/about">Giới thiệu</RouterLink></li>
 
           
-          <li class="dropdown">
+          <!-- <li class="dropdown">
             <a href="#">Giao diện ▾</a>
             <ul class="dropdown-menu">
               <li class="dropdown-1">
@@ -61,7 +61,7 @@ function toggleSubmenu() {
                 </ul>
               </li>
             </ul>
-          </li>
+          </li> -->
           <li class="dropdown">
             <a href="#">Hiệu ứng ▾</a>
             <ul class="dropdown-menu">
@@ -69,6 +69,7 @@ function toggleSubmenu() {
               <li><RouterLink to="/effect/animate">Animation</RouterLink></li>
               <li><RouterLink to="/effect/scroll">Scroll</RouterLink></li>
               <li><RouterLink to="/effect/3d">3D</RouterLink></li>
+              <li><RouterLink to="/effect/loading">Loading</RouterLink></li>
             </ul>
           </li>
 

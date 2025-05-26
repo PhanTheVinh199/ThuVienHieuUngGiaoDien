@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ effect.id }}. {{ effect.title }}</h1>
+  <h1>{{ effect.id }}. {{ effect.title }}. {{ effect.author }}</h1>
   <div>
     <div class="tabs">
       <button v-for="tab in tabs" :key="tab" @click="activeTab = tab" :class="{ active: activeTab === tab }">
@@ -27,6 +27,7 @@
 <script>
 import hljs from 'highlight.js'
 import 'highlight.js/styles/github-dark.css'
+import { effect } from 'vue'
 
 export default {
   props: {
