@@ -219,22 +219,25 @@ export default {
   border: 1px solid #ccc;
   border-radius: 0 0 6px 6px;
   height: 300px;
-  max-height: 350px; 
+  max-height: 350px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
-  overflow-y: auto; 
+  overflow-y: auto;
   overflow-x: auto;
 }
+
 .tab-content_result {
   background: white;
-  max-height: 600px; 
+  min-height: 300px;
+  max-height: 1000px;
+  overflow: visible;
 }
 
 iframe {
   width: 100%;
-  max-width: 1000px;
-  height: 100%;
+  height: auto;
   border: none;
+  min-height: 300px;
   display: block;
 }
 
@@ -257,13 +260,16 @@ iframe {
     opacity: 0;
     transform: translateY(20px);
   }
+
   10% {
     opacity: 1;
     transform: translateY(0);
   }
+
   90% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     transform: translateY(20px);
