@@ -79,7 +79,7 @@
         "title": "Glitch Effect",
         "link" : "",
         "html": "<span class='glitch' data-text='Hover Me'>Hover Me</span>",
-        "css": ".glitch { position: relative; cursor: pointer; font-size: 38px; font-weight: 800; color: #000; user-select: none; display: inline-block; } .glitch::before, .glitch::after { content: attr(data-text); position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; clip: rect(0, 900px, 0, 0); animation: none; } .glitch:hover::before { left: 2px; text-shadow: -2px 0 red; animation: glitch-anim 2s infinite linear alternate-reverse; } .glitch:hover::after { left: -2px; text-shadow: -2px 0 blue; animation: glitch-anim2 2.5s infinite linear alternate-reverse; } @keyframes glitch-anim { 0% { clip: rect(0, 9999px, 0, 0); } 10% { clip: rect(20px, 9999px, 50px, 0); } 20% { clip: rect(0, 9999px, 0, 0); } 30% { clip: rect(25px, 9999px, 45px, 0); } 40% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); } } @keyframes glitch-anim2 { 0% { clip: rect(0, 9999px, 0, 0); } 15% { clip: rect(45px, 9999px, 70px, 0); } 30% { clip: rect(0, 9999px, 0, 0); } 45% { clip: rect(50px, 9999px, 75px, 0); } 60% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); }",
+        "css": ".glitch { position: relative; cursor: pointer; font-size: 38px; font-weight: 800; color: #000; user-select: none; display: inline-block; } .glitch::before, .glitch::after { content: attr(data-text); position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; clip: rect(0, 900px, 0, 0); animation: none; } .glitch:hover::before { left: 2px; text-shadow: -2px 0 red; animation: glitch-anim 2s infinite linear alternate-reverse; } .glitch:hover::after { left: -2px; text-shadow: -2px 0 blue; animation: glitch-anim2 2.5s infinite linear alternate-reverse; } @keyframes glitch-anim { 0% { clip: rect(0, 9999px, 0, 0); } 10% { clip: rect(20px, 9999px, 50px, 0); } 20% { clip: rect(0, 9999px, 0, 0); } 30% { clip: rect(25px, 9999px, 45px, 0); } 40% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); } } @keyframes glitch-anim2 { 0% { clip: rect(0, 9999px, 0, 0); } 15% { clip: rect(45px, 9999px, 70px, 0); } 30% { clip: rect(0, 9999px, 0, 0); } 45% { clip: rect(50px, 9999px, 75px, 0); } 60% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); } }",
         "js": ""
       },
       {
@@ -96,14 +96,14 @@
         "id": 10,
         "type": "text",
         "author": "Thế Vĩnh",
-        "title": "",
+        "title": "Flip Text",
         "link" : "",
-        "html": "",
-        "css": "",
+        "html": "<div class='flip-text'><span>Hover Me</span></div>",
+        "css": ".flip-text { perspective: 600px; cursor: pointer; font-size: 38px; display: inline-block; color: black; } .flip-text span { display: inline-block; transition: transform 0.5s ease; transform-origin: bottom center; } .flip-text:hover span { transform: rotateX(360deg); color: #ff4081; }",
         "js": ""
       },
       {
-        "id": 10,
+        "id": 11,
         "type": "Icon",
         "author": "Thế Vĩnh",
         "title": "Hover Color Fade",
