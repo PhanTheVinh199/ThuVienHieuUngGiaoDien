@@ -1,5 +1,119 @@
 [
-  
+  {
+    "category": "hover",
+    "effects": [
+      {
+        "id": 1,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Hover Gradient Underline",
+        "link" : "",
+        "html": "<span class='hover-gradient-underline'> Hover Me</span>",
+        "css": ".hover-gradient-underline { font-size: 24px; font-weight: bold; color: #333; position: relative; cursor: pointer; display: inline-block; } .hover-gradient-underline::after { content: ''; position: absolute; width: 0; height: 3px; bottom: -5px; left: 0; background: linear-gradient(90deg, #ff6a00, #ee0979); transition: width 0.3s ease; border-radius: 2px; } .hover-gradient-underline:hover::after { width: 100%; }",
+        "js": ""
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Letter Spacing Expand",
+        "link" : "",
+        "html": "<span class='hover-letter-spacing'>Hover Me</span>",
+        "css": ".hover-letter-spacing { font-size: 28px; font-weight: 600; color: #333; cursor: pointer; transition: letter-spacing 0.3s ease; display: inline-block; } .hover-letter-spacing:hover { letter-spacing: 8px; color: #ff6347;",
+        "js": ""
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Text Slide Up Fade",
+        "link" : "",
+        "html": "<span class='hover-slide-up' data-text='Hover Me'>Hover Me</span>",
+        "css": ".hover-slide-up { font-size: 30px; font-weight: bold; position: relative; color: #222; cursor: pointer; overflow: hidden; display: inline-block; } .hover-slide-up::before { content: attr(data-text); position: absolute; left: 0; top: 100%; width: 100%; color: #ff4081; transition: top 0.3s ease; } .hover-slide-up:hover::before { top: 0; } .hover-slide-up:hover { color: transparent; }",
+        "js": ""
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Text Sharpens on Hover",
+        "link" : "",
+        "html": "<span class='hover-blur'>Hover Me</span>",
+        "css": ".hover-blur { font-size: 30px; font-weight: 700; color: #222; cursor: pointer; transition: filter 0.3s ease; display: inline-block; filter: blur(3px); } .hover-blur:hover { filter: blur(0px); }",
+        "js": ""
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Text Blur on Hover",
+        "link" : "",
+        "html": "<span class='hover-blur'>Hover Me</span>",
+        "css": ".hover-blur { font-size: 30px; font-weight: 700; color: #222; cursor: pointer; transition: filter 0.3s ease; display: inline-block; } .hover-blur:hover { filter: blur(3px); }",
+        "js": ""
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Rainbow Text Animation",
+        "link" : "",
+        "html": "<span class='hover-rainbow'>Hover Me</span>",
+        "css": ".hover-rainbow { font-size: 36px; font-weight: bold; background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet); background-size: 400%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; cursor: pointer; transition: background-position 0.5s ease; display: inline-block; } .hover-rainbow:hover { animation: rainbow 2s linear infinite; } @keyframes rainbow { 0% {background-position: 0%;} 100% {background-position: 400%;} }",
+        "js": ""
+      },
+      {
+        "id": 7,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Wave Text Effect",
+        "link" : "",
+        "html": "<div class='wave'> <span>H</span><span>o</span><span>v</span><span>e</span><span>r </span><span>M</span><span>e</span> </div>",
+        "css": ".wave { font-size: 36px; font-weight: 700; color: #00bcd4; display: inline-block; position: relative; } .wave span { display: inline-block; animation-name: waveAnim; animation-duration: 1.2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; animation-play-state: paused; } .wave span:nth-child(odd) { animation-delay: 0s; } .wave span:nth-child(even) { animation-delay: 0.6s; } .wave:hover span { animation-play-state: running; } @keyframes waveAnim { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }",
+        "js": ""
+      },
+      {
+        "id": 8,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Glitch Effect",
+        "link" : "",
+        "html": "<span class='glitch' data-text='Hover Me'>Hover Me</span>",
+        "css": ".glitch { position: relative; cursor: pointer; font-size: 38px; font-weight: 800; color: #000; user-select: none; display: inline-block; } .glitch::before, .glitch::after { content: attr(data-text); position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; clip: rect(0, 900px, 0, 0); animation: none; } .glitch:hover::before { left: 2px; text-shadow: -2px 0 red; animation: glitch-anim 2s infinite linear alternate-reverse; } .glitch:hover::after { left: -2px; text-shadow: -2px 0 blue; animation: glitch-anim2 2.5s infinite linear alternate-reverse; } @keyframes glitch-anim { 0% { clip: rect(0, 9999px, 0, 0); } 10% { clip: rect(20px, 9999px, 50px, 0); } 20% { clip: rect(0, 9999px, 0, 0); } 30% { clip: rect(25px, 9999px, 45px, 0); } 40% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); } } @keyframes glitch-anim2 { 0% { clip: rect(0, 9999px, 0, 0); } 15% { clip: rect(45px, 9999px, 70px, 0); } 30% { clip: rect(0, 9999px, 0, 0); } 45% { clip: rect(50px, 9999px, 75px, 0); } 60% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); }",
+        "js": ""
+      },
+      {
+        "id": 9,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "Color Spectrum Wave",
+        "link" : "",
+        "html": "<div class='hover-box color-wave'>Hover Me</div>",
+        "css": "@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap'); body { background: #121212; color: #eee; font-family: 'Rubik Moonrocks', cursive, Arial, sans-serif; max-width: 700px; margin: 50px auto; padding: 20px; display: flex; flex-direction: column; gap: 35px; user-select: none; } .hover-box { background: #222; border-radius: 15px; padding: 20px; text-align: center; cursor: pointer; font-size: 44px; font-weight: 900; position: relative; overflow: hidden; color: #eee; } .color-wave { background: linear-gradient(270deg, #ff0055, #00ffff, #ff00cc, #00ffcc, #ff0055); background-size: 1000% 1000%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: wave-spectrum 7s linear infinite paused; user-select: none; } .color-wave:hover { animation-play-state: running; } @keyframes wave-spectrum { 0% { background-position: 0% 50%; } 100% { background-position: 100% 50%; } }",
+        "js": ""
+      },
+      {
+        "id": 10,
+        "type": "text",
+        "author": "Thế Vĩnh",
+        "title": "",
+        "link" : "",
+        "html": "",
+        "css": "",
+        "js": ""
+      },
+      {
+        "id": 10,
+        "type": "Icon",
+        "author": "Thế Vĩnh",
+        "title": "Hover Color Fade",
+        "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
+        "html": "<a class='glassIco'><i class='fab fa-facebook-f'></i></a> <a class='glassIco'><i class='fab fa-instagram'></i></a> <a class='glassIco'><i class='fab fa-linkedin-in'></i></a> <a class='glassIco'><i class='fab fa-whatsapp'></i></a>",
+        "css": ".flex-center { display: flex; justify-content: center; align-items: center; } html, body { padding: 0; margin: 0; height: 100%; position: relative; background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%); font-family: Arial, sans-serif; overflow-x: hidden; } .glassIco { --width: 100px; box-sizing: border-box; width: var(--width); height: var(--width); color: #fff; font-size: 30px; border-radius: 5px; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(2px); border: 1px solid rgba(255, 255, 255, 0.2); border-right-color: rgba(255, 255, 255, 0.1); border-bottom-color: rgba(255, 255, 255, 0.1); box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); text-decoration: none; margin: 20px; overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; cursor: pointer; transition: transform 200ms ease; } .glassIco::before { content: ''; position: absolute; display: block; width: 50%; height: 100%; background: rgba(255, 255, 255, 0.5); filter: blur(0px); transition: 400ms; transform: skewX(45deg) translateX(calc(var(--width) + 50%)); top: 0; left: 0; pointer-events: none; z-index: 1; } .glassIco:hover { transform: translateY(-20px); } .glassIco:hover::before { transform: skewX(45deg) translateX(calc(var(--width) * -1 - 50%)); filter: blur(8px); } .glassIco > * { opacity: 0.8; position: relative; z-index: 2; pointer-events: none; } body { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; min-height: 100vh; gap: 20px; }",
+        "js": ""
+      }
+    ]
+  },
   {
     "category": "animation",
     "effects": [
@@ -213,6 +327,16 @@
         "link": "",
         "html": "<div class='icon-container' aria-label='Home Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <path d='M32 12 L12 32 H20 V52 H28 V40 H36 V52 H44 V32 H52 Z' /> </svg> </div> <div class='icon-container' aria-label='Search Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <circle cx='27' cy='27' r='16' stroke='white' stroke-width='4' fill='none' /> <line x1='41' y1='41' x2='58' y2='58' stroke='white' stroke-width='6' stroke-linecap='round' /> </svg> </div> <div class='icon-container' aria-label='Settings Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <circle cx='32' cy='32' r='10' /> <path d='M32 12 L32 4 M32 60 L32 52 M12 32 L4 32 M60 32 L52 32 M46 46 L52 52 M18 18 L12 12 M46 18 L52 12 M18 46 L12 52' stroke='white' stroke-width='4' stroke-linecap='round' fill='none' /> </svg> </div> <div class='icon-container' aria-label='User Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <circle cx='32' cy='20' r='12' /> <path d='M12 58 C12 46, 52 46, 52 58 Z' fill='white' /> </svg> </div>",
         "css": "body { background: #121212; height: 100vh; margin: 0; display: flex; justify-content: center; align-items: center; gap: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; perspective: 1000px; } .icon-container { width: 120px; height: 120px; border-radius: 50%; border: 1px solid #ff40b8; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: transform 0.4s ease, box-shadow 0.4s ease; transform-style: preserve-3d; animation: slowSpin 10s linear infinite; position: relative; } .icon-container:hover { background: conic-gradient(from 0deg, #ff00cc, #ff66cc, #ff99cc, #cc33ff, #ff00cc, #ff66cc); box-shadow: inset 0 0 40px #ff33dd, 0 0 10px #ff99ee, 0 0 20px #ffccff, 0 30px 90px rgba(255, 102, 204, 1); transform: translateZ(40px) rotateX(80deg) scale(1.1); } .icon-container svg { width: 60px; height: 60px; fill: white; filter: drop-shadow(0 0 6px rgba(255, 182, 193, 0.9)); transform-style: preserve-3d; transition: transform 0.4s ease; } .icon-container:hover svg { transform: translateZ(50px) translateY(-30px) rotateX(-90deg); filter: drop-shadow(0 0 15px #ff66cc); }",
+        "js": ""
+      },
+      {
+        "id": 18,
+        "author": "Thế Vĩnh",
+        "type": "Box",
+        "title": "",
+        "link": "",
+        "html": "",
+        "css": "",
         "js": ""
       }
     ]
