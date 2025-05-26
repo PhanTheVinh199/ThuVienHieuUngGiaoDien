@@ -120,26 +120,102 @@
       {
         "id": 1,
         "type": "Text",
-        "title": "Bounce Text",
-        "html": "<h1 class='bounce'>Hello</h1>",
-        "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
+        "author": "Thế Vĩnh",
+        "title": "Glitch Text Animation",
+        "link" : "",
+        "html": "<span class='glitch' data-text='Text Animation'>Text Animation</span>",
+        "css": ".glitch { position: relative; font-size: 38px; font-weight: 800; color: #000; user-select: none; display: inline-block; cursor: default; } .glitch::before, .glitch::after { content: attr(data-text); position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; /* Gán animation luôn */ } .glitch::before { left: 2px; text-shadow: -2px 0 red; animation: glitch-anim 2s infinite linear alternate-reverse; } .glitch::after { left: -2px; text-shadow: -2px 0 blue; animation: glitch-anim2 2.5s infinite linear alternate-reverse; } @keyframes glitch-anim { 0% { clip: rect(0, 9999px, 0, 0); } 10% { clip: rect(20px, 9999px, 50px, 0); } 20% { clip: rect(0, 9999px, 0, 0); } 30% { clip: rect(25px, 9999px, 45px, 0); } 40% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); } } @keyframes glitch-anim2 { 0% { clip: rect(0, 9999px, 0, 0); } 15% { clip: rect(45px, 9999px, 70px, 0); } 30% { clip: rect(0, 9999px, 0, 0); } 45% { clip: rect(50px, 9999px, 75px, 0); } 60% { clip: rect(0, 9999px, 0, 0); } 100% { clip: rect(0, 9999px, 0, 0); } }",
         "js": ""
       },
       {
         "id": 2,
-        "type": "Button",
-        "title": "Pulse Button",
-        "html": "<button class='pulse'>Click</button>",
-        "css": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } } .pulse { animation: pulse 1s infinite; }",
+        "type": "Text",
+        "author": "Thế Vĩnh",
+        "title": "Slide Color",
+        "link" : "",
+        "html": "<span class='slide-color'>Text Animation</span>",
+        "css": ".slide-color { font-size: 38px; font-weight: 800; background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet); background-size: 400% 100%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: slideColorAnim 4s linear infinite; } @keyframes slideColorAnim { 0% { background-position: 0% 0; } 100% { background-position: 400% 0; } }",
         "js": ""
       },
       {
         "id": 3,
-        "type": "Box",
-        "title": "Pulse Button",
-        "html": "<button class='pulse'>Click</button>",
-        "css": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } } .pulse { animation: pulse 1s infinite; }",
+        "type": "Text",
+        "author": "Thế Vĩnh",
+        "title": "Glowing Fade In",
+        "link" : "",
+        "html": "<div class='glowing'>Text Animation</div>",
+        "css": ".glowing { font-size: 60px; color: black; text-shadow: 0 0 10px #fff, 0 0 20px #ff00cc, 0 0 30px #ff00cc, 0 0 40px #ff00cc; animation: fadeInGlow 3s infinite; } @keyframes fadeInGlow { 0% { opacity: 0; text-shadow: 0 0 5px #ff00cc; } 50% { opacity: 1; text-shadow: 0 0 20px #ff00cc, 0 0 40px #ff00cc; } 100% { opacity: 0; text-shadow: 0 0 5px #ff00cc; } }",
         "js": ""
+      },
+      {
+        "id": 4,
+        "type": "Text",
+        "author": "Thế Vĩnh",
+        "title": "Moving Text",
+        "link" : "",
+        "html": "<div class='moving-text'>Text Animation</div>",
+        "css": ".moving-text { font-size: 60px; color: black; position: relative; animation: move 5s infinite linear; } @keyframes move { 0% { left: 0; } 100% { left: 100%; } }",
+        "js": ""
+      },
+      {
+        "id": 5,
+        "type": "Text",
+        "author": "Thế Vĩnh",
+        "title": "Pixelated Text",
+        "link" : "",
+        "html": " <div class='pixelated'>Text Animation</div>",
+        "css": ".pixelated { font-size: 60px; font-family: 'Courier New', Courier, monospace; color: black; text-transform: uppercase; letter-spacing: 2px; animation: pixelate 1s infinite alternate; } @keyframes pixelate { 0% { letter-spacing: 0px; opacity: 0.5; } 100% { letter-spacing: 10px; opacity: 1; } }",
+        "js": ""
+      },
+      {
+        "id": 6,
+        "type": "Button",
+        "author": "Thế Vĩnh",
+        "title": "Button - Reverse Shadow",
+        "link" : "",
+        "html": "<a class='playbtn'> <span></span> <span></span> <span></span> <span></span> Button Animation </a>",
+        "css": "body { display: flex; align-items: center; justify-content: center; background-color: #000; } .playbtn { position: relative; display: inline-block; padding: 25px 30px; margin: 40px 0; color: #ffffff; text-decoration: none; text-transform: uppercase; transition: 0.5s; font-weight: 600; letter-spacing: 4px; overflow: hidden; } .playbtn:hover { background: #ffffff; color: #000000; box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff, 0 0 200px #fff; -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); } .playbtn span { position: absolute; display: block; } .playbtn span:nth-child(1) { top: 0; left: 0; width: 100%; height: 10px; background: linear-gradient(90deg, transparent, #fff); animation: animate1 1s linear infinite; } @keyframes animate1 { 0% { left: -100%; } 50%, 100% { left: 100%; } } .playbtn span:nth-child(2) { top: -100%; right: 0; width: 10px; height: 100%; background: linear-gradient(180deg, transparent, #fff); animation: animate2 1s linear infinite; animation-delay: 0.25s; } @keyframes animate2 { 0% { top: -100%; } 50%, 100% { top: 100%; } } .playbtn span:nth-child(3) { bottom: 0; right: 0; width: 100%; height: 10px; background: linear-gradient(270deg, transparent, #fff); animation: animate3 1s linear infinite; animation-delay: 0.5s; } @keyframes animate3 { 0% { right: -100%; } 50%, 100% { right: 100%; } } .playbtn span:nth-child(4) { bottom: -100%; left: 0; width: 10px; height: 100%; background: linear-gradient(360deg, transparent, #fff); animation: animate4 1s linear infinite; animation-delay: 0.75s; } @keyframes animate4 { 0% { bottom: -100%; } 50%, 100% { bottom: 100%; } }",
+        "js": ""
+      },
+      {
+        "id": 7,
+        "type": "Button",
+        "author": "Thế Vĩnh",
+        "title": "Button - Unlocking Animation Effect",
+        "link" : "",
+        "html": "<div class='button-box'> <button class='button'> <p class='title'>Submit!</p> <img src='https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked.png' alt='Locked' /> <p class='description'>Click to submit</p> </button> </div>",
+        "css": "body { display: flex; align-items: center; justify-content: center; background-color: var(--lovelish); } :root { --lovelish: hsl(0, 0%, 18%); --handshake: hsl(40, 100%, 66%); } img { margin-left: auto; transition: 0.5s; width: 5.5rem; height: 5.5rem; } .button { margin: 40px 0; height: 100px; width: 500px; display: flex; border-radius: 2.5rem; transition: 0.5s; font-size: 2rem; background-image: linear-gradient(to right top, #ffb4be, #ffb5b6, #ffb7ad, #ffbaa5, #ffbd9e, #ffc098, #ffc492, #ffc88d, #ffcd87, #ffd281, #ffd77b, #ffdd76); animation: blurr3 2s; animation-iteration-count: infinite; outline: none; cursor: pointer; border: none; position: relative; } .button:hover .title { transform: translateX(-140px); animation: fade 0.5s; opacity: 0%; } .button:hover img { transform: translateX(-370px); } .button:hover .description { transform: translateX(70px); opacity: 100%; } @keyframes blurr3 { 0%, 100% { box-shadow: 0 0 10px var(--handshake); } 50% { box-shadow: 0 0 36px var(--handshake); } } @keyframes fade { 0% { opacity: 100%; } 100% { opacity: 0%; } } .title { font-weight: bold; margin-top: 1.6rem; margin-left: 10rem; transition: 0.5s; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); } .description { position: absolute; margin-top: 1.4rem; font-weight: bold; line-height: 2rem; font-size: 2rem; font-style: italic; transition: 0.5s; opacity: 0%; margin-left: 6rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); } .button:hover .description { content: 'Are you sure you want to submit?'; transform: translateX(70px); opacity: 100%; font-size: 1.5rem; } .button:hover img { content: url('https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png'); }",
+        "js": ""
+      },
+      {
+        "id": 8,
+        "type": "Button",
+        "author": "Thế Vĩnh",
+        "title": "Button - LED light",
+        "link" : "",
+        "html": "<a class='box__link button-animation'> Submit <span></span> <span></span> <span></span> <span></span> </a>",
+        "css": "body { display: flex; align-items: center; justify-content: center; font-size: 1rem; background: #393937; } ul { list-style: none; } a { text-decoration: none; } .button-animation { margin: 40px 0; position: relative; display: inline-block; padding: 20px 30px; color: #03e9f4; overflow: hidden; letter-spacing: 4px; transition: 0.5s; } .button-animation span { position: absolute; display: block; } .button-animation span:nth-child(1) { top: 0; left: -100%; width: 100%; height: 2px; background: linear-gradient(90deg, transparent, #03e9f4); animation: btn-anim1 1s linear infinite; } @keyframes btn-anim1 { 0% { left: -100%; } 50%, 100% { left: 100%; } } .button-animation span:nth-child(2) { top: -100%; right: 0; width: 2px; height: 100%; background: linear-gradient(180deg, transparent, #03e9f4); animation: btn-anim2 1s linear infinite; animation-delay: 0.25s; } @keyframes btn-anim2 { 0% { top: -100%; } 50%, 100% { top: 100%; } } .button-animation span:nth-child(3) { bottom: 0; right: -100%; width: 100%; height: 2px; background: linear-gradient(270deg, transparent, #03e9f4); animation: btn-anim3 1s linear infinite; animation-delay: 0.5s; } @keyframes btn-anim3 { 0% { right: -100%; } 50%, 100% { right: 100%; } } .button-animation span:nth-child(4) { bottom: -100%; left: 0; width: 2px; height: 100%; background: linear-gradient(360deg, transparent, #03e9f4); animation: btn-anim4 1s linear infinite; animation-delay: 0.75s; } @keyframes btn-anim4 { 0% { bottom: -100%; } 50%, 100% { bottom: 100%; } } .button-animation:hover { background-color: #03e9f4; color: #fff; border-radius: 5px; box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4; }",
+        "js": ""
+      },
+      {
+        "id": 9,
+        "type": "Button",
+        "author": "Thế Vĩnh",
+        "title": "Button - Animated Wave",
+        "link" : "",
+        "html": "<a> <span>Click</span> <div class='liquid'></div> </a>",
+        "css": "body { display: flex; justify-content: center; align-items: center; background: #161718; } a { font: 700 30px consolas; color: #fff; text-decoration: none; text-transform: uppercase; padding: 20px 60px; position: relative; overflow: hidden; border-radius: 5px; transition: 0.2s; transform: scale(2); margin: 40px auto; } a span { position: relative; z-index: 0; color: #fff; } a .liquid { position: absolute; top: -60px; left: 0; width: 100%; height: 200px; background: #7293ff; box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7); z-index: -1; transition: 0.6s; } a .liquid::after, a .liquid::before { position: absolute; content: ''; width: 200%; height: 200%; top: 0; left: 0; transform: translate(-25%, -75%); } a .liquid::after { border-radius: 45%; background: rgba(20, 20, 20, 1); box-shadow: 0 0 10px 5px #7293ff, inset 0 0 5px #7293ff; animation: animate 5s linear infinite; opacity: 0.8; } a .liquid::before { border-radius: 40%; box-shadow: 0 0 10px rgba(26, 26, 26, 0.5), inset 0 0 5px rgba(26, 26, 26, 0.5); background: rgba(26, 26, 26, 0.5); animation: animate 7s linear infinite; } @keyframes animate { 0% { transform: translate(-25%, -75%) rotate(0); } 100% { transform: translate(-25%, -75%) rotate(360deg); } } a:hover .liquid { top: -120px; } a:hover { box-shadow: 0 0 5px #7293ff, inset 0 0 5px #7293ff; transition-delay: 0.2s; }",
+        "js": ""
+      },
+      {
+        "id": 10,
+        "type": "Button",
+        "author": "Thế Vĩnh",
+        "title": "Button - Animated Wave",
+        "link" : "",
+        "html": "<div class='container'> <button class='btn' onfocus='go()'>Go</button> <svg class='svg' height='100' width='100'> <defs> <radialGradient id='g2' cx='50%' cy='50%' r='50%' fx='50%' fy='50%'> <stop offset='0%' style='stop-color:#00cec9' /> <stop offset='70%' style='stop-color:#00cec9' /> <stop offset='80%' style='stop-color:#00cec9' /> <stop offset='90%' style='stop-color:white;' /> <stop offset='100%' style='stop-color:white' /> </radialGradient> </defs> <circle cx='50' cy='50' r='40' stroke='#00cec9' stroke-width='5' fill='url(#g2)' /> <text class='text' x='50' y='50' text-anchor='middle' stroke='white' stroke-width='1px' dy='.2em'>0%</text> </svg> </div>",
+        "css": ".container { position: relative; margin: 50px auto 0 auto; width: 200px; height: 200px; } .btn { width: 170px; height: 40px; background: #00cec9; color: white; border: none; cursor: pointer; font-size: 1.3em; position: absolute; transform: scaleX(1); transition: transform 1s ease, opacity 0.8s ease; border-radius: 40px; } .btn:focus { outline: none; } .btn-class:focus { transform: scaleX(0.5); opacity: 0; } .btn-class:focus + svg { transform: scale(1); opacity: 1; } svg { position: absolute; left: 18%; top: -15%; transform: scale(0); opacity: 0; stroke-dasharray: 1000; stroke-dashoffset: 1000; transition: transform 1s ease, opacity 0.5s ease, stroke-dashoffset 0.1s ease; } text { font-size: 18px; font-family: sans-serif; fill: white; }",
+        "js": "var btn = document.getElementsByClassName('btn')[0]; var text = document.getElementsByClassName('text')[0]; var svg = document.getElementsByClassName('svg')[0]; var clearInt; var counter = 0; function go() { btn.classList.add('btn-class'); counter = 0; ani(); } function ani() { clearInt = setInterval(() => { counter = counter + 1; text.innerHTML = counter + '%'; svg.style.strokeDashoffset = 1000 - counter * 2.5; if (counter === 100) setInitial(); }, 90); } function setInitial() { clearInterval(clearInt); btn.classList.remove('btn-class'); counter = 0; text.innerHTML = '0 %'; svg.style.strokeDashoffset = 1000; }"
       }
     ]
   },
