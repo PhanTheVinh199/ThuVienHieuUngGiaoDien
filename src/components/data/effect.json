@@ -494,16 +494,6 @@
         "html": "<div class='icon-container' aria-label='Home Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <path d='M32 12 L12 32 H20 V52 H28 V40 H36 V52 H44 V32 H52 Z' /> </svg> </div> <div class='icon-container' aria-label='Search Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <circle cx='27' cy='27' r='16' stroke='white' stroke-width='4' fill='none' /> <line x1='41' y1='41' x2='58' y2='58' stroke='white' stroke-width='6' stroke-linecap='round' /> </svg> </div> <div class='icon-container' aria-label='Settings Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <circle cx='32' cy='32' r='10' /> <path d='M32 12 L32 4 M32 60 L32 52 M12 32 L4 32 M60 32 L52 32 M46 46 L52 52 M18 18 L12 12 M46 18 L52 12 M18 46 L12 52' stroke='white' stroke-width='4' stroke-linecap='round' fill='none' /> </svg> </div> <div class='icon-container' aria-label='User Icon'> <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'> <circle cx='32' cy='20' r='12' /> <path d='M12 58 C12 46, 52 46, 52 58 Z' fill='white' /> </svg> </div>",
         "css": "body { background: #121212; height: 100vh; margin: 0; display: flex; justify-content: center; align-items: center; gap: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; perspective: 1000px; } .icon-container { width: 120px; height: 120px; border-radius: 50%; border: 1px solid #ff40b8; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: transform 0.4s ease, box-shadow 0.4s ease; transform-style: preserve-3d; animation: slowSpin 10s linear infinite; position: relative; } .icon-container:hover { background: conic-gradient(from 0deg, #ff00cc, #ff66cc, #ff99cc, #cc33ff, #ff00cc, #ff66cc); box-shadow: inset 0 0 40px #ff33dd, 0 0 10px #ff99ee, 0 0 20px #ffccff, 0 30px 90px rgba(255, 102, 204, 1); transform: translateZ(40px) rotateX(80deg) scale(1.1); } .icon-container svg { width: 60px; height: 60px; fill: white; filter: drop-shadow(0 0 6px rgba(255, 182, 193, 0.9)); transform-style: preserve-3d; transition: transform 0.4s ease; } .icon-container:hover svg { transform: translateZ(50px) translateY(-30px) rotateX(-90deg); filter: drop-shadow(0 0 15px #ff66cc); }",
         "js": ""
-      },
-      {
-        "id": 18,
-        "author": "Thế Vĩnh",
-        "type": "Box",
-        "title": "",
-        "link": "",
-        "html": "",
-        "css": "",
-        "js": ""
       }
     ]
   }
