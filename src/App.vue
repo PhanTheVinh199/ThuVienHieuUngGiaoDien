@@ -18,7 +18,7 @@ function toggleSubmenu() {
           <li><RouterLink to="/">Trang chủ</RouterLink></li>
           <li><RouterLink to="/about">Giới thiệu</RouterLink></li>
 
-          
+
           <li class="dropdown">
             <a href="#">Giao diện ▾</a>
             <ul class="dropdown-menu">

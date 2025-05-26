@@ -23,6 +23,7 @@
 import EffectTabs from './EffectTabs.vue';
 import effectsData from '../data/effect.json';
 
+
 export default {
   components: { EffectTabs },
   data() {

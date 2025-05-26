@@ -1,79 +1,736 @@
 [
- {
-  "category": "hover",
-  "effects": [
-    {
-      "id": 1,
-      "type": "Text",
-      "title": "Hover Color Fade",
-      "html": "<p class='hover-text1'>Hover over this text</p>",
-      "css": ".hover-text1 { transition: color 0.4s ease; cursor: pointer; font-size: 18px; } .hover-text1:hover { color: #ff5722; }",
-      "js": ""
-    },
-    {
-      "id": 2,
-      "type": "Button",
-      "title": "Button Background Fade",
-      "html": "<button class='hover-btn1'>Hover me</button>",
-      "css": ".hover-btn1 { background-color: #6200ea; color: white; padding: 12px 24px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; transition: background-color 0.3s ease; } .hover-btn1:hover { background-color: #3700b3; }",
-      "js": ""
-    }
-  ]
-},
   {
-    "category": "animation",
+    "category": "hover",
     "effects": [
       {
         "id": 1,
-        "type" : "Text",
-        "title": "Bounce Text",
-        "html": "<h1 class='bounce'>Hello</h1>",
-        "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Underline Slide Smooth",
+        "html": "<a href='#' class='hover-text1'>Underline Slide Smooth</a>",
+        "css": ".hover-text1 { position: relative; color: #212121; text-decoration: none; font-weight: 600; cursor: pointer; } .hover-text1::after { content: ''; position: absolute; left: 0; bottom: -4px; height: 3px; width: 0; background: linear-gradient(90deg, #ff6a00, #ee0979); border-radius: 2px; transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1); } .hover-text1:hover::after { width: 100%; }",
         "js": ""
       },
       {
         "id": 2,
-        "type" : "Button",
-        "title": "Pulse Button",
-        "html": "<button class='pulse'>Click</button>",
-        "css": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } } .pulse { animation: pulse 1s infinite; }",
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Smooth Color Fade",
+        "html": "<span class='hover-text2'>Smooth Color Fade</span>",
+        "css": ".hover-text2 { color: #374151; font-weight: 500; transition: color 0.4s ease-in-out; cursor: pointer; } .hover-text2:hover { color: #6366f1; }",
         "js": ""
       },
       {
         "id": 3,
-        "type" : "Box",
-        "title": "Pulse Button",
-        "html": "<button class='pulse'>Click</button>",
-        "css": "@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } } .pulse { animation: pulse 1s infinite; }",
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Subtle Glow",
+        "html": "<span class='hover-text3'>Subtle Glow</span>",
+        "css": ".hover-text3 { color: #111827; font-weight: 600; transition: text-shadow 0.5s ease-in-out; cursor: pointer; } .hover-text3:hover { text-shadow: 0 0 6px #8b5cf6, 0 0 12px #a78bfa; }",
+        "js": ""
+      },
+      {
+        "id": 4,
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Letter Spacing Expand",
+        "html": "<span class='hover-text4'>Letter Spacing Expand</span>",
+        "css": ".hover-text4 { font-weight: 500; color: #374151; transition: letter-spacing 0.3s ease; cursor: pointer; } .hover-text4:hover { letter-spacing: 4px; }",
+        "js": ""
+      },
+      {
+        "id": 5,
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Scale Up & Shadow",
+        "html": "<span class='hover-text5'>Scale Up & Shadow</span>",
+        "css": ".hover-text5 { display: inline-block; color: #1f2937; font-weight: 600; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-shadow 0.3s ease; cursor: pointer; } .hover-text5:hover { transform: scale(1.1); text-shadow: 2px 4px 6px rgba(0,0,0,0.1); }",
+        "js": ""
+      },
+      {
+        "id": 6,
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Background Highlight Gradient",
+        "html": "<span class='hover-text6'>Background Highlight Gradient</span>",
+        "css": ".hover-text6 { position: relative; color: #111827; font-weight: 600; cursor: pointer; background: linear-gradient(120deg, transparent 0%, transparent 50%, #fbbf24 50%, #fbbf24 100%); background-size: 200% 100%; background-position: 100% 0; transition: background-position 0.4s ease; } .hover-text6:hover { background-position: 0 0; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }",
+        "js": ""
+      },
+      {
+        "id": 7,
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Skewed Tilt",
+        "html": "<span class='hover-text7'>Skewed Tilt</span>",
+        "css": ".hover-text7 { display: inline-block; color: #4b5563; font-weight: 600; transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; } .hover-text7:hover { transform: skew(-8deg, 2deg); color: #ef4444; }",
+        "js": ""
+      },
+      {
+        "id": 8,
+        "author": "VanBaoo",
+        "type": "Text",
+        "title": "Gradient Text Fill",
+        "html": "<span class='hover-text8'>Gradient Text Fill</span>",
+        "css": ".hover-text8 { font-weight: 700; background: linear-gradient(90deg, #2563eb, #d946ef); background-clip: text; -webkit-background-clip: text; color: transparent; transition: background-position 0.5s ease; background-size: 200% 100%; background-position: left center; cursor: pointer; } .hover-text8:hover { background-position: right center; }",
+        "js": ""
+      },
+      {
+        "id": 9,
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Bottom Border Expand",
+        "html": "<span class='hover-text9'>Bottom Border Expand</span>",
+        "css": ".hover-text9 { border-bottom: 2px solid transparent; font-weight: 600; cursor: pointer; transition: border-color 0.3s ease; color: #374151; } .hover-text9:hover { border-color: #10b981; }",
+        "js": ""
+      },
+      {
+        "id": 10,
+        "author": "VanBao",
+        "type": "Text",
+        "title": "Flip 3D Text",
+        "html": "<span class='hover-text10'>Flip 3D Text</span>",
+        "css": ".hover-text10 { display: inline-block; font-weight: 700; perspective: 800px; cursor: pointer; } .hover-text10:hover { animation: flip360 0.6s forwards; } @keyframes flip360 { 0% { transform: rotateY(0deg); } 100% { transform: rotateY(360deg); } }",
+        "js": ""
+      },
+      {
+        "id": 11,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Smooth Background Gradient",
+        "html": "<button class='hover-btn1'>Smooth Gradient</button>",
+        "css": ".hover-btn1 { padding: 12px 28px; font-weight: 600; font-size: 16px; border: none; border-radius: 6px; cursor: pointer; background: linear-gradient(90deg, #4f46e5, #6366f1); color: white; transition: background-position 0.5s ease; background-size: 200% 100%; background-position: left center; } .hover-btn1:hover { background-position: right center; }",
+        "js": ""
+      },
+      {
+        "id": 12,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Border Slide In",
+        "html": "<button class='hover-btn2'>Border Slide In</button>",
+        "css": ".hover-btn2 { position: relative; padding: 12px 30px; font-weight: 600; font-size: 16px; background: transparent; color: #4f46e5; border: 2px solid #4f46e5; border-radius: 6px; cursor: pointer; overflow: hidden; transition: color 0.3s ease; } .hover-btn2::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: #4f46e5; transition: left 0.3s ease; z-index: -1; } .hover-btn2:hover { color: white; } .hover-btn2:hover::before { left: 0; }",
+        "js": ""
+      },
+      {
+        "id": 13,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Shadow Lift",
+        "html": "<button class='hover-btn3'>Shadow Lift</button>",
+        "css": ".hover-btn3 { padding: 12px 28px; font-weight: 600; font-size: 16px; background-color: #059669; color: white; border: none; border-radius: 6px; cursor: pointer; transition: box-shadow 0.3s ease, transform 0.3s ease; } .hover-btn3:hover { box-shadow: 0 10px 20px rgba(5, 150, 105, 0.4); transform: translateY(-3px); }",
+        "js": ""
+      },
+      {
+        "id": 14,
+        "author": "VanBaoo",
+        "type": "Button",
+        "title": "Fill From Left",
+        "html": "<button class='hover-btn4'>Fill From Left</button>",
+        "css": ".hover-btn4 { position: relative; padding: 12px 30px; font-weight: 600; font-size: 16px; background: transparent; border: 2px solid #f59e0b; color: #f59e0b; border-radius: 6px; cursor: pointer; overflow: hidden; transition: color 0.3s ease; } .hover-btn4::before { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 100%; background: #f59e0b; transition: width 0.3s ease; z-index: -1; } .hover-btn4:hover { color: white; } .hover-btn4:hover::before { width: 100%; }",
+        "js": ""
+      },
+      {
+        "id": 15,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "3D Push",
+        "html": "<button class='hover-btn5'>3D Push</button>",
+        "css": ".hover-btn5 { padding: 12px 28px; font-weight: 700; font-size: 16px; background-color: #ef4444; color: white; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 5px #b91c1c; transition: transform 0.2s ease; } .hover-btn5:active { transform: translateY(4px); box-shadow: 0 1px #b91c1c; }",
+        "js": ""
+      },
+      {
+        "id": 16,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Glow Neon",
+        "html": "<button class='hover-btn6'>Glow Neon</button>",
+        "css": ".hover-btn6 { padding: 12px 28px; font-weight: 600; font-size: 16px; background-color: #0ea5e9; color: white; border: none; border-radius: 6px; cursor: pointer; box-shadow: 0 0 8px #0ea5e9; transition: box-shadow 0.4s ease; } .hover-btn6:hover { box-shadow: 0 0 20px #38bdf8, 0 0 30px #0ea5e9; }",
+        "js": ""
+      },
+      {
+        "id": 17,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Rotate Scale",
+        "html": "<button class='hover-btn7'>Rotate Scale</button>",
+        "css": ".hover-btn7 { padding: 12px 28px; font-weight: 600; font-size: 16px; background-color: #8b5cf6; color: white; border: none; border-radius: 6px; cursor: pointer; transition: transform 0.4s ease; } .hover-btn7:hover { transform: scale(1.1) rotate(-5deg); }",
+        "js": ""
+      },
+      {
+        "id": 18,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Pulse Shadow",
+        "html": "<button class='hover-btn8'>Pulse Shadow</button>",
+        "css": ".hover-btn8 { padding: 12px 28px; font-weight: 700; font-size: 16px; background-color: #ec4899; color: white; border: none; border-radius: 10px; cursor: pointer; transition: box-shadow 0.4s ease; } .hover-btn8:hover { animation: pulseShadow 1.2s infinite; } @keyframes pulseShadow { 0%, 100% { box-shadow: 0 0 10px #ec4899; } 50% { box-shadow: 0 0 25px #f472b6; } }",
+        "js": ""
+      },
+      {
+        "id": 19,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Slide Up Border",
+        "html": "<button class='hover-btn9'>Slide Up Border</button>",
+        "css": ".hover-btn9 { position: relative; padding: 12px 28px; font-weight: 600; font-size: 16px; background: transparent; border: 2px solid #10b981; color: #10b981; border-radius: 6px; cursor: pointer; overflow: hidden; transition: color 0.3s ease; } .hover-btn9::after { content: ''; position: absolute; bottom: -100%; left: 0; width: 100%; height: 100%; background-color: #10b981; transition: bottom 0.3s ease; z-index: -1; } .hover-btn9:hover { color: white; } .hover-btn9:hover::after { bottom: 0; }",
+        "js": ""
+      },
+      {
+        "id": 20,
+        "author": "VanBao",
+        "type": "Button",
+        "title": "Rotate Border",
+        "html": "<button class='hover-btn10'>Rotate Border</button>",
+        "css": ".hover-btn10 { padding: 12px 28px; font-weight: 700; font-size: 16px; background-color: #2563eb; color: white; border: 3px solid transparent; border-radius: 8px; cursor: pointer; position: relative; transition: border-color 0.4s ease; } .hover-btn10:hover { border-color: #60a5fa; transform: rotate(5deg); }",
         "js": ""
       }
     ]
   },
   {
-    "category": "scroll",
-    "effects": [
+  "category": "animation",
+  "effects": [
+    {
+      "id": 1,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Gradient Wave Text",
+      "html": "<h2 class='wave-text'>Gradient Wave</h2>",
+      "css": ".wave-text { background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6); background-size: 300%; -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 3rem; font-weight: bold; animation: gradientWave 8s ease infinite; } @keyframes gradientWave { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }",
+      "js": ""
+    },
+    {
+      "id": 2,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Split Letter Reveal",
+      "html": "<div class='split-text'>Reveal Text</div>",
+      "css": ".split-text { font-size: 2.5rem; font-weight: bold; opacity: 0; } .split-text.animate { opacity: 1; animation: splitReveal 0.8s cubic-bezier(0.4, 0, 0.2, 1); } @keyframes splitReveal { 0% { transform: scale(0.5); filter: blur(12px); letter-spacing: 20px; } 100% { transform: scale(1); filter: blur(0); letter-spacing: normal; } }",
+      "js": "document.querySelector('.split-text').classList.add('animate');"
+    },
+    {
+      "id": 3,
+      "author": "VanBao300905",
+      "type": "Button",
+      "title": "Liquid Button",
+      "html": "<button class='liquid-btn'><span>Click Me</span><div class='liquid'></div></button>",
+      "css": ".liquid-btn { position: relative; padding: 1rem 2rem; background: #4f46e5; border: none; color: white; font-weight: bold; border-radius: 8px; overflow: hidden; cursor: pointer; } .liquid { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200%; height: 400%; background: rgba(255, 255, 255, 0.2); border-radius: 45%; animation: liquid 6s ease-in-out infinite; } @keyframes liquid { 0% { transform: translate(-50%, -75%) rotate(0deg); } 100% { transform: translate(-50%, -75%) rotate(360deg); } }",
+      "js": ""
+    },
+    {
+      "id": 4,
+      "author": "VanBao300905",
+      "type": "Loading",
+      "title": "Morphing Loader",
+      "html": "<div class='morph-loader'></div>",
+      "css": ".morph-loader { width: 50px; height: 50px; background: #6366f1; border-radius: 50%; animation: morphing 1.8s ease-in-out infinite; } @keyframes morphing { 0% { border-radius: 50%; transform: rotate(0deg); } 25% { border-radius: 20% 50% 20% 50%; transform: rotate(90deg); } 50% { border-radius: 10px; transform: rotate(180deg); } 75% { border-radius: 50% 20% 50% 20%; transform: rotate(270deg); } 100% { border-radius: 50%; transform: rotate(360deg); } }",
+      "js": ""
+    },
+    {
+      "id": 5,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Glitch Effect",
+      "html": "<h2 class='glitch-text' data-text='Glitch'>Glitch</h2>",
+      "css": ".glitch-text { position: relative; font-size: 3rem; font-weight: bold; color: #2563eb; text-shadow: 0.05em 0 0 #ff00c1, -0.025em -0.05em 0 #3498db; animation: glitch 500ms infinite; } .glitch-text::before, .glitch-text::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; } .glitch-text::before { left: 2px; text-shadow: -2px 0 #ff00c1; clip: rect(24px, 550px, 90px, 0); animation: glitch-anim 3s infinite linear alternate-reverse; } .glitch-text::after { left: -2px; text-shadow: -2px 0 #3498db; clip: rect(85px, 550px, 140px, 0); animation: glitch-anim2 2.5s infinite linear alternate-reverse; } @keyframes glitch-anim { 0% { clip: rect(44px, 9999px, 56px, 0); } 20% { clip: rect(17px, 9999px, 99px, 0); } 40% { clip: rect(86px, 9999px, 37px, 0); } 60% { clip: rect(64px, 9999px, 98px, 0); } 80% { clip: rect(23px, 9999px, 75px, 0); } 100% { clip: rect(95px, 9999px, 43px, 0); } }",
+      "js": ""
+    },
+    {
+      "id": 6,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Floating Card",
+      "html": "<div class='floating-card'><h3>Floating Card</h3><p>Smooth animation</p></div>",
+      "css": ".floating-card { padding: 2rem; background: white; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); animation: floating 3s ease-in-out infinite; } @keyframes floating { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(2deg); } }",
+      "js": ""
+    },
+    {
+      "id": 7,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Typing Effect",
+      "html": "<div class='typing-text'>Welcome to the future</div>",
+      "css": ".typing-text { width: fit-content; font-family: monospace; font-size: 1.5rem; border-right: 3px solid; animation: typing 3s steps(18), cursor .4s step-end infinite alternate; white-space: nowrap; overflow: hidden; } @keyframes typing { from { width: 0 } } @keyframes cursor { 50% { border-color: transparent } }",
+      "js": ""
+    },
+    {
+      "id": 8,
+      "author": "VanBao300905",
+      "type": "Button",
+      "title": "Pulse Ring Button",
+      "html": "<button class='pulse-ring'>Click Me</button>",
+      "css": ".pulse-ring { position: relative; padding: 1rem 2rem; background: #10b981; color: white; border: none; border-radius: 8px; cursor: pointer; } .pulse-ring::before { content: ''; position: absolute; width: 100%; height: 100%; top: 0; left: 0; border-radius: inherit; animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; } @keyframes pulse { 0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); } 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); } }",
+      "js": ""
+    },
+    {
+      "id": 9,
+      "author": "VanBao300905",
+      "type": "Loading",
+      "title": "DNA Helix Loader",
+      "html": "<div class='dna-loader'><div></div><div></div><div></div><div></div><div></div></div>",
+      "css": ".dna-loader { height: 100px; width: 100px; display: flex; justify-content: space-between; align-items: center; } .dna-loader div { width: 8px; height: 8px; border-radius: 50%; background: #6366f1; animation: dna 1.5s ease-in-out infinite; } .dna-loader div:nth-child(2) { animation-delay: 0.1s; } .dna-loader div:nth-child(3) { animation-delay: 0.2s; } .dna-loader div:nth-child(4) { animation-delay: 0.3s; } .dna-loader div:nth-child(5) { animation-delay: 0.4s; } @keyframes dna { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(50px) scale(0.5); } }",
+      "js": ""
+    },
+    {
+      "id": 10,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Rainbow Text Trail",
+      "html": "<h2 class='rainbow-trail'>Rainbow Trail</h2>",
+      "css": ".rainbow-trail { font-size: 3rem; font-weight: bold; position: relative; color: #2563eb; } .rainbow-trail::after { content: 'Rainbow Trail'; position: absolute; top: 0; left: 0; color: transparent; background: linear-gradient(45deg, #f87171, #fb923c, #fbbf24, #4ade80, #2dd4bf, #818cf8, #c084fc); background-size: 200%; -webkit-background-clip: text; background-clip: text; animation: rainbow 2s linear infinite; opacity: 0.5; } @keyframes rainbow { 0% { background-position: 0% 50%; } 100% { background-position: 100% 50%; } }",
+      "js": ""
+    },
+    {
+      "id": 11,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Perspective Tilt Card",
+      "html": "<div class='tilt-card'><h3>Tilt Effect</h3><p>Move your mouse</p></div>",
+      "css": ".tilt-card { padding: 2rem; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease; transform-style: preserve-3d; }",
+      "js": "const card = document.querySelector('.tilt-card'); card.addEventListener('mousemove', (e) => { const rect = card.getBoundingClientRect(); const x = e.clientX - rect.left; const y = e.clientY - rect.top; const centerX = rect.width / 2; const centerY = rect.height / 2; const rotateX = (y - centerY) / 10; const rotateY = (centerX - x) / 10; card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`; }); card.addEventListener('mouseleave', () => { card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0)'; });"
+    },
+    {
+      "id": 12,
+      "author": "VanBao300905",
+      "type": "Button",
+      "title": "Magnetic Pull Button",
+      "html": "<button class='magnetic-button'>Pull Me</button>",
+      "css": ".magnetic-button { padding: 1rem 2rem; background: linear-gradient(45deg, #3b82f6, #8b5cf6); color: white; border: none; border-radius: 8px; cursor: pointer; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }",
+      "js": "const btn = document.querySelector('.magnetic-button'); btn.addEventListener('mousemove', (e) => { const rect = btn.getBoundingClientRect(); const x = e.clientX - rect.left - rect.width / 2; const y = e.clientY - rect.top - rect.height / 2; const multiplier = 0.2; btn.style.transform = `translate(${x * multiplier}px, ${y * multiplier}px)`; }); btn.addEventListener('mouseleave', () => { btn.style.transform = 'translate(0, 0)'; });"
+    },
+    {
+  "id": 13,
+  "author": "VanBao300905",
+  "type": "Text", 
+  "title": "Neon Glow Pulse",
+  "html": "<h2 class='neon-text'>Cyber<span>Glow</span></h2>",
+  "css": ".neon-text { font-size: 3.5rem; font-weight: 800; display: flex; gap: 1rem; color: #f0abfc; text-transform: uppercase; letter-spacing: 2px; filter: brightness(1.5) contrast(1.2); } .neon-text span { color: #c026d3; } .neon-text, .neon-text span { text-shadow: 0 0 7px currentColor, 0 0 10px currentColor, 0 0 21px currentColor, 0 0 42px currentColor, 0 0 82px currentColor, 0 0 92px currentColor, 0 0 102px currentColor, 0 0 151px currentColor; animation: neonPulse 1.5s ease-in-out infinite alternate; } @keyframes neonPulse { 0% { opacity: 1; filter: brightness(1.5) contrast(1.2) blur(0px); transform: scale(1); } 50% { opacity: 0.8; filter: brightness(1.2) contrast(1) blur(1px); transform: scale(0.98); } 100% { opacity: 1; filter: brightness(1.5) contrast(1.2) blur(0px); transform: scale(1); } }",
+  "js": ""
+},
+    {
+      "id": 14,
+      "author": "VanBao300905",
+      "type": "Loading",
+      "title": "Galaxy Spinner",
+      "html": "<div class='galaxy-spinner'><div class='ring'></div><div class='ring'></div><div class='ring'></div></div>",
+      "css": ".galaxy-spinner { position: relative; width: 100px; height: 100px; } .ring { position: absolute; width: 100%; height: 100%; border: 2px solid transparent; border-top-color: #6366f1; border-radius: 50%; animation: spin 2s linear infinite; } .ring:nth-child(2) { width: 80%; height: 80%; top: 10%; left: 10%; border-top-color: #8b5cf6; animation-duration: 1.8s; } .ring:nth-child(3) { width: 60%; height: 60%; top: 20%; left: 20%; border-top-color: #d946ef; animation-duration: 1.6s; } @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }",
+      "js": ""
+    },
+    {
+  "id": 15,
+  "author": "VanBao300905",
+  "type": "Text",
+  "title": "3D Text Rotation",
+  "html": "<div class='text-3d-container'><div class='text-3d'>CYBER</div></div>",
+  "css": ".text-3d-container { perspective: 1000px; padding: 2rem; } .text-3d { font-size: 4rem; font-weight: 900; text-transform: uppercase; color: #2563eb; letter-spacing: 4px; transform-style: preserve-3d; animation: rotate3D 8s ease-in-out infinite; position: relative; } .text-3d::before, .text-3d::after { content: 'CYBER'; position: absolute; left: 0; top: 0; transform-style: preserve-3d; animation: glowPulse 2s ease-in-out infinite alternate; } .text-3d::before { color: #4f46e5; transform: translateZ(-8px); } .text-3d::after { color: #7c3aed; transform: translateZ(-16px); } @keyframes rotate3D { 0%, 100% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0); } 25% { transform: rotateX(25deg) rotateY(15deg) rotateZ(5deg) translateZ(50px); } 75% { transform: rotateX(-25deg) rotateY(-15deg) rotateZ(-5deg) translateZ(50px); } } @keyframes glowPulse { 0% { filter: blur(0); opacity: 0.5; } 100% { filter: blur(2px); opacity: 0.8; } }",
+  "js": ""
+},
+    {
+      "id": 16,
+      "author": "VanBao300905",
+      "type": "Button",
+      "title": "Particle Explosion",
+      "html": "<button class='particle-btn'>Click Me</button>",
+      "css": ".particle-btn { padding: 1rem 2rem; background: #f59e0b; color: white; border: none; border-radius: 8px; cursor: pointer; position: relative; overflow: hidden; } .particle { position: absolute; background: white; border-radius: 50%; pointer-events: none; animation: explode 0.6s ease-out forwards; } @keyframes explode { 0% { transform: scale(0); opacity: 1; } 100% { transform: scale(2); opacity: 0; } }",
+      "js": "document.querySelector('.particle-btn').addEventListener('click', (e) => { for(let i = 0; i < 30; i++) { createParticle(e.clientX, e.clientY); } }); function createParticle(x, y) { const particle = document.createElement('div'); particle.className = 'particle'; const size = Math.random() * 8 + 4; particle.style.width = `${size}px`; particle.style.height = `${size}px`; const destinationX = x + (Math.random() - 0.5) * 100; const destinationY = y + (Math.random() - 0.5) * 100; particle.style.left = `${destinationX}px`; particle.style.top = `${destinationY}px`; document.body.appendChild(particle); setTimeout(() => { particle.remove(); }, 600); }"
+    },
+    {
+      "id": 17,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Matrix Rain Effect",
+      "html": "<div class='matrix-container'></div>",
+      "css": ".matrix-container { position: relative; width: 100%; height: 300px; background: black; overflow: hidden; } .matrix-character { position: absolute; color: #0f0; font-family: monospace; font-size: 1.2rem; line-height: 1; animation: fall linear infinite; } @keyframes fall { to { transform: translateY(300px); } }",
+      "js": "const container = document.querySelector('.matrix-container'); const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'; function createCharacter() { const char = document.createElement('div'); char.className = 'matrix-character'; char.textContent = characters[Math.floor(Math.random() * characters.length)]; char.style.left = `${Math.random() * 100}%`; char.style.animationDuration = `${Math.random() * 2 + 1}s`; container.appendChild(char); setTimeout(() => { char.remove(); }, 3000); } setInterval(createCharacter, 100);"
+    },
+    {
+      "id": 18,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Morphing Shape Card",
+      "html": "<div class='morph-shape'></div>",
+      "css": ".morph-shape { width: 200px; height: 200px; background: linear-gradient(45deg, #3b82f6, #8b5cf6); animation: morphing 8s ease-in-out infinite; } @keyframes morphing { 0% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; } 50% { border-radius: 30% 60% 70% 40%/50% 60% 30% 60%; } 100% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; } }",
+      "js": ""
+    },
+    {
+  "id": 19,
+  "author": "VanBao300905",
+  "type": "Loading",
+  "title": "Infinity Loader Pro",
+  "html": "<div class='infinity-pro-loader'><div class='orbit'></div><div class='orbit'></div><div class='core'></div></div>",
+  "css": ".infinity-pro-loader { width: 120px; height: 60px; position: relative; perspective: 1000px; transform-style: preserve-3d; } .orbit { position: absolute; width: 100%; height: 100%; border: 3px solid transparent; border-top-color: #6366f1; border-bottom-color: #8b5cf6; border-radius: 50%/30px; animation: orbitSpin 2s linear infinite; } .orbit:nth-child(2) { width: 80%; height: 80%; top: 10%; left: 10%; border-top-color: #8b5cf6; border-bottom-color: #6366f1; animation-direction: reverse; animation-duration: 1.5s; } .core { position: absolute; width: 20px; height: 20px; top: 50%; left: 50%; transform: translate(-50%, -50%); background: linear-gradient(45deg, #6366f1, #8b5cf6); border-radius: 50%; box-shadow: 0 0 20px #6366f1; animation: pulse 1s ease-in-out infinite alternate; } @keyframes orbitSpin { 0% { transform: rotateX(60deg) rotateZ(0); } 100% { transform: rotateX(60deg) rotateZ(360deg); } } @keyframes pulse { from { transform: translate(-50%, -50%) scale(0.8); opacity: 0.8; } to { transform: translate(-50%, -50%) scale(1.2); opacity: 1; } }",
+  "js": ""
+},
+{
+  "id": 20,
+  "author": "VanBao300905",
+  "type": "Text",
+  "title": "Smoke Text Reveal Pro",
+  "html": "<div class='smoke-text-pro'>Cyber<span>Effect</span></div>",
+  "css": ".smoke-text-pro { font-size: 4rem; font-weight: 900; text-transform: uppercase; display: flex; gap: 1rem; background: linear-gradient(135deg, #1e293b, #334155); -webkit-background-clip: text; color: transparent; position: relative; filter: contrast(1.5); } .smoke-text-pro::before, .smoke-text-pro::after, .smoke-text-pro span::before, .smoke-text-pro span::after { content: ''; position: absolute; width: 40px; height: 40px; background: radial-gradient(circle, rgba(148,163,184,0.8) 0%, rgba(148,163,184,0) 70%); border-radius: 50%; animation: smokeParticles 3s ease-out infinite; } .smoke-text-pro::before { left: 0; top: 0; animation-delay: 0s; } .smoke-text-pro::after { right: 0; bottom: 0; animation-delay: 0.5s; } .smoke-text-pro span::before { left: 50%; top: 0; animation-delay: 1s; } .smoke-text-pro span::after { right: 25%; bottom: 0; animation-delay: 1.5s; } @keyframes smokeParticles { 0% { transform: translate(0, 0) scale(1); opacity: 0; } 25% { opacity: 0.5; } 50% { transform: translate(20px, -40px) scale(2); opacity: 0.2; } 75% { opacity: 0.1; } 100% { transform: translate(40px, -80px) scale(3); opacity: 0; } } .smoke-text-pro span { background: linear-gradient(135deg, #475569, #64748b); -webkit-background-clip: text; color: transparent; animation: textReveal 3s ease-out infinite; } @keyframes textReveal { 0%, 100% { filter: blur(0); transform: scale(1); } 50% { filter: blur(2px); transform: scale(1.05); } }",
+  "js": ""
+}
+  ]
+},
+  {
+  "category": "scroll",
+  "effects": [
+    {
+      "id": 1,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Fade In Up",
+      "html": "<div class='scroll-fade-up'>Fade Up Effect</div>",
+      "css": ".scroll-fade-up { opacity: 0; transform: translateY(50px); transition: all 1s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-fade-up.visible { opacity: 1; transform: translateY(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-fade-up'));"
+    },
+    {
+      "id": 2,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Slide From Left",
+      "html": "<div class='scroll-slide-left'>Slide Left</div>",
+      "css": ".scroll-slide-left { opacity: 0; transform: translateX(-100px); transition: all 0.8s ease-out; } .scroll-slide-left.visible { opacity: 1; transform: translateX(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-slide-left'));"
+    },
+    {
+      "id": 3,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Scale Up",
+      "html": "<div class='scroll-scale'>Scale Effect</div>",
+      "css": ".scroll-scale { opacity: 0; transform: scale(0.5); transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-scale.visible { opacity: 1; transform: scale(1); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-scale'));"
+    },
+    {
+      "id": 4,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Rotate In",
+      "html": "<div class='scroll-rotate'>Rotate Effect</div>",
+      "css": ".scroll-rotate { opacity: 0; transform: rotate(-180deg); transition: all 1s ease; } .scroll-rotate.visible { opacity: 1; transform: rotate(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-rotate'));"
+    },
+    {
+      "id": 5,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Flip In X",
+      "html": "<div class='scroll-flip-x'>Flip X Effect</div>",
+      "css": ".scroll-flip-x { opacity: 0; transform: perspective(400px) rotateX(90deg); transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-flip-x.visible { opacity: 1; transform: perspective(400px) rotateX(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-flip-x'));"
+    },
+    {
+      "id": 6,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Bounce In",
+      "html": "<div class='scroll-bounce'>Bounce Effect</div>",
+      "css": ".scroll-bounce { opacity: 0; transform: scale(0.3); transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); } .scroll-bounce.visible { opacity: 1; transform: scale(1); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-bounce'));"
+    },
+    {
+      "id": 7,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Slide Up Blur",
+      "html": "<div class='scroll-blur'>Blur Effect</div>",
+      "css": ".scroll-blur { opacity: 0; transform: translateY(50px); filter: blur(10px); transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-blur.visible { opacity: 1; transform: translateY(0); filter: blur(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-blur'));"
+    },
+    {
+      "id": 8,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Split Letters",
+      "html": "<div class='scroll-split'><span>S</span><span>p</span><span>l</span><span>i</span><span>t</span></div>",
+      "css": ".scroll-split span { opacity: 0; transform: translateY(50px); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-split.visible span { opacity: 1; transform: translateY(0); } .scroll-split span:nth-child(2) { transition-delay: 0.1s; } .scroll-split span:nth-child(3) { transition-delay: 0.2s; } .scroll-split span:nth-child(4) { transition-delay: 0.3s; } .scroll-split span:nth-child(5) { transition-delay: 0.4s; }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-split'));"
+    },
+    {
+      "id": 9,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "3D Flip",
+      "html": "<div class='scroll-3d-flip'>3D Flip</div>",
+      "css": ".scroll-3d-flip { opacity: 0; transform: perspective(1000px) rotateY(90deg); transition: all 1s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-3d-flip.visible { opacity: 1; transform: perspective(1000px) rotateY(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-3d-flip'));"
+    },
+    {
+      "id": 10,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Elastic In",
+      "html": "<div class='scroll-elastic'>Elastic Effect</div>",
+      "css": ".scroll-elastic { opacity: 0; transform: scale(0); transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55); } .scroll-elastic.visible { opacity: 1; transform: scale(1); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-elastic'));"
+    },
+    {
+      "id": 11,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Zoom Blur",
+      "html": "<div class='scroll-zoom-blur'>Zoom Blur</div>",
+      "css": ".scroll-zoom-blur { opacity: 0; transform: scale(1.5); filter: blur(10px); transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-zoom-blur.visible { opacity: 1; transform: scale(1); filter: blur(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-zoom-blur'));"
+    },
+    {
+      "id": 12,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Slide Stagger",
+      "html": "<div class='scroll-stagger'><div>First</div><div>Second</div><div>Third</div></div>",
+      "css": ".scroll-stagger div { opacity: 0; transform: translateX(-100px); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-stagger.visible div { opacity: 1; transform: translateX(0); } .scroll-stagger div:nth-child(2) { transition-delay: 0.2s; } .scroll-stagger div:nth-child(3) { transition-delay: 0.4s; }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-stagger'));"
+    },
+    {
+      "id": 13,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Swing In",
+      "html": "<div class='scroll-swing'>Swing Effect</div>",
+      "css": ".scroll-swing { opacity: 0; transform: rotateZ(-45deg); transform-origin: left bottom; transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-swing.visible { opacity: 1; transform: rotateZ(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-swing'));"
+    },
+    {
+      "id": 14,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Roll In",
+      "html": "<div class='scroll-roll'>Roll Effect</div>",
+      "css": ".scroll-roll { opacity: 0; transform: rotate(720deg) scale(0); transition: all 1s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-roll.visible { opacity: 1; transform: rotate(0) scale(1); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-roll'));"
+    },
+    {
+      "id": 15,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Fold Up",
+      "html": "<div class='scroll-fold'>Fold Effect</div>",
+      "css": ".scroll-fold { opacity: 0; transform: perspective(400px) rotateX(-90deg); transform-origin: top; transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-fold.visible { opacity: 1; transform: perspective(400px) rotateX(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-fold'));"
+    },
+    {
+      "id": 16,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Slide Rotate",
+      "html": "<div class='scroll-slide-rotate'>Slide Rotate</div>",
+      "css": ".scroll-slide-rotate { opacity: 0; transform: translateX(-100px) rotate(-90deg); transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-slide-rotate.visible { opacity: 1; transform: translateX(0) rotate(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-slide-rotate'));"
+    },
+    {
+      "id": 17,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Scale Rotate",
+      "html": "<div class='scroll-scale-rotate'>Scale Rotate</div>",
+      "css": ".scroll-scale-rotate { opacity: 0; transform: scale(0.5) rotate(-180deg); transition: all 1s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-scale-rotate.visible { opacity: 1; transform: scale(1) rotate(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-scale-rotate'));"
+    },
+    {
+      "id": 18,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Flip Scale",
+      "html": "<div class='scroll-flip-scale'>Flip Scale</div>",
+      "css": ".scroll-flip-scale { opacity: 0; transform: perspective(1000px) rotateY(90deg) scale(0.5); transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-flip-scale.visible { opacity: 1; transform: perspective(1000px) rotateY(0) scale(1); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-flip-scale'));"
+    },
+    {
+      "id": 19,
+      "author": "VanBao300905",
+      "type": "Card",
+      "title": "Tilt Perspective",
+      "html": "<div class='scroll-tilt'>Tilt Effect</div>",
+      "css": ".scroll-tilt { opacity: 0; transform: perspective(1000px) rotateX(45deg) rotateY(45deg); transition: all 1s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-tilt.visible { opacity: 1; transform: perspective(1000px) rotateX(0) rotateY(0); }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-tilt'));"
+    },
+    {
+      "id": 20,
+      "author": "VanBao300905",
+      "type": "Text",
+      "title": "Wave Stagger",
+      "html": "<div class='scroll-wave'><span>W</span><span>a</span><span>v</span><span>e</span></div>",
+      "css": ".scroll-wave span { display: inline-block; opacity: 0; transform: translateY(50px); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); } .scroll-wave.visible span { opacity: 1; transform: translateY(0); } .scroll-wave span:nth-child(1) { transition-delay: 0s; } .scroll-wave span:nth-child(2) { transition-delay: 0.1s; } .scroll-wave span:nth-child(3) { transition-delay: 0.2s; } .scroll-wave span:nth-child(4) { transition-delay: 0.3s; }",
+      "js": "const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }); observer.observe(document.querySelector('.scroll-wave'));"
+    }
+  ]
+},
+  {
+  "category": "3d",
+  "effects": [
+    {
+      "id": 1,
+      "type": "Neon Pulse Button",
+      "title": "Neon Glowing 3D Button",
+      "html": "<button class='neon-btn'>Click Me</button>",
+      "css": ".neon-btn { font-size: 1.8rem; padding: 20px 50px; border-radius: 15px; border: none; color: #0ff; background: #000; cursor: pointer; box-shadow: 0 0 10px #0ff, 0 0 40px #0ff, inset 0 0 10px #0ff; transition: box-shadow 0.3s ease; } .neon-btn:hover { box-shadow: 0 0 20px #0ff, 0 0 60px #0ff, inset 0 0 20px #0ff; }",
+      "js": ""
+    },
+    {
+  "id": 2,
+  "type": "Particle Field with Mouse Attraction",
+  "title": "2000 hạt neon chạy tự do, hút theo chuột full màn hình",
+  "html": "<canvas id='particleCanvas'></canvas>",
+  "css": "html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000a1a; } #particleCanvas { display: block; width: 100vw; height: 100vh; }",
+  "js": "(() => {\n  const canvas = document.getElementById('particleCanvas');\n  const ctx = canvas.getContext('2d');\n  let width, height;\n\n  function resize() {\n    width = window.innerWidth;\n    height = window.innerHeight;\n    const dpr = window.devicePixelRatio || 1;\n    canvas.width = width * dpr;\n    canvas.height = height * dpr;\n    canvas.style.width = width + 'px';\n    canvas.style.height = height + 'px';\n    ctx.setTransform(1, 0, 0, 1, 0, 0);\n    ctx.scale(dpr, dpr);\n  }\n  resize();\n  window.addEventListener('resize', resize);\n\n  class Particle {\n    constructor() {\n      this.x = Math.random() * width;\n      this.y = Math.random() * height;\n      this.vx = (Math.random() - 0.5) * 0.6;\n      this.vy = (Math.random() - 0.5) * 0.6;\n      this.size = Math.random() * 1.2 + 0.5;\n      this.baseColor = 'rgba(0,255,255,' + (0.4 + Math.random() * 0.6) + ')';\n    }\n\n    update(mouse) {\n      // di chuyển\n      this.x += this.vx;\n      this.y += this.vy;\n\n      // va chạm với viền canvas\n      if (this.x <= 0 || this.x >= width) this.vx = -this.vx;\n      if (this.y <= 0 || this.y >= height) this.vy = -this.vy;\n\n      // lực hút theo chuột\n      const dx = mouse.x - this.x;\n      const dy = mouse.y - this.y;\n      const dist = Math.sqrt(dx * dx + dy * dy);\n\n      if (dist < 150) {\n        const force = (150 - dist) / 150;\n        const angle = Math.atan2(dy, dx);\n        this.vx += Math.cos(angle) * force * 0.3;\n        this.vy += Math.sin(angle) * force * 0.3;\n      }\n\n      // giảm dần vận tốc để không bay mất\n      this.vx *= 0.95;\n      this.vy *= 0.95;\n    }\n\n    draw() {\n      ctx.beginPath();\n      ctx.fillStyle = this.baseColor;\n      ctx.shadowColor = this.baseColor;\n      ctx.shadowBlur = 6;\n      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);\n      ctx.fill();\n    }\n  }\n\n  const particles = [];\n  for (let i = 0; i < 2000; i++) {\n    particles.push(new Particle());\n  }\n\n  const mouse = { x: width / 2, y: height / 2 };\n  window.addEventListener('mousemove', e => {\n    mouse.x = e.clientX;\n    mouse.y = e.clientY;\n  });\n\n  function animate() {\n    ctx.clearRect(0, 0, width, height);\n    for (const p of particles) {\n      p.update(mouse);\n      p.draw();\n    }\n    requestAnimationFrame(animate);\n  }\n\n  animate();\n})();"
+}
+
+,
+    {
+  "id": 3,
+  "type": "Draggable Stack Cards",
+  "title": "Kéo thẻ sang trái/phải để lật & hiện thẻ bên dưới với BG đẹp, glow khi kéo",
+  "html": "<div class='drag-stack'>\n  <div class='card' style='--i:0'>Card 1</div>\n  <div class='card' style='--i:1'>Card 2</div>\n  <div class='card' style='--i:2'>Card 3</div>\n  <div class='card' style='--i:3'>Card 4</div>\n</div>",
+  "css": "body {\n  background: linear-gradient(135deg, #1e1e2f, #151522);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  background-image:\n    radial-gradient(circle at 20% 20%, rgba(255, 100, 50, 0.15), transparent 50%),\n    radial-gradient(circle at 80% 80%, rgba(255, 80, 80, 0.1), transparent 40%);\n  background-blend-mode: screen;\n}\n\n.drag-stack {\n  width: 280px;\n  height: 380px;\n  position: relative;\n  perspective: 1500px;\n  user-select: none;\n}\n\n.card {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 22px;\n  background: linear-gradient(135deg, #ff4b2b, #ff416c);\n  color: white;\n  font-size: 2.2rem;\n  font-weight: 700;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  box-shadow:\n    0 15px 25px rgba(255, 75, 43, 0.3),\n    0 0 20px rgba(255, 75, 43, 0.5),\n    inset 0 0 50px rgba(255, 120, 70, 0.6);\n  transition: transform 0.3s ease, box-shadow 0.3s ease;\n  cursor: grab;\n  transform-style: preserve-3d;\n  touch-action: none;\n  transform: translateY(calc(var(--i) * -30px)) translateZ(calc(var(--i) * -40px));\n  z-index: calc(100 - var(--i));\n  user-select: none;\n}\n\n.card:active {\n  cursor: grabbing;\n  box-shadow:\n    0 25px 45px rgba(255, 75, 43, 0.7),\n    0 0 40px rgba(255, 75, 43, 0.8),\n    inset 0 0 70px rgba(255, 150, 90, 0.9);\n}\n\n.card.dragging {\n  box-shadow:\n    0 40px 65px rgba(255, 80, 50, 0.85),\n    0 0 60px rgba(255, 120, 80, 0.95),\n    inset 0 0 90px rgba(255, 180, 120, 1);\n  transition: none;\n}",
+  "js": "const stack = document.querySelector('.drag-stack');\nlet cards = [...document.querySelectorAll('.card')];\n\nlet startX = 0;\nlet currentX = 0;\nlet draggingCard = null;\n\nfunction setCardTransforms() {\n  cards.forEach((card, index) => {\n    const offsetY = -30 * index;\n    const offsetZ = -40 * index;\n    card.style.transform = `translateX(0px) translateY(${offsetY}px) translateZ(${offsetZ}px) rotateY(0deg)`;\n    card.style.transition = 'transform 0.3s ease';\n    card.classList.remove('dragging');\n  });\n}\n\nfunction onPointerDown(e) {\n  if (cards.length === 0) return;\n  draggingCard = cards[0];\n  startX = e.clientX || (e.touches && e.touches[0].clientX);\n  draggingCard.style.transition = 'none';\n  draggingCard.classList.add('dragging');\n  stack.style.userSelect = 'none';\n}\n\nfunction onPointerMove(e) {\n  if (!draggingCard) return;\n  currentX = e.clientX || (e.touches && e.touches[0].clientX);\n  const deltaX = currentX - startX;\n  const rotateY = deltaX * 0.3;\n  draggingCard.style.transform = `translateX(${deltaX}px) translateY(calc(var(--i) * -30px)) translateZ(calc(var(--i) * -40px)) rotateY(${rotateY}deg)`;\n}\n\nfunction onPointerUp(e) {\n  if (!draggingCard) return;\n  const deltaX = currentX - startX;\n  const threshold = 120;\n\n  if (Math.abs(deltaX) > threshold) {\n    draggingCard.style.transition = 'transform 0.4s ease, opacity 0.4s ease';\n    draggingCard.style.opacity = '0';\n    draggingCard.style.transform = `translateX(${deltaX > 0 ? 500 : -500}px) translateY(calc(var(--i) * -30px)) translateZ(calc(var(--i) * -40px)) rotateY(${deltaX > 0 ? 45 : -45}deg)`;\n    setTimeout(() => {\n      if (draggingCard && draggingCard.parentNode === stack) {\n        stack.removeChild(draggingCard);\n      }\n      cards = [...document.querySelectorAll('.card')];\n      updateCardIndexes();\n      setCardTransforms();\n    }, 400);\n  } else {\n    draggingCard.style.transition = 'transform 0.4s ease';\n    draggingCard.style.transform = `translateX(0) translateY(calc(var(--i) * -30px)) translateZ(calc(var(--i) * -40px)) rotateY(0deg)`;\n  }\n  draggingCard.classList.remove('dragging');\n  draggingCard = null;\n  stack.style.userSelect = '';\n}\n\nfunction updateCardIndexes() {\n  cards.forEach((card, idx) => {\n    card.style.setProperty('--i', idx);\n    card.style.zIndex = 100 - idx;\n  });\n}\n\nstack.addEventListener('mousedown', onPointerDown);\nstack.addEventListener('touchstart', onPointerDown);\nwindow.addEventListener('mousemove', onPointerMove);\nwindow.addEventListener('touchmove', onPointerMove);\nwindow.addEventListener('mouseup', onPointerUp);\nwindow.addEventListener('touchend', onPointerUp);\n\nupdateCardIndexes();\nsetCardTransforms();"
+}
+
+,
+    {
+  "id": 4,
+  "type": "Gradient Sphere Drag Rotate",
+  "title": "Kéo xoay 3D Sphere lật mặt trước/sau",
+  "html": "<div class='gradient-sphere-container'>\n  <div class='gradient-sphere'>\n    <div class='face front'>FRONT</div>\n    <div class='face back'>BACK</div>\n  </div>\n</div>",
+  "css": ".gradient-sphere-container {\n  width: 280px;\n  height: 280px;\n  margin: 50px auto;\n  perspective: 1200px;\n  cursor: grab;\n}\n.gradient-sphere {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  transform-style: preserve-3d;\n  border-radius: 50%;\n  transition: transform 0.1s ease;\n  box-shadow:\n    inset 0 0 40px rgba(255, 106, 0, 0.8),\n    inset 0 0 70px rgba(238, 9, 121, 0.7);\n}\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-weight: 700;\n  font-size: 2rem;\n  color: white;\n  user-select: none;\n  backface-visibility: hidden;\n}\n.front {\n  background: radial-gradient(circle at 30% 30%, #ff6a00, #ee0979);\n}\n.back {\n  background: radial-gradient(circle at 70% 70%, #551a8b, #9400d3);\n  transform: rotateY(180deg);\n}",
+  "js": "const sphere = document.querySelector('.gradient-sphere-container');\nconst sphereInner = document.querySelector('.gradient-sphere');\n\nlet isDragging = false;\nlet startX;\nlet currentRotationY = 0;\n\nsphere.addEventListener('mousedown', (e) => {\n  isDragging = true;\n  startX = e.clientX;\n  sphere.style.cursor = 'grabbing';\n});\n\nwindow.addEventListener('mouseup', () => {\n  isDragging = false;\n  sphere.style.cursor = 'grab';\n});\n\nwindow.addEventListener('mousemove', (e) => {\n  if (!isDragging) return;\n\n  const deltaX = e.clientX - startX;\n  startX = e.clientX;\n\n  currentRotationY += deltaX * 0.5;\n  sphereInner.style.transform = `rotateY(${currentRotationY}deg)`;\n});"
+}
+,
+    {
+  "id": 5,
+  "type": "3D Dragon Sword with Slash Effect",
+  "title": "Kiếm Rồng 3D với hoa văn, hiệu ứng chém sáng tiên hiệp",
+  "html": "<div class='sword-container'>\n  <div class='sword' id='sword'>\n    <div class='blade'></div>\n    <svg class='dragon' viewBox='0 0 50 350' xmlns='http://www.w3.org/2000/svg'>\n      <path d='M25 340 Q40 320 25 300 Q10 280 25 260 Q40 240 25 220 Q10 200 25 180 Q40 160 25 140 Q10 120 25 100 Q40 80 25 60 Q10 40 25 20 Q40 10 25 0' />\n    </svg>\n    <div class='guard'></div>\n    <div class='handle'></div>\n    <div class='pommel'></div>\n  </div>\n</div>\n<canvas id='slashCanvas'></canvas>",
+  "css": "body, html {\n  margin:0; padding:0; height:100%;\n  background: linear-gradient(135deg, #0a1226, #1e263b);\n  display:flex;\n  justify-content:center;\n  align-items:center;\n  user-select:none;\n  overflow:hidden;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n}\n.sword-container {\n  position: relative;\n  width: 100px;\n  height: 500px;\n  perspective: 1200px;\n}\n.sword {\n  position: relative;\n  width: 40px;\n  height: 450px;\n  margin: auto;\n  transform-style: preserve-3d;\n  cursor: pointer;\n}\n.blade {\n  position: absolute;\n  top: 0; left: 50%;\n  width: 12px;\n  height: 350px;\n  background: linear-gradient(180deg, #a0c1ff 0%, #344d7e 100%);\n  clip-path: polygon(50% 0%, 70% 100%, 30% 100%);\n  box-shadow: inset 0 0 40px #6394ff, 0 0 30px #88bbff;\n  border: 1px solid #a0c1ff;\n  border-radius: 3px 3px 60% 60%;\n  transform: translateX(-50%);\n  z-index: 10;\n}\nsvg.dragon {\n  position: absolute;\n  top: 10px; left: 50%;\n  width: 30px; height: 350px;\n  transform: translateX(-50%);\n  pointer-events: none;\n  filter: drop-shadow(0 0 5px gold);\n  stroke: gold;\n  stroke-width: 2;\n  fill: none;\n  opacity: 0.9;\n}\n.guard {\n  position: absolute;\n  bottom: 100px; left: 50%;\n  width: 60px;\n  height: 20px;\n  background: linear-gradient(90deg, #ffd966, #b0860a);\n  border-radius: 12px;\n  box-shadow: 0 0 15px #ffd966;\n  transform: translateX(-50%);\n  z-index: 20;\n}\n.handle {\n  position: absolute;\n  bottom: 0; left: 50%;\n  width: 20px;\n  height: 100px;\n  background: repeating-linear-gradient(45deg, #532e00, #532e00 5px, #3e2100 5px, #3e2100 10px);\n  border-radius: 12px;\n  box-shadow: inset 0 0 10px #402600;\n  transform: translateX(-50%);\n  z-index: 20;\n}\n.pommel {\n  position: absolute;\n  bottom: -30px; left: 50%;\n  width: 40px;\n  height: 40px;\n  background: radial-gradient(circle at center, #ffd966, #b0860a);\n  border-radius: 50%;\n  box-shadow: 0 0 20px #ffd966;\n  transform: translateX(-50%);\n  z-index: 20;\n}\n#slashCanvas {\n  position: fixed;\n  top: 0; left: 0;\n  width: 100vw;\n  height: 100vh;\n  pointer-events: none;\n  z-index: 1000;\n}",
+  "js": "const canvas = document.getElementById('slashCanvas');\nconst ctx = canvas.getContext('2d');\nlet width, height;\n\nfunction resize() {\n  width = window.innerWidth;\n  height = window.innerHeight;\n  const dpr = window.devicePixelRatio || 1;\n  canvas.width = width * dpr;\n  canvas.height = height * dpr;\n  canvas.style.width = width + 'px';\n  canvas.style.height = height + 'px';\n  ctx.setTransform(1, 0, 0, 1, 0, 0);\n  ctx.scale(dpr, dpr);\n}\nresize();\nwindow.addEventListener('resize', resize);\n\nclass Slash {\n  constructor(x, y, dx, dy) {\n    this.x = x;\n    this.y = y;\n    this.dx = dx * 5;\n    this.dy = dy * 5;\n    this.alpha = 1;\n    this.length = 100;\n    this.life = 20;\n    this.age = 0;\n  }\n  update() {\n    this.x += this.dx;\n    this.y += this.dy;\n    this.age++;\n    this.alpha = 1 - this.age / this.life;\n  }\n  draw() {\n    ctx.save();\n    ctx.lineCap = 'round';\n    ctx.strokeStyle = `rgba(255, 230, 130, ${this.alpha})`;\n    ctx.shadowColor = `rgba(255, 230, 130, ${this.alpha})`;\n    ctx.shadowBlur = 20;\n    ctx.lineWidth = 6 * this.alpha;\n    ctx.beginPath();\n    ctx.moveTo(this.x, this.y);\n    ctx.lineTo(this.x - this.dx * this.length, this.y - this.dy * this.length);\n    ctx.stroke();\n    ctx.restore();\n  }\n}\n\nconst slashes = [];\n\nfunction animate() {\n  ctx.clearRect(0, 0, width, height);\n  for (let i = slashes.length -1; i >= 0; i--) {\n    const s = slashes[i];\n    s.update();\n    s.draw();\n    if (s.age >= s.life) slashes.splice(i,1);\n  }\n  requestAnimationFrame(animate);\n}\nanimate();\n\nlet lastX = 0;\nlet lastY = 0;\nlet isDragging = false;\n\nconst sword = document.getElementById('sword');\nsword.addEventListener('pointerdown', e => {\n  isDragging = true;\n  lastX = e.clientX;\n  lastY = e.clientY;\n});\nwindow.addEventListener('pointerup', e => {\n  isDragging = false;\n});\nwindow.addEventListener('pointermove', e => {\n  if (!isDragging) return;\n  const dx = e.clientX - lastX;\n  const dy = e.clientY - lastY;\n  if (Math.abs(dx) > 3 || Math.abs(dy) > 3) {\n    slashes.push(new Slash(e.clientX, e.clientY, dx, dy));\n    lastX = e.clientX;\n    lastY = e.clientY;\n  }\n});"
+}
+
+,
       {
-        "id": 1,
-        "type" : "Text",
-        "title": "Bounce Text",
-        "html": "<h1 class='bounce'>Hello</h1>",
-        "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
-        "js": ""
-      }
-    ]
+    "id": 6,
+    "type": "Random 3D Chaos to Neat with Smooth Animation",
+    "title": "Hiệu ứng 3D lộn xộn, nhấn để di chuyển ngăn nắp",
+    "html": "<div class='container' id='3dContainer'>\n  <div class='box' style='--i:0'></div>\n  <div class='box' style='--i:1'></div>\n  <div class='box' style='--i:2'></div>\n  <div class='box' style='--i:3'></div>\n  <div class='box' style='--i:4'></div>\n</div>",
+    "css": "html, body {\n  margin: 0;\n  padding: 0;\n  height: 100%;\n  background-color: #1a1a1a;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n}\n\n.container {\n  width: 300px;\n  height: 300px;\n  display: flex;\n  flex-wrap: wrap;\n  position: relative;\n  transform-style: preserve-3d;\n  transform: rotateX(-20deg) rotateY(30deg);\n  transition: transform 0.5s ease, box-shadow 0.5s ease;\n  box-shadow: 0 0 40px rgba(0, 255, 255, 0.5);\n  background: linear-gradient(135deg, rgba(0,255,255,0.2), rgba(255, 255, 255, 0.1));\n}\n\n.container.clicked {\n  transform: rotateX(0deg) rotateY(0deg);\n  box-shadow: 0 0 80px rgba(0, 255, 255, 0.9);\n}\n\n.box {\n  width: 50px;\n  height: 50px;\n  margin: 5px;\n  background: linear-gradient(135deg, #00ffff, #00b3b3);\n  border-radius: 12px;\n  box-shadow: 0 8px 16px rgba(0, 255, 255, 0.5);\n  position: absolute;\n  transition: transform 0.5s ease, box-shadow 0.5s ease;\n  transform: rotateY(calc(var(--i) * 45deg)) translateZ(150px);\n  cursor: pointer;\n  transform: rotateX(calc(1000 * (Math.random() - 0.5))) rotateY(calc(1000 * (Math.random() - 0.5))) translateZ(1000px);\n}\n\n.box:hover {\n  background: linear-gradient(135deg, #00ffff, #009999);\n  box-shadow: 0 15px 30px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.7);\n}\n\n.container.clicked .box {\n  position: relative;\n  transform: translateX(0) translateY(0) translateZ(0);\n  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.7);\n}",
+    "js": "const container = document.getElementById('3dContainer');\ncontainer.addEventListener('click', () => {\n  container.classList.toggle('clicked');\n});"
   }
   ,
-  {
-    "category": "3d",
-    "effects": [
       {
-        "id": 1,
-        "type" : "Text",
-        "title": "Bounce Text",
-        "html": "<h1 class='bounce'>Hello</h1>",
-        "css": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } } .bounce { animation: bounce 1s infinite; }",
+        "id": 7,
+        "type": "Hover Glow Box",
+        "title": "Glow 3D Box Hover",
+        "html": "<div class='glow-box'>Hover Me</div>",
+        "css": ".glow-box { width: 240px; height: 240px; margin: 60px auto; background: linear-gradient(45deg, #ee7752, #23d5ab); border-radius: 30px; box-shadow: 0 20px 50px rgba(238,119,82,0.5); display: flex; justify-content: center; align-items: center; font-size: 2rem; font-weight: 700; color: white; cursor: pointer; transition: box-shadow 0.3s ease; } .glow-box:hover { box-shadow: 0 40px 70px rgba(35,213,171,0.8), 0 0 40px rgba(35,213,171,0.6); }",
         "js": ""
-      }
-    ]
-  }
+      },
+      {
+        "id": 8,
+        "type": "Flip Text",
+        "title": "3D Flip Text",
+        "html": "<div class='flip-text'>Flip Me!</div>",
+        "css": ".flip-text { font-size: 4rem; font-weight: 900; text-align: center; margin: 80px auto; perspective: 1000px; cursor: pointer; } .flip-text:hover { animation: flip 1s forwards; } @keyframes flip { 0% { transform: rotateX(0deg); color: #000; } 50% { color: #ff3c78; } 100% { transform: rotateX(360deg); color: #000; } }",
+        "js": ""
+      },
+      {
+        "id": 9,
+        "type": "3D Cube Loader",
+        "title": "Rotating Cube Loader",
+        "html": "<div class='loader-cube'><div class='face front'></div><div class='face back'></div><div class='face right'></div><div class='face left'></div><div class='face top'></div><div class='face bottom'></div></div>",
+        "css": ".loader-cube { width: 100px; height: 100px; margin: 60px auto; perspective: 800px; position: relative; animation: loaderSpin 2.5s linear infinite; } .face { position: absolute; width: 100px; height: 100px; background: linear-gradient(135deg, #fc5c7d, #6a82fb); border-radius: 10px; box-shadow: 0 0 20px rgba(252,92,125,0.7); } .front { transform: translateZ(50px); } .back { transform: rotateY(180deg) translateZ(50px); } .right { transform: rotateY(90deg) translateZ(50px); } .left { transform: rotateY(-90deg) translateZ(50px); } .top { transform: rotateX(90deg) translateZ(50px); } .bottom { transform: rotateX(-90deg) translateZ(50px); } @keyframes loaderSpin { 0% { transform: rotateX(0) rotateY(0); } 100% { transform: rotateX(360deg) rotateY(360deg); } }",
+        "js": ""
+      },
+      {
+        "id": 10,
+        "type": "Sliding Doors",
+        "title": "3D Sliding Doors",
+        "html": "<div class='doors'><div class='door left'>Left</div><div class='door right'>Right</div></div>",
+        "css": ".doors { width: 320px; height: 200px; margin: 60px auto; perspective: 1200px; position: relative; } .door { width: 160px; height: 100%; position: absolute; top: 0; background: linear-gradient(45deg, #ff416c, #ff4b2b); color: white; font-weight: 700; font-size: 2rem; display: flex; justify-content: center; align-items: center; border-radius: 15px; transition: transform 0.7s ease; cursor: pointer; } .door.left { left: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; } .door.right { right: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; } .doors:hover .door.left { transform: translateX(-50%) rotateY(15deg); } .doors:hover .door.right { transform: translateX(50%) rotateY(-15deg); }",
+        "js": ""
+      },
+      {
+      "id": 11,
+      "type": "Sphere Bounce",
+      "title": "Bouncing 3D Sphere",
+      "html": "<div class='bounce-sphere'></div>",
+      "css": ".bounce-sphere { width: 100px; height: 100px; margin: 80px auto; border-radius: 50%; background: linear-gradient(45deg, #00dbde, #fc00ff); box-shadow: 0 0 30px #fc00ff; animation: bounce 2s ease-in-out infinite; } @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-50px); } }",
+      "js": ""
+    },
+    {
+      "id": 12,
+      "type": "Flip Image",
+      "title": "3D Image Flip",
+      "html": "<div class='flip-image'><img src='https://picsum.photos/300/400' alt='Random'></div>",
+      "css": ".flip-image { width: 300px; height: 400px; perspective: 1300px; margin: 50px auto; cursor: pointer; } .flip-image img { width: 100%; height: 100%; border-radius: 20px; transition: transform 0.8s ease; box-shadow: 0 15px 35px rgba(0,0,0,0.4); } .flip-image:hover img { transform: rotateY(180deg); }",
+      "js": ""
+    },
+    {
+      "id": 13,
+      "author": "VanBao300905",
+      "type": "Galaxy",
+      "title": "3D Galaxy",
+      "html": "<div class='galaxy-container'><canvas id='galaxyCanvas'></canvas></div>",
+      "css": ".galaxy-container { perspective: 1200px; width: 400px; height: 400px; background: #000; margin: auto; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.7); } canvas { width: 100%; height: 100%; display: block; }",
+      "js": "const canvas = document.getElementById('galaxyCanvas'); const ctx = canvas.getContext('2d'); const stars = []; class Star { constructor() { this.x = Math.random() * canvas.width - canvas.width/2; this.y = Math.random() * canvas.height - canvas.height/2; this.z = Math.random() * 1000; this.speed = 2; } update() { this.z -= this.speed; if (this.z <= 0) { this.z = 1000; this.x = Math.random() * canvas.width - canvas.width/2; this.y = Math.random() * canvas.height - canvas.height/2; } } draw() { const x = this.x/(this.z/1000) + canvas.width/2; const y = this.y/(this.z/1000) + canvas.height/2; const size = (1000 - this.z)/30; ctx.beginPath(); ctx.arc(x, y, size, 0, Math.PI * 2); ctx.fillStyle = '#4f46e5'; ctx.fill(); } } for(let i = 0; i < 200; i++) { stars.push(new Star()); } function animate() { ctx.fillStyle = 'rgba(0,0,0,0.1)'; ctx.fillRect(0, 0, canvas.width, canvas.height); stars.forEach(star => { star.update(); star.draw(); }); requestAnimationFrame(animate); } animate();"
+    },
+    {
+  "id": 14,
+  "type": "Interactive 3D Pop-Out Card",
+  "title": "3D Pop-Out Card with Rotation Effect",
+  "html": "<div class='pop-card'>Click Me!</div>",
+  "css": ".pop-card {\n  width: 300px;\n  height: 400px;\n  margin: 60px auto;\n  background: linear-gradient(135deg, #ff7e5f, #feb47b);\n  border-radius: 30px;\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 10px 30px rgba(255, 123, 95, 0.6);\n  color: white;\n  font-size: 3rem;\n  font-weight: 800;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: transform 0.5s ease, box-shadow 0.5s ease, filter 0.5s ease;\n}\n\n.pop-card:hover {\n  transform: translateY(-20px) rotateY(15deg) scale(1.1);\n  box-shadow: 0 30px 50px rgba(255, 123, 95, 0.8), 0 15px 40px rgba(0, 0, 0, 0.2);\n  filter: brightness(1.2);\n}\n\n.pop-card:active {\n  transform: translateY(5px) scale(1.05);\n  box-shadow: 0 10px 20px rgba(255, 123, 95, 0.7), 0 5px 15px rgba(0, 0, 0, 0.2);\n}",
+  "js": ""
+}
+,
+    {
+  "id": 15,
+  "type": "3D Rotating Tunnel with Gradient Rings",
+  "title": "Rotating 3D Tunnel with Gradient Rings",
+  "html": "<div class='tunnel'><div class='ring' style='--i:1'></div><div class='ring' style='--i:2'></div><div class='ring' style='--i:3'></div><div class='ring' style='--i:4'></div></div>",
+  "css": ".tunnel {\n  width: 400px;\n  height: 400px;\n  margin: 50px auto;\n  perspective: 1500px;\n  position: relative;\n  transform-style: preserve-3d;\n  animation: rotateTunnel 6s linear infinite;\n}\n\n.ring {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: linear-gradient(135deg, #7c3aed, #ff0099);\n  border: 3px solid rgba(124,58,237,0.3);\n  transform: translateZ(calc(var(--i) * -70px));\n  box-shadow: 0 0 30px rgba(124, 58, 237, 0.7), 0 0 10px rgba(255, 0, 153, 0.5);\n}\n\n@keyframes rotateTunnel {\n  0% {\n    transform: rotateZ(0);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}",
+  "js": ""
+}
+,{
+  "id": 16,
+  "type": "Interactive Crystal Sphere",
+  "title": "Interactive 3D Crystal Sphere with Glowing Effects",
+  "html": "<div class='crystal-sphere'><div class='core'></div><div class='crystal-ring'></div></div>",
+  "css": ".crystal-sphere {\n  width: 300px;\n  height: 300px;\n  position: relative;\n  margin: 100px auto;\n  perspective: 1500px;\n  animation: rotateCrystal 10s linear infinite;\n}\n\n.crystal-ring {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  border: 4px solid rgba(124, 58, 237, 0.8);\n  border-radius: 50%;\n  box-shadow: 0 0 60px rgba(124, 58, 237, 0.6), 0 0 30px rgba(255, 0, 204, 0.4);\n  animation: rotateRing 6s linear infinite;\n  transform-origin: center;\n}\n\n.crystal-ring:hover {\n  box-shadow: 0 0 80px rgba(124, 58, 237, 1), 0 0 40px rgba(255, 0, 204, 0.8);\n  transform: scale(1.05);\n}\n\n.core {\n  position: absolute;\n  top: 25%;\n  left: 25%;\n  width: 50%;\n  height: 50%;\n  background: radial-gradient(circle, #7c3aed, #4c1d95);\n  border-radius: 50%;\n  box-shadow: 0 0 60px #7c3aed, 0 0 40px #ff00b3;\n  transition: box-shadow 0.3s ease-in-out;\n}\n\n.crystal-sphere:hover .core {\n  box-shadow: 0 0 100px #7c3aed, 0 0 60px #ff00b3;\n}\n\n@keyframes rotateCrystal {\n  0% { transform: rotateX(0deg) rotateY(0deg); }\n  100% { transform: rotateX(360deg) rotateY(360deg); }\n}\n\n@keyframes rotateRing {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+  "js": "const sphere = document.querySelector('.crystal-sphere');\nconst core = document.querySelector('.core');\n\n// Add mouse move effect to increase glow based on mouse position\nsphere.addEventListener('mousemove', (e) => {\n  const x = e.clientX / window.innerWidth;\n  const y = e.clientY / window.innerHeight;\n  const lightStrength = (x + y) * 100;\n  core.style.boxShadow = `0 0 ${lightStrength}px #7c3aed, 0 0 ${lightStrength / 2}px #ff00b3`;\n});\n\n// Reset glow on mouse leave\nsphere.addEventListener('mouseleave', () => {\n  core.style.boxShadow = '0 0 60px #7c3aed, 0 0 40px #ff00b3';\n});"
+}
+,
+    {
+      "id": 17,
+      "type": "Particle Vortex",
+      "title": "Energy Vortex Canvas",
+      "html": "<canvas id='vortex'></canvas>",
+      "css": "canvas#vortex { display: block; margin: 50px auto; width: 400px; height: 400px; background: black; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.8); }",
+      "js": "const canvasV=document.getElementById('vortex');const ctxV=canvasV.getContext('2d');canvasV.width=400;canvasV.height=400;class Particle{constructor(){this.angle=Math.random()*2*Math.PI;this.radius=Math.random()*100+50;this.speed=0.03;}update(){this.angle+=this.speed;this.x=canvasV.width/2+Math.cos(this.angle)*this.radius;this.y=canvasV.height/2+Math.sin(this.angle)*this.radius;this.radius-=0.1;if(this.radius<0){this.radius=150;}}draw(){ctxV.beginPath();ctxV.arc(this.x,this.y,2,0,2*Math.PI);ctxV.fillStyle='#7c3aed';ctxV.fill();}}const particlesV=[];for(let i=0;i<120;i++){particlesV.push(new Particle());}function animateV(){ctxV.fillStyle='rgba(0,0,0,0.2)';ctxV.fillRect(0,0,canvasV.width,canvasV.height);particlesV.forEach(p=>{p.update();p.draw();});requestAnimationFrame(animateV);}animateV();"
+    },
+    {
+      "id": 18,
+      "author": "VanBao300905",
+      "type": "4D Cube",
+      "title": "Double Rotating Cubes",
+      "html": "<div class='tesseract'><div class='cube outer'></div><div class='cube inner'></div></div>",
+      "css": ".tesseract { width: 220px; height: 220px; margin: 50px auto; perspective: 1200px; position: relative; } .cube { position: absolute; width: 100%; height: 100%; border: 3px solid #7c3aed; border-radius: 20px; box-shadow: 0 0 30px #7c3aed; background: rgba(124,58,237,0.15); transform-style: preserve-3d; animation: rotateCube 12s linear infinite; } .inner { width: 50%; height: 50%; top: 25%; left: 25%; opacity: 0.6; animation-duration: 18s; } .outer { animation-duration: 12s; } @keyframes rotateCube { 0% { transform: rotateX(0) rotateY(0); } 100% { transform: rotateX(360deg) rotateY(360deg); } }",
+      "js": ""
+    },
+    {
+      "id": 19,
+      "type": "Quantum Rings",
+      "title": "Rotating Rings",
+      "html": "<div class='rings'><div class='ring' style='--i:1'></div><div class='ring' style='--i:2'></div><div class='ring' style='--i:3'></div><div class='core'></div></div>",
+      "css": ".rings { width: 300px; height: 300px; margin: 50px auto; perspective: 1200px; position: relative; transform-style: preserve-3d; animation: spinRings 12s linear infinite; } .ring { position: absolute; border: 3px solid #7c3aed; border-radius: 50%; top: 50%; left: 50%; box-shadow: 0 0 20px #7c3aed; transform: translate(-50%, -50%) rotateX(calc(var(--i) * 60deg)); } .ring:nth-child(1) { width: 120px; height: 120px; } .ring:nth-child(2) { width: 220px; height: 220px; } .ring:nth-child(3) { width: 320px; height: 320px; } .core { position: absolute; width: 60px; height: 60px; background: radial-gradient(circle, #7c3aed, #4c1d95); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 80px #7c3aed; } @keyframes spinRings { 0% { transform: rotateX(0) rotateY(0); } 100% { transform: rotateX(360deg) rotateY(360deg); } }",
+      "js": ""
+    },
+    {
+      "id": 20,
+      "author": "VanBao300905",
+      "type": "Cosmic Nebula",
+      "title": "Nebula Particle Field",
+      "html": "<canvas id='nebula'></canvas>",
+      "css": "canvas#nebula { display: block; margin: 50px auto; width: 400px; height: 400px; border-radius: 20px; background: #0b0c10; box-shadow: 0 15px 40px rgba(0,0,0,0.9); }",
+      "js": "const canvasN=document.getElementById('nebula');const ctxN=canvasN.getContext('2d');canvasN.width=400;canvasN.height=400;class ParticleN{constructor(){this.x=Math.random()*canvasN.width;this.y=Math.random()*canvasN.height;this.size=Math.random()*3;this.speedX=(Math.random()-0.5)*1.5;this.speedY=(Math.random()-0.5)*1.5;this.color=`hsl(${Math.random()*60+240},100%,50%)`;}update(){this.x+=this.speedX;this.y+=this.speedY;if(this.x>canvasN.width||this.x<0)this.speedX*=-1;if(this.y>canvasN.height||this.y<0)this.speedY*=-1;}draw(){ctxN.beginPath();ctxN.arc(this.x,this.y,this.size,0,2*Math.PI);ctxN.fillStyle=this.color;ctxN.fill();ctxN.shadowColor=this.color;ctxN.shadowBlur=15;} }const particlesN=[];for(let i=0;i<120;i++){particlesN.push(new ParticleN());}function animateN(){ctxN.fillStyle='rgba(11,12,16,0.2)';ctxN.fillRect(0,0,canvasN.width,canvasN.height);particlesN.forEach(p=>{p.update();p.draw();});requestAnimationFrame(animateN);}animateN();"
+    }
+  ]
+}
+
 ]
