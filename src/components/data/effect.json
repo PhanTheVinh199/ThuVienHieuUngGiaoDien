@@ -4,8 +4,8 @@
     "effects": [
       {
         "id": 1,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Hover Gradient Underline",
         "link": "",
         "html": "<span class='hover-gradient-underline'> Hover Me</span>",
@@ -14,8 +14,8 @@
       },
       {
         "id": 2,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Letter Spacing Expand",
         "link": "",
         "html": "<span class='hover-letter-spacing'>Hover Me</span>",
@@ -24,8 +24,8 @@
       },
       {
         "id": 3,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Text Slide Up Fade",
         "link": "",
         "html": "<span class='hover-slide-up' data-text='Hover Me'>Hover Me</span>",
@@ -34,8 +34,8 @@
       },
       {
         "id": 4,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Text Sharpens on Hover",
         "link": "",
         "html": "<span class='hover-blur'>Hover Me</span>",
@@ -44,8 +44,8 @@
       },
       {
         "id": 5,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Text Blur on Hover",
         "link": "",
         "html": "<span class='hover-blur'>Hover Me</span>",
@@ -54,8 +54,8 @@
       },
       {
         "id": 6,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Rainbow Text Animation",
         "link": "",
         "html": "<span class='hover-rainbow'>Hover Me</span>",
@@ -64,8 +64,8 @@
       },
       {
         "id": 7,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Wave Text Effect",
         "link": "",
         "html": "<div class='wave'> <span>H</span><span>o</span><span>v</span><span>e</span><span>r </span><span>M</span><span>e</span> </div>",
@@ -74,8 +74,8 @@
       },
       {
         "id": 8,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Glitch Effect",
         "link": "",
         "html": "<span class='glitch' data-text='Hover Me'>Hover Me</span>",
@@ -84,8 +84,8 @@
       },
       {
         "id": 9,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Color Spectrum Wave",
         "link": "",
         "html": "<div class='hover-box color-wave'>Hover Me</div>",
@@ -94,8 +94,8 @@
       },
       {
         "id": 10,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Flip Text",
         "link": "",
         "html": "<div class='flip-text'><span>Hover Me</span></div>",
@@ -107,7 +107,8 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Underline Slide Smooth",
-        "html": "<a href='#' class='hover-text1'>Underline Slide Smooth</a>",
+        "link": "",
+        "html": "<a class='hover-text1'>Underline Slide Smooth</a>",
         "css": ".hover-text1 { position: relative; color: #212121; text-decoration: none; font-weight: 600; cursor: pointer; } .hover-text1::after { content: ''; position: absolute; left: 0; bottom: -4px; height: 3px; width: 0; background: linear-gradient(90deg, #ff6a00, #ee0979); border-radius: 2px; transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1); } .hover-text1:hover::after { width: 100%; }",
         "js": ""
       },
@@ -116,6 +117,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Smooth Color Fade",
+        "link": "",
         "html": "<span class='hover-text2'>Smooth Color Fade</span>",
         "css": ".hover-text2 { color: #374151; font-weight: 500; transition: color 0.4s ease-in-out; cursor: pointer; } .hover-text2:hover { color: #6366f1; }",
         "js": ""
@@ -125,6 +127,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Subtle Glow",
+        "link": "",
         "html": "<span class='hover-text3'>Subtle Glow</span>",
         "css": ".hover-text3 { color: #111827; font-weight: 600; transition: text-shadow 0.5s ease-in-out; cursor: pointer; } .hover-text3:hover { text-shadow: 0 0 6px #8b5cf6, 0 0 12px #a78bfa; }",
         "js": ""
@@ -134,6 +137,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Letter Spacing Expand",
+        "link": "",
         "html": "<span class='hover-text4'>Letter Spacing Expand</span>",
         "css": ".hover-text4 { font-weight: 500; color: #374151; transition: letter-spacing 0.3s ease; cursor: pointer; } .hover-text4:hover { letter-spacing: 4px; }",
         "js": ""
@@ -143,6 +147,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Scale Up & Shadow",
+        "link": "",
         "html": "<span class='hover-text5'>Scale Up & Shadow</span>",
         "css": ".hover-text5 { display: inline-block; color: #1f2937; font-weight: 600; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-shadow 0.3s ease; cursor: pointer; } .hover-text5:hover { transform: scale(1.1); text-shadow: 2px 4px 6px rgba(0,0,0,0.1); }",
         "js": ""
@@ -152,6 +157,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Background Highlight Gradient",
+        "link": "",
         "html": "<span class='hover-text6'>Background Highlight Gradient</span>",
         "css": ".hover-text6 { position: relative; color: #111827; font-weight: 600; cursor: pointer; background: linear-gradient(120deg, transparent 0%, transparent 50%, #fbbf24 50%, #fbbf24 100%); background-size: 200% 100%; background-position: 100% 0; transition: background-position 0.4s ease; } .hover-text6:hover { background-position: 0 0; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }",
         "js": ""
@@ -161,6 +167,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Skewed Tilt",
+        "link": "",
         "html": "<span class='hover-text7'>Skewed Tilt</span>",
         "css": ".hover-text7 { display: inline-block; color: #4b5563; font-weight: 600; transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; } .hover-text7:hover { transform: skew(-8deg, 2deg); color: #ef4444; }",
         "js": ""
@@ -170,6 +177,7 @@
         "author": "VanBaoo",
         "type": "Text",
         "title": "Gradient Text Fill",
+        "link": "",
         "html": "<span class='hover-text8'>Gradient Text Fill</span>",
         "css": ".hover-text8 { font-weight: 700; background: linear-gradient(90deg, #2563eb, #d946ef); background-clip: text; -webkit-background-clip: text; color: transparent; transition: background-position 0.5s ease; background-size: 200% 100%; background-position: left center; cursor: pointer; } .hover-text8:hover { background-position: right center; }",
         "js": ""
@@ -179,6 +187,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Bottom Border Expand",
+        "link": "",
         "html": "<span class='hover-text9'>Bottom Border Expand</span>",
         "css": ".hover-text9 { border-bottom: 2px solid transparent; font-weight: 600; cursor: pointer; transition: border-color 0.3s ease; color: #374151; } .hover-text9:hover { border-color: #10b981; }",
         "js": ""
@@ -188,6 +197,7 @@
         "author": "VanBao",
         "type": "Text",
         "title": "Flip 3D Text",
+        "link": "",
         "html": "<span class='hover-text10'>Flip 3D Text</span>",
         "css": ".hover-text10 { display: inline-block; font-weight: 700; perspective: 800px; cursor: pointer; } .hover-text10:hover { animation: flip360 0.6s forwards; } @keyframes flip360 { 0% { transform: rotateY(0deg); } 100% { transform: rotateY(360deg); } }",
         "js": ""
@@ -197,6 +207,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Smooth Background Gradient",
+        "link": "",
         "html": "<button class='hover-btn1'>Smooth Gradient</button>",
         "css": ".hover-btn1 { padding: 12px 28px; font-weight: 600; font-size: 16px; border: none; border-radius: 6px; cursor: pointer; background: linear-gradient(90deg, #4f46e5, #6366f1); color: white; transition: background-position 0.5s ease; background-size: 200% 100%; background-position: left center; } .hover-btn1:hover { background-position: right center; }",
         "js": ""
@@ -206,6 +217,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Border Slide In",
+        "link": "",
         "html": "<button class='hover-btn2'>Border Slide In</button>",
         "css": ".hover-btn2 { position: relative; padding: 12px 30px; font-weight: 600; font-size: 16px; background: transparent; color: #4f46e5; border: 2px solid #4f46e5; border-radius: 6px; cursor: pointer; overflow: hidden; transition: color 0.3s ease; } .hover-btn2::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: #4f46e5; transition: left 0.3s ease; z-index: -1; } .hover-btn2:hover { color: white; } .hover-btn2:hover::before { left: 0; }",
         "js": ""
@@ -215,6 +227,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Shadow Lift",
+        "link": "",
         "html": "<button class='hover-btn3'>Shadow Lift</button>",
         "css": ".hover-btn3 { padding: 12px 28px; font-weight: 600; font-size: 16px; background-color: #059669; color: white; border: none; border-radius: 6px; cursor: pointer; transition: box-shadow 0.3s ease, transform 0.3s ease; } .hover-btn3:hover { box-shadow: 0 10px 20px rgba(5, 150, 105, 0.4); transform: translateY(-3px); }",
         "js": ""
@@ -224,6 +237,7 @@
         "author": "VanBaoo",
         "type": "Button",
         "title": "Fill From Left",
+        "link": "",
         "html": "<button class='hover-btn4'>Fill From Left</button>",
         "css": ".hover-btn4 { position: relative; padding: 12px 30px; font-weight: 600; font-size: 16px; background: transparent; border: 2px solid #f59e0b; color: #f59e0b; border-radius: 6px; cursor: pointer; overflow: hidden; transition: color 0.3s ease; } .hover-btn4::before { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 100%; background: #f59e0b; transition: width 0.3s ease; z-index: -1; } .hover-btn4:hover { color: white; } .hover-btn4:hover::before { width: 100%; }",
         "js": ""
@@ -233,6 +247,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "3D Push",
+        "link": "",
         "html": "<button class='hover-btn5'>3D Push</button>",
         "css": ".hover-btn5 { padding: 12px 28px; font-weight: 700; font-size: 16px; background-color: #ef4444; color: white; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 5px #b91c1c; transition: transform 0.2s ease; } .hover-btn5:active { transform: translateY(4px); box-shadow: 0 1px #b91c1c; }",
         "js": ""
@@ -242,6 +257,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Glow Neon",
+        "link": "",
         "html": "<button class='hover-btn6'>Glow Neon</button>",
         "css": ".hover-btn6 { padding: 12px 28px; font-weight: 600; font-size: 16px; background-color: #0ea5e9; color: white; border: none; border-radius: 6px; cursor: pointer; box-shadow: 0 0 8px #0ea5e9; transition: box-shadow 0.4s ease; } .hover-btn6:hover { box-shadow: 0 0 20px #38bdf8, 0 0 30px #0ea5e9; }",
         "js": ""
@@ -251,6 +267,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Rotate Scale",
+        "link": "",
         "html": "<button class='hover-btn7'>Rotate Scale</button>",
         "css": ".hover-btn7 { padding: 12px 28px; font-weight: 600; font-size: 16px; background-color: #8b5cf6; color: white; border: none; border-radius: 6px; cursor: pointer; transition: transform 0.4s ease; } .hover-btn7:hover { transform: scale(1.1) rotate(-5deg); }",
         "js": ""
@@ -260,6 +277,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Pulse Shadow",
+        "link": "",
         "html": "<button class='hover-btn8'>Pulse Shadow</button>",
         "css": ".hover-btn8 { padding: 12px 28px; font-weight: 700; font-size: 16px; background-color: #ec4899; color: white; border: none; border-radius: 10px; cursor: pointer; transition: box-shadow 0.4s ease; } .hover-btn8:hover { animation: pulseShadow 1.2s infinite; } @keyframes pulseShadow { 0%, 100% { box-shadow: 0 0 10px #ec4899; } 50% { box-shadow: 0 0 25px #f472b6; } }",
         "js": ""
@@ -269,6 +287,7 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Slide Up Border",
+        "link": "",
         "html": "<button class='hover-btn9'>Slide Up Border</button>",
         "css": ".hover-btn9 { position: relative; padding: 12px 28px; font-weight: 600; font-size: 16px; background: transparent; border: 2px solid #10b981; color: #10b981; border-radius: 6px; cursor: pointer; overflow: hidden; transition: color 0.3s ease; } .hover-btn9::after { content: ''; position: absolute; bottom: -100%; left: 0; width: 100%; height: 100%; background-color: #10b981; transition: bottom 0.3s ease; z-index: -1; } .hover-btn9:hover { color: white; } .hover-btn9:hover::after { bottom: 0; }",
         "js": ""
@@ -278,238 +297,265 @@
         "author": "VanBao",
         "type": "Button",
         "title": "Rotate Border",
+        "link": "",
         "html": "<button class='hover-btn10'>Rotate Border</button>",
         "css": ".hover-btn10 { padding: 12px 28px; font-weight: 700; font-size: 16px; background-color: #2563eb; color: white; border: 3px solid transparent; border-radius: 8px; cursor: pointer; position: relative; transition: border-color 0.4s ease; } .hover-btn10:hover { border-color: #60a5fa; transform: rotate(5deg); }",
         "js": ""
       },
       {
-        "id": 1,
+        "id": 31,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button đổi màu nền",
+        "link": "",
         "html": "<button class='btn-color'>Hover me</button>",
         "css": ".btn-color { padding: 12px 30px; background-color: #3498db; color: white; border: none; cursor: pointer; border-radius: 6px; transition: background-color 0.3s ease; } .btn-color:hover { background-color: #2ecc71; }",
         "js": ""
       },
       {
-        "id": 2,
+        "id": 32,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button phóng to khi hover",
+        "link": "",
         "html": "<button class='btn-scale'>Hover me</button>",
         "css": ".btn-scale { padding: 12px 30px; background-color: #e74c3c; color: white; border: none; cursor: pointer; border-radius: 6px; transition: transform 0.3s ease; } .btn-scale:hover { transform: scale(1.1); }",
         "js": ""
       },
       {
-        "id": 3,
+        "id": 33,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button viền động chạy xung quanh",
+        "link": "",
         "html": "<button class='btn-border-anim'>Hover me</button>",
         "css": ".btn-border-anim { position: relative; padding: 12px 30px; background: transparent; color: #2980b9; border: 2px solid #2980b9; cursor: pointer; font-weight: bold; overflow: hidden; border-radius: 6px; } .btn-border-anim::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: #2980b9; transition: left 0.4s ease; z-index: -1; border-radius: 6px; } .btn-border-anim:hover::before { left: 0; } .btn-border-anim:hover { color: white; }",
         "js": ""
       },
       {
-        "id": 4,
+        "id": 34,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button chữ trượt ngang khi hover",
+        "link": "",
         "html": "<button class='btn-text-slide'><span>Hover me</span></button>",
         "css": ".btn-text-slide { overflow: hidden; padding: 12px 30px; background: #27ae60; border: none; border-radius: 6px; cursor: pointer; color: white; font-weight: bold; } .btn-text-slide span { display: inline-block; transition: transform 0.3s ease; } .btn-text-slide:hover span { transform: translateX(10px); }",
         "js": ""
       },
       {
-        "id": 5,
+        "id": 35,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button lật 3D",
+        "link": "",
         "html": "<button class='btn-flip'> <span class='front'>Hover me</span> <span class='back'>Clicked!</span> </button>",
         "css": ".btn-flip { position: relative; width: 140px; height: 50px; perspective: 600px; cursor: pointer; border: none; background: transparent; } .btn-flip span { position: absolute; width: 100%; height: 100%; line-height: 50px; text-align: center; color: white; font-weight: bold; border-radius: 6px; backface-visibility: hidden; transition: transform 0.6s ease; } .btn-flip .front { background-color: #2980b9; transform: rotateY(0deg); } .btn-flip .back { background-color: #27ae60; transform: rotateY(180deg); } .btn-flip:hover .front { transform: rotateY(-180deg); } .btn-flip:hover .back { transform: rotateY(0deg); }",
         "js": ""
       },
       {
-        "id": 6,
+        "id": 36,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button bóng đổ nâng lên khi hover",
+        "link": "",
         "html": "<button class='btn-shadow-lift'>Hover me</button>",
         "css": ".btn-shadow-lift { padding: 12px 30px; background-color: #c0392b; border: none; color: white; cursor: pointer; border-radius: 6px; box-shadow: 0 5px 0 #992d22; transition: transform 0.2s ease, box-shadow 0.2s ease; font-weight: bold; } .btn-shadow-lift:hover { transform: translateY(-5px); box-shadow: 0 15px 20px rgba(153, 45, 34, 0.5); }",
         "js": ""
       },
       {
-        "id": 7,
+        "id": 37,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button bóng sáng chạy ngang",
+        "link": "",
         "html": "<button class='btn-light-sweep'>Hover me</button>",
         "css": ".btn-light-sweep { position: relative; padding: 12px 30px; background-color: #27ae60; border: none; color: white; cursor: pointer; font-weight: bold; border-radius: 6px; overflow: hidden; } .btn-light-sweep::before { content: ''; position: absolute; top: 0; left: -75%; width: 50%; height: 100%; background: linear-gradient(120deg, transparent, rgba(255,255,255,0.5), transparent); transform: skewX(-25deg); transition: left 0.5s ease; } .btn-light-sweep:hover::before { left: 125%; }",
         "js": ""
       },
       {
-        "id": 8,
+        "id": 38,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button kiểu bật tắt bóng đổ",
+        "link": "",
         "html": "<button class='btn-toggle-shadow'>Hover me</button>",
         "css": ".btn-toggle-shadow { padding: 12px 30px; background-color: #c0392b; color: white; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; box-shadow: 0 5px 0 #922b21; transition: box-shadow 0.3s ease; } .btn-toggle-shadow:hover { box-shadow: none; }",
         "js": ""
       },
       {
-        "id": 9,
+        "id": 39,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button phóng to sau đó thu nhỏ",
+        "link": "",
         "html": "<button class='btn-pulse'>Hover me</button>",
         "css": ".btn-pulse { padding: 12px 30px; background-color: #2980b9; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: transform 0.2s ease; } .btn-pulse:hover { animation: pulseScale 0.6s forwards; } @keyframes pulseScale { 50% { transform: scale(1.15); } 100% { transform: scale(1); } }",
         "js": ""
       },
       {
-        "id": 10,
+        "id": 40,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button xuất hiện viền phát sáng",
+        "link": "",
         "html": "<button class='btn-glow-border'>Hover me</button>",
         "css": ".btn-glow-border { padding: 12px 30px; background-color: #34495e; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; box-shadow: inset 0 0 0 0 #1abc9c; transition: box-shadow 0.3s ease; } .btn-glow-border:hover { box-shadow: inset 0 0 10px 3px #1abc9c; }",
         "js": ""
       },
       {
-        "id": 11,
+        "id": 41,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button biến hình từ tròn sang vuông",
+        "link": "",
         "html": "<button class='btn-round-to-square'>Hover me</button>",
         "css": ".btn-round-to-square { padding: 12px 30px; background-color: #e67e22; color: white; border: none; cursor: pointer; font-weight: bold; border-radius: 50px; transition: border-radius 0.3s ease; } .btn-round-to-square:hover { border-radius: 6px; }",
         "js": ""
       },
       {
-        "id": 12,
+        "id": 42,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button chữ nổi bật khi hover",
+        "link": "",
         "html": "<button class='btn-text-glow'>Hover me</button>",
         "css": ".btn-text-glow { padding: 12px 30px; background-color: #2980b9; border: none; color: white; font-weight: bold; cursor: pointer; border-radius: 6px; transition: text-shadow 0.3s ease; } .btn-text-glow:hover { text-shadow: 0 0 10px rgba(255,255,255,0.9); }",
         "js": ""
       },
       {
-        "id": 13,
+        "id": 43,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button trượt nền ngang",
+        "link": "",
         "html": "<button class='btn-bg-slide'>Hover me</button>",
         "css": ".btn-bg-slide { padding: 12px 30px; background: linear-gradient(90deg, #3498db 50%, #2ecc71 50%); background-size: 200% 100%; background-position: left bottom; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; transition: background-position 0.3s ease; } .btn-bg-slide:hover { background-position: right bottom; }",
         "js": ""
       },
       {
-        "id": 14,
+        "id": 44,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button nổi bật với viền bóng đổ ngoài",
+        "link": "",
         "html": "<button class='btn-glow'>Hover me</button>",
         "css": ".btn-glow { padding: 12px 30px; background-color: #8e44ad; border: none; color: white; font-weight: bold; border-radius: 6px; cursor: pointer; box-shadow: 0 0 10px 0 transparent; transition: box-shadow 0.3s ease; } .btn-glow:hover { box-shadow: 0 0 15px 5px #8e44ad; }",
         "js": ""
       },
       {
-        "id": 15,
+        "id": 45,
         "author": "Thanh Tự",
+        "type": "Button",
         "title": "Button bật nhấp nháy",
+        "link": "",
         "html": "<button class='btn-blink'>Hover me</button>",
         "css": ".btn-blink { padding: 12px 30px; background-color: #34495e; color: white; border: none; font-weight: bold; cursor: pointer; border-radius: 6px; } .btn-blink:hover { animation: blinkAnim 1s linear infinite; } @keyframes blinkAnim { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }",
         "js": ""
       },
       {
-        "id": 16,
+        "id": 46,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Hiệu ứng sóng lan tỏa khi hover",
+        "link": "",
         "html": "<button class='btn-ripple'>Click me</button>",
         "css": ".btn-ripple { position: relative; overflow: hidden; padding: 12px 30px; background-color: #e74c3c; border: none; color: white; cursor: pointer; border-radius: 6px; font-weight: bold; } .btn-ripple::after { content: ''; position: absolute; border-radius: 50%; width: 100%; height: 100%; top: 0; left: 0; pointer-events: none; background: rgba(255, 255, 255, 0.4); opacity: 0; transform: scale(0); transition: transform 0.5s ease, opacity 1s ease; } .btn-ripple:hover::after { opacity: 1; transform: scale(2); transition:  transform 0.5s ease, opacity 1s ease; }",
         "js": ""
       },
       {
-        "id": 17,
+        "id": 47,
         "author": "Thanh Tự",
         "type": "Button",
         "title": " Button: Viền trong xuất hiện từ ngoài vào",
+        "link": "",
         "html": "<button class='btn-inner-border'>Hover me</button>",
         "css": ".btn-inner-border { position: relative; padding: 12px 30px; background-color: #34495e; color: white; border: none; cursor: pointer; border-radius: 6px; overflow: hidden; } .btn-inner-border::before { content: ''; position: absolute; top: 6px; left: 6px; right: 6px; bottom: 6px; border: 2px solid #1abc9c; opacity: 0; transform: scale(0.5); transition: opacity 0.3s ease, transform 0.3s ease; border-radius: 4px; pointer-events: none; } .btn-inner-border:hover::before { opacity: 1; transform: scale(1); }",
         "js": ""
       },
       {
-        "id": 18,
+        "id": 48,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button: Nút rung nhẹ ",
+        "link": "",
         "html": "<button class='btn-vibrate'>Hover me</button>",
         "css": ".btn-vibrate { padding: 12px 30px; background-color: #c0392b; color: white; border: none; cursor: pointer; border-radius: 6px; font-weight: bold; transition: transform 0.1s ease; } .btn-vibrate:hover { animation: vibrate 0.3s linear infinite; } @keyframes vibrate { 0% { transform: translate(0); } 20% { transform: translate(-2px, 2px); } 40% { transform: translate(-2px, -2px); } 60% { transform: translate(2px, 2px); } 80% { transform: translate(2px, -2px); } 100% { transform: translate(0); } }",
         "js": ""
       },
       {
-        "id": 19,
+        "id": 49,
         "author": "Thanh Tự",
         "type": "Button",
         "title": " Box: Viền đổi màu chuyển dần",
+        "link": "",
         "html": "<div class='box-gradient-border'>Hover me</div>",
         "css": ".box-gradient-border { width: 280px; height: 50px; background-color: white; color: #333; font-size: 22px; line-height: 50px; text-align: center; border-radius: 10px; cursor: pointer; border: 4px solid; border-image-slice: 1; border-width: 4px; border-image-source: linear-gradient(45deg, #f39c12, #8e44ad); transition: border-image-source 0.5s ease; margin: 20px auto; } .box-gradient-border:hover { border-image-source: linear-gradient(45deg, #27ae60, #2980b9); }",
         "js": ""
       },
       {
-        "id": 20,
+        "id": 50,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button đổ bóng đổi theo vị trí chuột",
+        "link": "",
         "html": "<button class='btn-shadow-follow'>Hover me</button>",
         "css": ".btn-shadow-follow { padding: 12px 30px; background-color: #34495e; color: white; border: none; cursor: pointer; font-weight: bold; border-radius: 6px; transition: box-shadow 0.1s ease; position: relative; overflow: hidden; }",
         "js": "const btnShadow = document.querySelector('.btn-shadow-follow'); btnShadow.addEventListener('mousemove', e => { const rect = btnShadow.getBoundingClientRect(); const x = e.clientX - rect.left - rect.width / 2; const y = e.clientY - rect.top - rect.height / 2; btnShadow.style.boxShadow = `${x / 5}px ${y / 5}px 15px rgba(0,0,0,0.5)`; }); btnShadow.addEventListener('mouseleave', () => { btnShadow.style.boxShadow = ''; });"
       },
       {
-        "id": 21,
+        "id": 51,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button lật mặt (flip) theo hover",
+        "link": "",
         "html": "<div class='btn-flip-js'> <div class='front'>Hover me</div> <div class='back'>Clicked!</div> </div>",
         "css": ".btn-flip-js { width: 140px; height: 50px; perspective: 600px; cursor: pointer; position: relative; } .btn-flip-js > div { position: absolute; width: 100%; height: 100%; line-height: 50px; text-align: center; color: white; font-weight: bold; border-radius: 6px; backface-visibility: hidden; transition: transform 0.6s ease; } .btn-flip-js .front { background-color: #2980b9; transform: rotateY(0deg); } .btn-flip-js .back { background-color: #27ae60; transform: rotateY(180deg); }",
         "js": "const btnFlip = document.querySelector('.btn-flip-js'); btnFlip.addEventListener('mouseenter', () => { btnFlip.querySelector('.front').style.transform = 'rotateY(-180deg)'; btnFlip.querySelector('.back').style.transform = 'rotateY(0deg)'; }); btnFlip.addEventListener('mouseleave', () => { btnFlip.querySelector('.front').style.transform = 'rotateY(0deg)'; btnFlip.querySelector('.back').style.transform = 'rotateY(180deg)'; });"
       },
       {
-        "id": 22,
+        "id": 52,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button hiệu ứng gợn sóng ",
+        "link": "",
         "html": "<button class='btn-wave-pulse'>Hover me</button>",
         "css": ".btn-wave-pulse { position: relative; padding: 12px 30px; background: #e74c3c; border: none; color: white; border-radius: 6px; cursor: pointer; font-weight: bold; overflow: hidden; } .wave { position: absolute; border-radius: 50%; background: rgba(255,255,255,0.5); width: 100%; height: 100%; top: 0; left: 0; transform: scale(0); animation: wavePulse 1.2s infinite; pointer-events: none; opacity: 0; transition: opacity 0.3s ease; } .btn-wave-pulse:hover .wave { opacity: 1; } @keyframes wavePulse { to { transform: scale(2.5); opacity: 0; } }",
         "js": "const btnWavePulse = document.querySelector('.btn-wave-pulse'); const waveEl = document.createElement('span'); waveEl.classList.add('wave'); btnWavePulse.appendChild(waveEl);"
       },
       {
-        "id": 23,
+        "id": 53,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button theo dõi vị trí chuột",
+        "link": "",
         "html": "<button class='btn-glow-cursor'>Hover me</button>",
         "css": ".btn-glow-cursor { position: relative; padding: 12px 30px; background: #2980b9; color: white; border: none; border-radius: 6px; cursor: pointer; overflow: hidden; font-weight: bold; } .glow-circle { position: absolute; width: 100px; height: 100px; background: rgba(255,255,255,0.3); border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%); transition: top 0.1s, left 0.1s; opacity: 0; }",
         "js": "const btnGlowCursor = document.querySelector('.btn-glow-cursor'); const glowCircle = document.createElement('div'); glowCircle.classList.add('glow-circle'); btnGlowCursor.appendChild(glowCircle); btnGlowCursor.addEventListener('mousemove', e => { const rect = btnGlowCursor.getBoundingClientRect(); glowCircle.style.top = `${e.clientY - rect.top}px`; glowCircle.style.left = `${e.clientX - rect.left}px`; glowCircle.style.opacity = '1'; }); btnGlowCursor.addEventListener('mouseleave', () => { glowCircle.style.opacity = '0'; });"
       },
       {
-        "id": 24,
+        "id": 54,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button hiệu ứng “nhảy”",
+        "link": "",
         "html": "<button class='btn-jump'>Hover me</button>",
         "css": ".btn-jump { padding: 12px 30px; background: #e67e22; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease; }",
         "js": "const btnJump = document.querySelector('.btn-jump'); btnJump.addEventListener('mouseenter', () => { btnJump.style.transform = 'translateY(-15px)'; }); btnJump.addEventListener('mouseleave', () => { btnJump.style.transform = 'translateY(0)'; });"
       },
       {
-        "id": 25,
+        "id": 55,
         "author": "Thanh Tự",
         "type": "Button",
         "title": "Button hiển thị đếm ngược animation",
+        "link": "",
         "html": "<button class='btn-countdown'>Hover me</button>",
         "css": ".btn-countdown { position: relative; padding: 12px 30px; background: #27ae60; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; overflow: hidden; } .countdown-bar { position: absolute; bottom: 0; left: 0; height: 4px; background: #2ecc71; width: 0%; transition: width 3s linear; }",
         "js": "const btnCountdown = document.querySelector('.btn-countdown'); const bar = document.createElement('div'); bar.classList.add('countdown-bar'); btnCountdown.appendChild(bar); btnCountdown.addEventListener('mouseenter', () => { bar.style.width = '100%'; }); btnCountdown.addEventListener('mouseleave', () => { bar.style.width = '0%'; });"
       },
       {
-        "id": 31,
-        "type": "Icon",
+        "id": 61,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "Basic Hover Icons",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='icon-container'> <i class='icon fa fa-home zoom-in'></i> <i class='icon fa fa-user rotate'></i> <i class='icon fa fa-heart color-change'></i> <i class='icon fa fa-star bounce'></i> <i class='icon fa fa-camera fade'></i> <i class='icon fa fa-cogs shadow'></i> <i class='icon fa fa-search flip'></i> <i class='icon fa fa-play grow-shrink'></i> <i class='icon fa fa-phone skew'></i> <i class='icon fa fa-music spin'></i> </div>",
@@ -517,9 +563,9 @@
         "js": ""
       },
       {
-        "id": 32,
-        "type": "Icon",
+        "id": 62,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "The background around the icon grows larger.",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -527,9 +573,9 @@
         "js": ""
       },
       {
-        "id": 33,
-        "type": "Icon",
+        "id": 63,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "The background around the icon shrinks.",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -537,9 +583,9 @@
         "js": ""
       },
       {
-        "id": 34,
-        "type": "Icon",
+        "id": 64,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "The background fades around the icon.",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -547,9 +593,9 @@
         "js": ""
       },
       {
-        "id": 35,
-        "type": "Icon",
+        "id": 65,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "The icon has dashed borders around it",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -557,9 +603,9 @@
         "js": ""
       },
       {
-        "id": 36,
-        "type": "Icon",
+        "id": 66,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "The icon moves to the right and then returns from the left",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -567,9 +613,9 @@
         "js": ""
       },
       {
-        "id": 37,
-        "type": "Icon",
+        "id": 67,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "Color change icon",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -577,9 +623,9 @@
         "js": ""
       },
       {
-        "id": 38,
-        "type": "Icon",
+        "id": 68,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "An additional circular border appears around the icon",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -587,9 +633,9 @@
         "js": ""
       },
       {
-        "id": 39,
-        "type": "Icon",
+        "id": 69,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "The background ripples like a wave",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<div class='fa-icon-wrap fa-icon-effect fa-icon-effect-a'> <a class='fa-icon fa fa-home'></a> <a class='fa-icon fa fa-user'></a> <a class='fa-icon fa fa-cogs'></a> </div>",
@@ -597,9 +643,9 @@
         "js": ""
       },
       {
-        "id": 40,
-        "type": "Icon",
+        "id": 70,
         "author": "Thế Vĩnh",
+        "type": "Icon",
         "title": "A light streak flashes across the icon",
         "link": "<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>",
         "html": "<a class='glassIco'><i class='fab fa-facebook-f'></i></a> <a class='glassIco'><i class='fab fa-instagram'></i></a> <a class='glassIco'><i class='fab fa-linkedin-in'></i></a> <a class='glassIco'><i class='fab fa-whatsapp'></i></a>",
@@ -613,8 +659,8 @@
     "effects": [
       {
         "id": 1,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Glitch Text Animation",
         "link": "",
         "html": "<span class='glitch' data-text='Text Animation'>Text Animation</span>",
@@ -623,8 +669,8 @@
       },
       {
         "id": 2,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Slide Color",
         "link": "",
         "html": "<span class='slide-color'>Text Animation</span>",
@@ -633,8 +679,8 @@
       },
       {
         "id": 3,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Glowing Fade In",
         "link": "",
         "html": "<div class='glowing'>Text Animation</div>",
@@ -643,8 +689,8 @@
       },
       {
         "id": 4,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Moving Text",
         "link": "",
         "html": "<div class='moving-text'>Text Animation</div>",
@@ -653,8 +699,8 @@
       },
       {
         "id": 5,
-        "type": "Text",
         "author": "Thế Vĩnh",
+        "type": "Text",
         "title": "Pixelated Text",
         "link": "",
         "html": " <div class='pixelated'>Text Animation</div>",
@@ -744,8 +790,8 @@
       },
       {
         "id": 15,
-        "type": "Button",
         "author": "Thế Vĩnh",
+        "type": "Button",
         "title": "Button - Reverse Shadow",
         "link": "",
         "html": "<a class='playbtn'> <span></span> <span></span> <span></span> <span></span> Button Animation </a>",
@@ -754,8 +800,8 @@
       },
       {
         "id": 16,
-        "type": "Button",
         "author": "Thế Vĩnh",
+        "type": "Button",
         "title": "Button - Unlocking Animation Effect",
         "link": "",
         "html": "<div class='button-box'> <button class='button'> <p class='title'>Submit!</p> <img src='https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked.png' alt='Locked' /> <p class='description'>Click to submit</p> </button> </div>",
@@ -764,8 +810,8 @@
       },
       {
         "id": 17,
-        "type": "Button",
         "author": "Thế Vĩnh",
+        "type": "Button",
         "title": "Button - LED light",
         "link": "",
         "html": "<a class='box__link button-animation'> Submit <span></span> <span></span> <span></span> <span></span> </a>",
@@ -829,7 +875,7 @@
         "js": ""
       },
       {
-        "id": 1,
+        "id": 24,
         "type": "Button",
         "author": "Thanh Tự",
         "title": " Phóng to dần ",
@@ -838,7 +884,7 @@
         "js": ""
       },
       {
-        "id": 2,
+        "id": 25,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Chuyển màu nền liên tục",
@@ -847,7 +893,7 @@
         "js": ""
       },
       {
-        "id": 3,
+        "id": 26,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Dịch chuyển ngang",
@@ -856,7 +902,7 @@
         "js": ""
       },
       {
-        "id": 4,
+        "id": 27,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Đảo chiều xoay",
@@ -865,7 +911,7 @@
         "js": ""
       },
       {
-        "id": 5,
+        "id": 28,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Hiệu ứng: Mờ dần",
@@ -874,7 +920,7 @@
         "js": ""
       },
       {
-        "id": 6,
+        "id": 29,
         "type": "Button",
         "author": "Thanh Tự",
         "title": " Độ sáng thay đổi ",
@@ -883,7 +929,7 @@
         "js": ""
       },
       {
-        "id": 7,
+        "id": 30,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Hiệu ứng: Xoay 3D liên tục",
@@ -892,7 +938,7 @@
         "js": ""
       },
       {
-        "id": 8,
+        "id": 31,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Hiệu ứng “đập nhịp”",
@@ -901,7 +947,7 @@
         "js": ""
       },
       {
-        "id": 9,
+        "id": 32,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Button chữ chạy ngang từ trái sang phải",
@@ -910,7 +956,7 @@
         "js": "const btnTextSlide = document.querySelector('.btn-text-slide'); btnTextSlide.innerHTML = `<span>${btnTextSlide.textContent}</span>`;"
       },
       {
-        "id": 10,
+        "id": 33,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Button xoay 360 độ kết hợp phóng to",
@@ -919,7 +965,7 @@
         "js": ""
       },
       {
-        "id": 11,
+        "id": 34,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Box chuyển động “bóng bay”",
@@ -928,7 +974,7 @@
         "js": "const boxFloat = document.querySelector('.box-float'); let direction = 1; let position = 0; setInterval(() => { if (position > 15) direction = -1; if (position < 0) direction = 1; position += direction; boxFloat.style.transform = `translateY(${-position}px)`; }, 50);"
       },
       {
-        "id": 12,
+        "id": 35,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Button hiệu ứng “bong bóng nổ”",
@@ -937,7 +983,7 @@
         "js": "const btnBubbleBurst = document.querySelector('.btn-bubble-burst'); btnBubbleBurst.addEventListener('click', e => { for(let i = 0; i < 10; i++) { const bubble = document.createElement('div'); bubble.classList.add('bubble'); bubble.style.width = bubble.style.height = Math.random() * 10 + 10 + 'px'; bubble.style.left = e.clientX - btnBubbleBurst.getBoundingClientRect().left + (Math.random() * 30 - 15) + 'px'; bubble.style.top = e.clientY - btnBubbleBurst.getBoundingClientRect().top + (Math.random() * 30 - 15) + 'px'; btnBubbleBurst.appendChild(bubble); setTimeout(() => bubble.remove(), 700); } });"
       },
       {
-        "id": 13,
+        "id": 46,
         "type": "Button",
         "author": "Thanh Tự",
         "title": " Box “vẫy tay” khi hover",
@@ -946,7 +992,7 @@
         "js": "const boxWave = document.querySelector('.box-wave'); boxWave.addEventListener('mouseenter', () => { let count = 0; const waveInterval = setInterval(() => { if(count > 5) { clearInterval(waveInterval); boxWave.style.transform = 'rotate(0deg)'; return; } const angle = count % 2 === 0 ? 15 : -15; boxWave.style.transform = `rotate(${angle}deg)`; count++; }, 200); });"
       },
       {
-        "id": 14,
+        "id": 37,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Box nhấp nháy đổi màu nền liên tục",
@@ -955,7 +1001,7 @@
         "js": ""
       },
       {
-        "id": 15,
+        "id": 38,
         "type": "Button",
         "author": "Thanh Tự",
         "title": " Button xoay và phóng to chậm rãi",
@@ -964,7 +1010,7 @@
         "js": ""
       },
       {
-        "id": 16,
+        "id": 39,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Box “nhấp nháy” theo thời gian",
@@ -973,7 +1019,7 @@
         "js": "const boxJSFlicker = document.querySelector('.box-js-flicker'); setInterval(() => { boxJSFlicker.style.opacity = boxJSFlicker.style.opacity === '0.5' ? '1' : '0.5'; }, 800);"
       },
       {
-        "id": 17,
+        "id": 40,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Button “sấm sét” nhanh",
@@ -982,7 +1028,7 @@
         "js": ""
       },
       {
-        "id": 18,
+        "id": 41,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Box hiệu ứng “vùng sáng” theo chuột",
@@ -991,7 +1037,7 @@
         "js": "const boxLightArea = document.querySelector('.box-light-area'); const lightArea = document.createElement('div'); lightArea.classList.add('light-area'); boxLightArea.appendChild(lightArea); boxLightArea.addEventListener('mousemove', e => { const rect = boxLightArea.getBoundingClientRect(); lightArea.style.top = (e.clientY - rect.top) + 'px'; lightArea.style.left = (e.clientX - rect.left) + 'px'; lightArea.style.opacity = '1'; }); boxLightArea.addEventListener('mouseleave', () => { lightArea.style.opacity = '0'; });"
       },
       {
-        "id": 19,
+        "id": 42,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Button ripple sóng lan tỏa khi click",
@@ -1000,7 +1046,7 @@
         "js": "document.querySelector('.btn-ripple').addEventListener('click', function(e) { const btn = e.currentTarget; const ripple = document.createElement('span'); ripple.classList.add('ripple-effect'); const rect = btn.getBoundingClientRect(); const size = Math.max(rect.width, rect.height); ripple.style.width = ripple.style.height = size + 'px'; ripple.style.left = e.clientX - rect.left - size/2 + 'px'; ripple.style.top = e.clientY - rect.top - size/2 + 'px'; btn.appendChild(ripple); setTimeout(() => ripple.remove(), 600); });"
       },
       {
-        "id": 20,
+        "id": 43,
         "type": "Button",
         "author": "Thanh Tự",
         "title": " Button chữ trượt ngang liên tục",
@@ -1009,7 +1055,7 @@
         "js": ""
       },
       {
-        "id": 21,
+        "id": 44,
         "type": "Button",
         "author": "Thanh Tự",
         "title": "Button “nhảy”",
@@ -1017,8 +1063,9 @@
         "css": ".btn-pulse-hover { padding: 14px 40px; background-color: #e74c3c; color: white; border-radius: 8px; border: none; font-weight: bold; cursor: pointer; transition: transform 0.3s ease; } .btn-pulse-hover:hover { animation: pulseAnim 0.6s forwards; } @keyframes pulseAnim { 50% { transform: scale(1.1); } 100% { transform: scale(1); } }",
         "js": ""
       },
+
       {
-        "id": 24,
+        "id": 45,
         "author": "VanBao",
         "type": "Card",
         "title": "Morphing Shape Card",
@@ -1027,7 +1074,7 @@
         "js": ""
       },
       {
-        "id": 25,
+        "id": 46,
         "author": "VanBao",
         "type": "Card",
         "title": "Perspective Tilt Card",
@@ -1036,7 +1083,7 @@
         "js": "const card = document.querySelector('.tilt-card'); card.addEventListener('mousemove', (e) => { const rect = card.getBoundingClientRect(); const x = e.clientX - rect.left; const y = e.clientY - rect.top; const centerX = rect.width / 2; const centerY = rect.height / 2; const rotateX = (y - centerY) / 10; const rotateY = (centerX - x) / 10; card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`; }); card.addEventListener('mouseleave', () => { card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0)'; });"
       },
       {
-        "id": 26,
+        "id": 47,
         "author": "VanBao",
         "type": "Card",
         "title": "Floating Card",
@@ -1327,27 +1374,7 @@
       {
         "id": 10,
         "author": "Thế Vĩnh",
-        "type": "Box",
-        "title": "Hộp 3D Xoay Điều Khiển",
-        "link": "",
-        "html": "<h3 style='text-align:center; color:#000; font-family: Arial, sans-serif;'>Hộp 3D Xoay Kéo Chuột</h3><div class='cube' id='cube'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
-        "css": ".cube { position: relative; width: 120px; height: 120px; transform-style: preserve-3d; transition: transform 1s; cursor: grab; margin: 0 auto; } .cube:active { cursor: grabbing; } .face { position: absolute; width: 120px; height: 120px; background: rgba(0, 150, 255, 0.8); border: 2px solid #fff; box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: bold; color: white; user-select: none; } .front  { transform: translateZ(60px); background: #1e90ff; } .back   { transform: rotateY(180deg) translateZ(60px); background: #007acc; } .right  { transform: rotateY(90deg) translateZ(60px); background: #3399ff; } .left   { transform: rotateY(-90deg) translateZ(60px); background: #2673d9; } .top    { transform: rotateX(90deg) translateZ(60px); background: #4da6ff; } .bottom { transform: rotateX(-90deg) translateZ(60px); background: #0066cc; }",
-        "js": "const cube = document.getElementById('cube'); let rotateX = -20; let rotateY = 20; let dragging = false; let lastX, lastY; function updateRotation() { cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`; } cube.addEventListener('mousedown', (e) => { dragging = true; lastX = e.clientX; lastY = e.clientY; cube.style.transition = 'none'; }); window.addEventListener('mouseup', () => { dragging = false; cube.style.transition = 'transform 1s'; }); window.addEventListener('mousemove', (e) => { if (!dragging) return; const deltaX = e.clientX - lastX; const deltaY = e.clientY - lastY; rotateY += deltaX * 0.5; rotateX -= deltaY * 0.5; rotateX = Math.min(Math.max(rotateX, -90), 90); updateRotation(); lastX = e.clientX; lastY = e.clientY; }); updateRotation();"
-      },
-      {
-        "id": 11,
-        "author": "Thế Vĩnh",
-        "type": "Box",
-        "title": "Hộp 3D Tự Xoay",
-        "link": "",
-        "html": "<div class='cube' id='cube'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
-        "css": "body { background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; perspective: 800px; font-family: Arial, sans-serif; color: #222; } .cube { position: relative; width: 120px; height: 120px; transform-style: preserve-3d; animation: autoRotate 15s linear infinite; cursor: default; border-radius: 10px; } .face { position: absolute; width: 120px; height: 120px; border: 2px solid rgba(0, 0, 0, 0.1); box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: 700; color: #222; user-select: none; text-shadow: none; } .front  { transform: translateZ(60px); background: linear-gradient(145deg, #6a11cb, #2575fc); box-shadow: 0 0 10px rgba(37, 117, 252, 0.6); color: #fff; } .back   { transform: rotateY(180deg) translateZ(60px); background: linear-gradient(145deg, #fc5c7d, #6a82fb); box-shadow: 0 0 10px rgba(252, 92, 125, 0.6); color: #fff; } .right  { transform: rotateY(90deg) translateZ(60px); background: linear-gradient(145deg, #f7971e, #ffd200); box-shadow: 0 0 10px rgba(255, 210, 0, 0.6); color: #222; } .left   { transform: rotateY(-90deg) translateZ(60px); background: linear-gradient(145deg, #11998e, #38ef7d); box-shadow: 0 0 10px rgba(56, 239, 125, 0.6); color: #222; } .top    { transform: rotateX(90deg) translateZ(60px); background: linear-gradient(145deg, #f85032, #e73827); box-shadow: 0 0 10px rgba(231, 56, 39, 0.6); color: #fff; } .bottom { transform: rotateX(-90deg) translateZ(60px); background: linear-gradient(145deg, #0f2027, #203a43, #2c5364); box-shadow: 0 0 10px rgba(44, 83, 100, 0.6); color: #fff; } @keyframes autoRotate { from { transform: rotateX(0deg) rotateY(0deg); } to { transform: rotateX(360deg) rotateY(360deg); } }",
-        "js": ""
-      },
-      {
-        "id": 12,
-        "author": "Thế Vĩnh",
-        "type": "Box",
+        "type": "3D Decor",
         "title": "Khung Hình 3D",
         "link": "",
         "html": "<div class='cube' id='cube'> <div class='face front'></div> <div class='face back'></div> <div class='face right'></div> <div class='face left'></div> <div class='face top'></div> <div class='face bottom'></div> </div>",
@@ -1355,9 +1382,9 @@
         "js": ""
       },
       {
-        "id": 13,
+        "id": 11,
         "author": "Thế Vĩnh",
-        "type": "Box",
+        "type": "3D Decor",
         "title": "Khung Trang Treo Tường 3D",
         "link": "",
         "html": "<div class='cube' id='cube'> <div class='face front'></div> <div class='face back'></div> <div class='face right'></div> <div class='face left'></div> <div class='face top'></div> <div class='face bottom'></div> <div class='group-nail'> <div class='face nail'></div> <div class='face nail'></div> <div class='face nail'></div> <div class='face nail-tip-back'></div> <div class='face nail-tip-front'></div> <div class='face nail-shaft-bottom'></div> <div class='face nail-shaft-top'></div> <div class='face nail-side-right'></div> <div class='face nail-side-left'></div> </div>",
@@ -1365,9 +1392,9 @@
         "js": ""
       },
       {
-        "id": 14,
+        "id": 12,
         "author": "Thế Vĩnh",
-        "type": "Box",
+        "type": "3D Decor",
         "title": "Biển Mời Chào 3D",
         "link": "",
         "html": "<div class='cube' id='cube'> <div class='face front'>WELCOME</div> <div class='face back'></div> <div class='face right'></div> <div class='face left'></div> <div class='face top'></div> <div class='face bottom'></div> </div>",
@@ -1375,9 +1402,9 @@
         "js": "const cube = document.getElementById('cube'); let rotateX = 0; let rotateY = 0; let dragging = false; let lastX, lastY; const autoRotateSpeed = 0.2; function updateRotation() { cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`; } function autoRotate() { if (!dragging) { rotateY += autoRotateSpeed; rotateX += autoRotateSpeed / 2; rotateX = Math.min(Math.max(rotateX, -90), 90); updateRotation(); } requestAnimationFrame(autoRotate); } cube.addEventListener('mousedown', (e) => { dragging = true; lastX = e.clientX; lastY = e.clientY; cube.style.transition = 'none'; }); window.addEventListener('mouseup', () => { dragging = false; cube.style.transition = 'transform 0.5s'; }); window.addEventListener('mousemove', (e) => { if (!dragging) return; const deltaX = e.clientX - lastX; const deltaY = e.clientY - lastY; rotateY += deltaX * 0.5; rotateX -= deltaY * 0.5; rotateX = Math.min(Math.max(rotateX, -90), 90); updateRotation(); lastX = e.clientX; lastY = e.clientY; }); updateRotation();"
       },
       {
-        "id": 15,
+        "id": 13,
         "author": "Thế Vĩnh",
-        "type": "Box",
+        "type": "3D Decor",
         "title": "Hiệu ứng phân tán mảnh vỡ 3D",
         "link": "",
         "html": "<div class='mirror' id='mirror'> <div class='face front'>Click </div> <div class='face back'> </div> <div class='piece_of_glass piece1'></div> <div class='piece_of_glass piece2'></div> <div class='piece_of_glass piece3'></div> <div class='piece_of_glass piece4'></div> <div class='piece_of_glass piece5'></div> <div class='piece_of_glass piece6'></div> </div>",
@@ -1385,9 +1412,29 @@
         "js": "const mirror = document.getElementById('mirror'); const pieces = mirror.querySelectorAll('.piece_of_glass'); let exploded = false; mirror.addEventListener('click', () => { exploded = !exploded; if (exploded) { mirror.classList.add('exploded'); pieces.forEach(piece => { const angle = Math.random() * 2 * Math.PI; const distanceXY = 150 + Math.random() * 100; const distanceZ = 50 + Math.random() * 100; const x = Math.cos(angle) * distanceXY; const y = Math.sin(angle) * distanceXY; const z = distanceZ; const rotate = (Math.random() * 60) - 30; piece.style.transform = `translate3d(${x}px, ${y}px, ${z}px) rotate(${rotate}deg) scale(1.2)`; piece.style.opacity = '0.9'; piece.style.zIndex = '10'; }); } else { mirror.classList.remove('exploded'); pieces.forEach(piece => { let baseRotate = 'none'; if (piece.classList.contains('piece1')) baseRotate = 'rotate(15deg) translateZ(0)'; else if (piece.classList.contains('piece2')) baseRotate = 'rotate(-10deg) translateZ(0)'; else if (piece.classList.contains('piece3')) baseRotate = 'rotate(8deg) translateZ(0)'; else if (piece.classList.contains('piece4')) baseRotate = 'rotate(-18deg) translateZ(0)'; else if (piece.classList.contains('piece5')) baseRotate = 'rotate(25deg) translateZ(0)'; else if (piece.classList.contains('piece6')) baseRotate = 'rotate(-12deg) translateZ(0)'; piece.style.transform = baseRotate; piece.style.opacity = '0.6'; piece.style.zIndex = '3'; }); } }); </script>"
       },
       {
+        "id": 14,
+        "author": "Thế Vĩnh",
+        "type": "Khối lập phương",
+        "title": "Hộp 3D Xoay Điều Khiển",
+        "link": "",
+        "html": "<h3 style='text-align:center; color:#000; font-family: Arial, sans-serif;'>Hộp 3D Xoay Kéo Chuột</h3><div class='cube' id='cube'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
+        "css": ".cube { position: relative; width: 120px; height: 120px; transform-style: preserve-3d; transition: transform 1s; cursor: grab; margin: 0 auto; } .cube:active { cursor: grabbing; } .face { position: absolute; width: 120px; height: 120px; background: rgba(0, 150, 255, 0.8); border: 2px solid #fff; box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: bold; color: white; user-select: none; } .front  { transform: translateZ(60px); background: #1e90ff; } .back   { transform: rotateY(180deg) translateZ(60px); background: #007acc; } .right  { transform: rotateY(90deg) translateZ(60px); background: #3399ff; } .left   { transform: rotateY(-90deg) translateZ(60px); background: #2673d9; } .top    { transform: rotateX(90deg) translateZ(60px); background: #4da6ff; } .bottom { transform: rotateX(-90deg) translateZ(60px); background: #0066cc; }",
+        "js": "const cube = document.getElementById('cube'); let rotateX = -20; let rotateY = 20; let dragging = false; let lastX, lastY; function updateRotation() { cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`; } cube.addEventListener('mousedown', (e) => { dragging = true; lastX = e.clientX; lastY = e.clientY; cube.style.transition = 'none'; }); window.addEventListener('mouseup', () => { dragging = false; cube.style.transition = 'transform 1s'; }); window.addEventListener('mousemove', (e) => { if (!dragging) return; const deltaX = e.clientX - lastX; const deltaY = e.clientY - lastY; rotateY += deltaX * 0.5; rotateX -= deltaY * 0.5; rotateX = Math.min(Math.max(rotateX, -90), 90); updateRotation(); lastX = e.clientX; lastY = e.clientY; }); updateRotation();"
+      },
+      {
+        "id": 15,
+        "author": "Thế Vĩnh",
+        "type": "Khối lập phương",
+        "title": "Hộp 3D Tự Xoay",
+        "link": "",
+        "html": "<div class='cube' id='cube'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
+        "css": "body { background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; perspective: 800px; font-family: Arial, sans-serif; color: #222; } .cube { position: relative; width: 120px; height: 120px; transform-style: preserve-3d; animation: autoRotate 15s linear infinite; cursor: default; border-radius: 10px; } .face { position: absolute; width: 120px; height: 120px; border: 2px solid rgba(0, 0, 0, 0.1); box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: 700; color: #222; user-select: none; text-shadow: none; } .front  { transform: translateZ(60px); background: linear-gradient(145deg, #6a11cb, #2575fc); box-shadow: 0 0 10px rgba(37, 117, 252, 0.6); color: #fff; } .back   { transform: rotateY(180deg) translateZ(60px); background: linear-gradient(145deg, #fc5c7d, #6a82fb); box-shadow: 0 0 10px rgba(252, 92, 125, 0.6); color: #fff; } .right  { transform: rotateY(90deg) translateZ(60px); background: linear-gradient(145deg, #f7971e, #ffd200); box-shadow: 0 0 10px rgba(255, 210, 0, 0.6); color: #222; } .left   { transform: rotateY(-90deg) translateZ(60px); background: linear-gradient(145deg, #11998e, #38ef7d); box-shadow: 0 0 10px rgba(56, 239, 125, 0.6); color: #222; } .top    { transform: rotateX(90deg) translateZ(60px); background: linear-gradient(145deg, #f85032, #e73827); box-shadow: 0 0 10px rgba(231, 56, 39, 0.6); color: #fff; } .bottom { transform: rotateX(-90deg) translateZ(60px); background: linear-gradient(145deg, #0f2027, #203a43, #2c5364); box-shadow: 0 0 10px rgba(44, 83, 100, 0.6); color: #fff; } @keyframes autoRotate { from { transform: rotateX(0deg) rotateY(0deg); } to { transform: rotateX(360deg) rotateY(360deg); } }",
+        "js": ""
+      },
+      {
         "id": 16,
         "author": "Thế Vĩnh",
-        "type": "Box",
+        "type": "Khối lập phương",
         "title": "Hiệu Ứng Khối Lập Phương Rơi Vui mắt",
         "link": "",
         "html": "<button id='btnFall'>Tạo khối</button> <div id='container'></div>",
@@ -1395,232 +1442,205 @@
         "js": "const btn = document.getElementById('btnFall'); const container = document.getElementById('container'); btn.addEventListener('click', () => { const cube = document.createElement('div'); cube.classList.add('cube'); const faces = ['front', 'back', 'right', 'left', 'top', 'bottom']; faces.forEach(faceName => { const face = document.createElement('div'); face.classList.add('face', faceName); cube.appendChild(face); }); const randomLeftPercent = Math.floor(Math.random() * 80) + 10; cube.style.left = `${randomLeftPercent}%`; cube.style.marginLeft = '-15px'; container.appendChild(cube); setTimeout(() => { cube.remove(); }, 5000); });"
       },
       {
-        "id": 1,
-        "type": "Khối lập phương",
+        "id": 17,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay 3D tự động",
         "html": "<div class='cube1'> <div class='face front'> <img src='../../assets/logo.svg' alt=''> </div> <div class='face back'> <img src='../../assets/logo.svg' alt=''> </div> <div class='face right'> <img src='../../assets/logo.svg' alt=''> </div> <div class='face left'> <img src='../../assets/logo.svg' alt=''> </div> <div class='face top'> <img src='../../assets/logo.svg' alt=''> </div> <div class='face bottom'> <img src='../../assets/logo.svg' alt=''> </div> </div>",
         "css": ".cube1 { width: 150px; height: 150px; position: relative; margin: 50px auto; transform-style: preserve-3d; animation: rotateCube 5s linear infinite; } .face { position: absolute; width: 150px; height: 150px; background: rgba(0, 0, 0, 0.7); border: 2px solid #004080; line-height: 150px; font-weight: bold; font-size: 20px; color: white; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes rotateCube { from { transform: rotateX(0deg) rotateY(0deg); } to { transform: rotateX(360deg) rotateY(360deg); } }",
         "js": ""
       },
       {
-        "id": 2,
-        "type": "Khối lập phương",
+        "id": 18,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": " Khối lập phương xoay theo chuột",
         "html": "<div class='cube2'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube2 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; transition: transform 0.1s; } .face { position: absolute; width: 150px; height: 150px; background: rgba(1, 1, 1, 0.7); border: 2px solid #efefef; line-height: 150px; font-weight: bold; font-size: 20px; color: white; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); }",
         "js": "const cube2 = document.querySelector('.cube2'); document.addEventListener('mousemove', e => { const x = e.clientX / window.innerWidth - 0.5; const y = e.clientY / window.innerHeight - 0.5; cube2.style.transform = `rotateX(${y * 360}deg) rotateY(${x * 360}deg)`; });"
       },
       {
-        "id": 3,
-        "type": "Khối lập phương",
+        "id": 19,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương lật khi hover",
         "html": "<div class='cube3'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube3 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; transition: transform 1s; } .cube3:hover { transform: rotateY(180deg); } .face { position: absolute; width: 150px; height: 150px; background: rgba(125, 125, 125, 0.7); border: 2px solid #010c06; line-height: 150px; font-weight: bold; font-size: 20px; color: white; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); }",
         "js": ""
       },
       {
-        "id": 4,
-        "type": "Khối lập phương",
+        "id": 20,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": " Khối lập phương xoay theo trục X",
         "html": "<div class='cube4'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube4 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; } .face { position: absolute; width: 150px; height: 150px; background: rgba(255, 50, 50, 0.7); border: 2px solid #800000; line-height: 150px; font-weight: bold; font-size: 20px; color: white; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); }",
         "js": "let angleX = 0; const cube4 = document.querySelector('.cube4'); function rotate() { angleX += 1; cube4.style.transform = `rotateX(${angleX}deg)`; requestAnimationFrame(rotate); } rotate();"
       },
       {
-        "id": 5,
-        "type": "Khối lập phương",
+        "id": 21,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay tròn và đổi màu",
         "html": "<div class='cube6'> <div class='face front'>1</div> <div class='face back'>2</div> <div class='face right'>3</div> <div class='face left'>4</div> <div class='face top'>5</div> <div class='face bottom'>6</div> </div>",
         "css": ".cube6 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; } .face { position: absolute; width: 150px; height: 150px; border: 2px solid #222; line-height: 150px; font-weight: bold; font-size: 24px; color: white; text-align: center; } .front { transform: translateZ(75px); background: red; } .back { transform: rotateY(180deg) translateZ(75px); background: orange; } .right { transform: rotateY(90deg) translateZ(75px); background: yellow; color: black; } .left { transform: rotateY(-90deg) translateZ(75px); background: green; } .top { transform: rotateX(90deg) translateZ(75px); background: blue; } .bottom { transform: rotateX(-90deg) translateZ(75px); background: purple; }",
         "js": "let angle = 0; const cube6 = document.querySelector('.cube6'); function animate() { angle += 1; cube6.style.transform = `rotateX(${angle}deg) rotateY(${angle}deg)`; requestAnimationFrame(animate); } animate();"
       },
       {
-        "id": 6,
-        "type": "Khối lập phương",
+        "id": 22,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay và bật sáng khi hover",
         "html": "<div class='cube7'> <div class='face front'>Front</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube7 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; transition: box-shadow 0.5s; animation: rotate7 10s linear infinite; } .cube7:hover { box-shadow: 0 0 30px 10px rgba(255,255,255,0.8); } .face { position: absolute; width: 150px; height: 150px; background: rgba(100, 100, 255, 0.8); border: 2px solid #5555ff; line-height: 150px; font-weight: bold; font-size: 20px; color: white; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes rotate7 { from { transform: rotateX(0) rotateY(0); } to { transform: rotateX(360deg) rotateY(360deg); } }",
         "js": ""
       },
       {
-        "id": 7,
-        "type": "Khối lập phương",
+        "id": 23,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": " Khối lập phương phóng to nhỏ liên tục",
         "html": "<div class='cube8'> <div class='face front'>Pulse</div> <div class='face back'>Pulse</div> <div class='face right'>Pulse</div> <div class='face left'>Pulse</div> <div class='face top'>Pulse</div> <div class='face bottom'>Pulse</div> </div>",
         "css": ".cube8 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: pulse 2s infinite ease-in-out; } .face { position: absolute; width: 150px; height: 150px; background: #ee5577; border: 2px solid #cc3366; line-height: 150px; font-weight: bold; font-size: 20px; color: white; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes pulse { 0%, 100% { transform: scale(1) rotateX(0) rotateY(0); } 50% { transform: scale(1.2) rotateX(180deg) rotateY(180deg); } }",
         "js": ""
       },
       {
-        "id": 8,
-        "type": "Khối lập phương",
+        "id": 24,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương nghiêng nhẹ 3D",
         "html": "<div class='cube9'> <div class='face front'>Tilt</div> <div class='face back'>Tilt</div> <div class='face right'>Tilt</div> <div class='face left'>Tilt</div> <div class='face top'>Tilt</div> <div class='face bottom'>Tilt</div> </div>",
         "css": ".cube9 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: tilt 3s ease-in-out infinite alternate; } .face { position: absolute; width: 150px; height: 150px; background: #55aaff; border: 2px solid #2277cc; line-height: 150px; font-weight: bold; font-size: 20px; color: white; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes tilt { 0% { transform: rotateX(360deg) rotateY(360deg); } 100% { transform: rotateX(15deg) rotateY(15deg); } }",
         "js": ""
       },
       {
-        "id": 9,
-        "type": "Khối lập phương",
+        "id": 25,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay chậm, đổi màu gradient",
         "html": "<div class='cube10'> <div class='face front'>A</div> <div class='face back'>B</div> <div class='face right'>C</div> <div class='face left'>D</div> <div class='face top'>E</div> <div class='face bottom'>F</div> </div>",
         "css": ".cube10 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: rotateSlow 10s linear infinite; } .face { position: absolute; width: 150px; height: 150px; background: linear-gradient(45deg, #ff7e5f, #feb47b); border: 2px solid #cc5c3d; line-height: 150px; font-weight: bold; font-size: 24px; color: white; text-align: center; } .back { background: linear-gradient(45deg, #6a11cb, #2575fc); border-color: #253080; } .right { background: linear-gradient(45deg, #56ab2f, #a8e063); border-color: #3f6f1a; } .left { background: linear-gradient(45deg, #614385, #516395); border-color: #423374; } .top { background: linear-gradient(45deg, #ee9ca7, #ffdde1); border-color: #aa6672; } .bottom { background: linear-gradient(45deg, #42275a, #734b6d); border-color: #381c45; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes rotateSlow { from { transform: rotateX(0deg) rotateY(0deg); } to { transform: rotateX(360deg) rotateY(360deg); } }",
         "js": ""
       },
       {
-        "id": 10,
-        "type": "Khối lập phương",
+        "id": 26,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương lật chậm khi hover, có bóng đổ 3D",
         "html": "<div class='cube11'> <div class='face front'>Hover Me</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube11 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; transition: transform 1s ease; box-shadow: 0 15px 20px rgba(0,0,0,0.3); } .cube11:hover { transform: rotateY(180deg); box-shadow: 0 30px 40px rgba(0,0,0,0.6); } .face { position: absolute; width: 150px; height: 150px; background: #008080; border: 2px solid #004040; color: white; font-weight: bold; font-size: 18px; line-height: 150px; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); }",
         "js": ""
       },
       {
-        "id": 11,
-        "type": "Khối lập phương",
+        "id": 27,
         "author": "Thanh Tự",
-        "title": "Khối lập phương có đèn sáng phía trước và bóng dưới",
-        "html": "<div class='cube13'> <div class='face front'>Lighted</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
-        "css": ".cube13 { width: 140px; height: 140px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: spinAndLight 8s linear infinite; filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5)); } .face { position: absolute; width: 140px; height: 140px; background: linear-gradient(135deg, #ff9966 0%, #ff5e62 100%); border: 2px solid #cc4d4d; color: white; font-weight: bold; font-size: 20px; line-height: 140px; text-align: center; box-shadow: 0 0 15px rgba(255, 94, 98, 0.7); } .front { transform: translateZ(70px); } .back { transform: rotateY(180deg) translateZ(70px); } .right { transform: rotateY(90deg) translateZ(70px); } .left { transform: rotateY(-90deg) translateZ(70px); } .top { transform: rotateX(90deg) translateZ(70px); } .bottom { transform: rotateX(-90deg) translateZ(70px); } @keyframes spinAndLight { 0% { transform: rotateX(0deg) rotateY(0deg) translateZ(0); } 50% { filter: drop-shadow(0 20px 20px rgba(255,0,0,0.8)); } 100% { transform: rotateX(360deg) rotateY(360deg) translateZ(0); } }",
-        "js": ""
-      },
-      {
-        "id": 12,
         "type": "Khối lập phương",
-        "author": "Thanh Tự",
         "title": "Khối lập phương phát sáng thay đổi màu",
         "html": "<div class='cube14'> <div class='face front'>Glow</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube14 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: rotateCube 6s linear infinite; box-shadow: 0 0 20px 5px rgba(255, 0, 255, 0.7); } .face { position: absolute; width: 150px; height: 150px; background: #800080; border: 2px solid #4b004b; color: white; font-weight: bold; font-size: 22px; line-height: 150px; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes rotateCube { from { transform: rotateX(0deg) rotateY(0deg); } to { transform: rotateX(360deg) rotateY(360deg); } }",
         "js": "const cube14 = document.querySelector('.cube14'); let glowHue = 0; setInterval(() => { glowHue = (glowHue + 5) % 360; cube14.style.boxShadow = `0 0 30px 8px hsl(${glowHue}, 100%, 70%)`; }, 100);"
       },
       {
-        "id": 13,
-        "type": "Khối lập phương",
+        "id": 28,
         "author": "Thanh Tự",
-        "title": "Khối lập phương xoay tự động và thay đổi độ trong suốt",
-        "html": "<div class='cube19'> <div class='face front'>Opacity</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
-        "css": ".cube19 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: rotateFade 10s linear infinite; } .face { position: absolute; width: 150px; height: 150px; background: rgba(255, 0, 0, 0.8); border: 2px solid #800000; color: white; font-weight: bold; font-size: 20px; line-height: 150px; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes rotateFade { 0% { transform: rotateX(0deg) rotateY(0deg); opacity: 1; } 50% { opacity: 0.3; } 100% { transform: rotateX(360deg) rotateY(360deg); opacity: 1; } }",
-        "js": ""
-      },
-      {
-        "id": 14,
         "type": "Khối lập phương",
-        "author": "Thanh Tự",
         "title": "Khối lập phương xoay chậm với mặt lưới",
         "html": "<div class='cube21'> <div class='face front'>Grid</div> <div class='face back'>Grid</div> <div class='face right'>Grid</div> <div class='face left'>Grid</div> <div class='face top'>Grid</div> <div class='face bottom'>Grid</div> </div>",
         "css": ".cube21 { width: 160px; height: 160px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: rotateCube 12s linear infinite; } .face { position: absolute; width: 160px; height: 160px; background: repeating-linear-gradient( 0deg, #555, #555 2px, #222 2px, #222 6px ), repeating-linear-gradient( 90deg, #555, #555 2px, #222 2px, #222 6px ); border: 1px solid #333; color: white; font-weight: bold; font-size: 22px; line-height: 160px; text-align: center; user-select: none; } .front { transform: translateZ(80px); } .back { transform: rotateY(180deg) translateZ(80px); } .right { transform: rotateY(90deg) translateZ(80px); } .left { transform: rotateY(-90deg) translateZ(80px); } .top { transform: rotateX(90deg) translateZ(80px); } .bottom { transform: rotateX(-90deg) translateZ(80px); } @keyframes rotateCube { 0% { transform: rotateX(0) rotateY(0); } 100% { transform: rotateX(360deg) rotateY(360deg); } }",
         "js": ""
       },
       {
-        "id": 15,
-        "type": "Khối lập phương",
+        "id": 29,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay 3D và đổi nền mặt",
         "html": "<div class='cube25'> <div class='face front'>Change</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube25 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: rotateCube 8s linear infinite; } .face { position: absolute; width: 150px; height: 150px; border: 2px solid #333; color: white; font-weight: bold; font-size: 20px; line-height: 150px; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); }",
         "js": "const cube25 = document.querySelector('.cube25'); const faces = cube25.querySelectorAll('.face'); const colors = ['#e74c3c', '#8e44ad', '#3498db', '#27ae60', '#f39c12', '#d35400']; let index = 0; faces.forEach((face, i) => face.style.background = colors[i]); setInterval(() => { index = (index + 1) % colors.length; faces.forEach((face, i) => { face.style.background = colors[(i + index) % colors.length]; }); }, 1500); function rotateCube() { let angle = 0; setInterval(() => { angle = (angle + 2) % 360; cube25.style.transform = `rotateX(${angle}deg) rotateY(${angle}deg)`; }, 50); } rotateCube();"
       },
       {
-        "id": 16,
-        "type": "Khối lập phương",
+        "id": 30,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương lật theo trục Y chậm",
         "html": "<div class='cube27'> <div class='face front'>Flip</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube27 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: flipY 6s ease-in-out infinite; } .face { position: absolute; width: 150px; height: 150px; background: #067272; border: 2px solid #99ae99; color: white; font-weight: bold; font-size: 20px; line-height: 150px; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes flipY { 0%, 100% { transform: rotateY(0deg); } 50% { transform: rotateY(180deg); } }",
         "js": ""
       },
       {
-        "id": 17,
-        "type": "Khối lập phương",
+        "id": 31,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": " Khối lập phương xoay nhanh khi hover",
         "html": "<div class='cube28'> <div class='face front'>Hover Spin</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": ".cube28 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: spinSlow 10s linear infinite; transition: animation-duration 0.3s ease; } .cube28:hover { animation-duration: 1s; } .face { position: absolute; width: 150px; height: 150px; background: #ff9800; border: 2px solid #cc7000; color: white; font-weight: bold; font-size: 22px; line-height: 150px; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes spinSlow { 0% { transform: rotateX(0) rotateY(0); } 100% { transform: rotateX(360deg) rotateY(360deg); } }",
         "js": ""
       },
       {
-        "id": 18,
-        "type": "Khối lập phương",
+        "id": 32,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay 3D linh hoạt theo chuột",
         "html": "<div id='cube1' class='cube-anim'> <div class='face front'>1</div> <div class='face back'>2</div> <div class='face right'>3</div> <div class='face left'>4</div> <div class='face top'>5</div> <div class='face bottom'>6</div> </div>",
         "css": "body { height: 100vh; margin: 0; background: #222; display: flex; justify-content: center; align-items: center; perspective: 900px; } #cube1 { width: 200px; height: 200px; position: relative; transform-style: preserve-3d; cursor: grab; user-select: none; } .face { position: absolute; width: 200px; height: 200px; background: linear-gradient(45deg, #3498db, #2980b9); border: 2px solid #1f618d; color: white; font-weight: bold; font-size: 32px; line-height: 200px; text-align: center; box-shadow: 0 0 15px rgba(0,0,0,0.5); } .front { transform: translateZ(100px); } .back { transform: rotateY(180deg) translateZ(100px); } .right { transform: rotateY(90deg) translateZ(100px); } .left { transform: rotateY(-90deg) translateZ(100px); } .top { transform: rotateX(90deg) translateZ(100px); } .bottom { transform: rotateX(-90deg) translateZ(100px); }",
         "js": "const cube1 = document.getElementById('cube1'); let isDragging = false; let previousX, previousY; let rotationX = 0; let rotationY = 0; let velocityX = 0; let velocityY = 0; const friction = 0.95; function animate() { if (!isDragging) { rotationX += velocityY; rotationY += velocityX; velocityX *= friction; velocityY *= friction; cube1.style.transform = `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`; } requestAnimationFrame(animate); } cube1.addEventListener('mousedown', e => { isDragging = true; previousX = e.clientX; previousY = e.clientY; cube1.style.cursor = 'grabbing'; }); window.addEventListener('mouseup', () => { isDragging = false; cube1.style.cursor = 'grab'; }); window.addEventListener('mousemove', e => { if (isDragging) { const deltaX = e.clientX - previousX; const deltaY = e.clientY - previousY; rotationY += deltaX * 0.5; rotationX -= deltaY * 0.5; velocityX = deltaX * 0.1; velocityY = deltaY * 0.1; cube1.style.transform = `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`; previousX = e.clientX; previousY = e.clientY; } }); animate();"
       },
       {
-        "id": 19,
-        "type": "Khối lập phương",
+        "id": 33,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay bounce",
         "html": "<div id='cube2' class='cube-anim bounce'> <div class='face front'>Bounce</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": "#cube2 { width: 180px; height: 180px; margin: 100px auto; position: relative; transform-style: preserve-3d; animation: spinBounce 6s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; } .face { position: absolute; width: 180px; height: 180px; background: linear-gradient(135deg, #e67e22, #d35400); border-radius: 15px; border: 2px solid #b25000; color: white; font-weight: 700; font-size: 28px; line-height: 180px; text-align: center; box-shadow: 0 0 15px rgba(0,0,0,0.5); } .front  { transform: translateZ(90px); } .back   { transform: rotateY(180deg) translateZ(90px); } .right  { transform: rotateY(90deg) translateZ(90px); } .left   { transform: rotateY(-90deg) translateZ(90px); } .top    { transform: rotateX(90deg) translateZ(90px); } .bottom { transform: rotateX(-90deg) translateZ(90px); } @keyframes spinBounce { 0%, 100% { transform: rotateX(0deg) rotateY(0deg) translateY(0); } 50% { transform: rotateX(180deg) rotateY(180deg) translateY(-60px); } }",
         "js": ""
       },
       {
-        "id": 20,
-        "type": "Khối lập phương",
+        "id": 34,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay 3D với hiệu ứng phản chiếu sáng động",
         "html": "<div id='cube6' class='cube-anim' style='margin-top: 80px;'> <div class='face front'>Light</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": "#cube6 { width: 180px; height: 180px; margin: auto; position: relative; transform-style: preserve-3d; } .face { position: absolute; width: 180px; height: 180px; border-radius: 20px; border: 2px solid #333; background: #34495e; color: white; font-weight: 700; font-size: 32px; line-height: 180px; text-align: center; box-shadow: 0 0 30px rgba(0,0,0,0.6); transition: box-shadow 0.2s ease; } .front  { transform: translateZ(90px); } .back   { transform: rotateY(180deg) translateZ(90px); } .right  { transform: rotateY(90deg) translateZ(90px); } .left   { transform: rotateY(-90deg) translateZ(90px); } .top    { transform: rotateX(90deg) translateZ(90px); } .bottom { transform: rotateX(-90deg) translateZ(90px); }",
         "js": "const cube6 = document.getElementById('cube6'); let angleX = 0; let angleY = 0; function animate() { angleX += 0.7; angleY += 0.9; cube6.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg)`; const lightIntensity = (Math.sin(angleY * Math.PI / 180) + 1) / 2 * 0.7 + 0.3; cube6.querySelectorAll('.face').forEach(face => { face.style.boxShadow = `0 0 30px rgba(255,255,255,${lightIntensity})`; }); requestAnimationFrame(animate); } animate();"
       },
       {
-        "id": 21,
-        "type": "Khối lập phương",
+        "id": 35,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay và nhấp nháy sáng theo nhịp",
         "html": "<div id='cube7' class='cube-anim' style='margin-top: 80px;'> <div class='face front'>Blink</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": "#cube7 { width: 160px; height: 160px; margin: auto; position: relative; transform-style: preserve-3d; } .face { position: absolute; width: 160px; height: 160px; border-radius: 20px; border: 2px solid #fffdfd; background: #000000; color: white; font-weight: 700; font-size: 30px; line-height: 160px; text-align: center; box-shadow: 0 0 20px rgba(39,174,96,0.7); transition: box-shadow 0.3s ease; } .front  { transform: translateZ(80px); } .back   { transform: rotateY(180deg) translateZ(80px); } .right  { transform: rotateY(90deg) translateZ(80px); } .left   { transform: rotateY(-90deg) translateZ(80px); } .top    { transform: rotateX(90deg) translateZ(80px); } .bottom { transform: rotateX(-90deg) translateZ(80px); }",
         "js": "const cube7 = document.getElementById('cube7'); let angle = 0; let blinkState = false; function animate() { angle = (angle + 1) % 360; cube7.style.transform = `rotateX(${angle}deg) rotateY(${angle}deg)`; blinkState = !blinkState; cube7.querySelectorAll('.face').forEach(face => { face.style.boxShadow = blinkState ? '0 0 30px 10px rgba(39,174,96,0.9)' : '0 0 20px rgba(39,174,96,0.6)'; }); setTimeout(animate, 300); } animate();"
       },
       {
-        "id": 22,
-        "type": "Khối lập phương",
+        "id": 36,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối lập phương xoay 3D với hiệu ứng bóng neon đổi màu ",
         "html": "<div id='cube9' class='cube-anim' style='margin-top: 80px;'> <div class='face front'>Neon</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
         "css": "#cube9 { width: 180px; height: 180px; margin: auto; position: relative; transform-style: preserve-3d; } .face { position: absolute; width: 180px; height: 180px; border-radius: 20px; border: 2px solid #222; background: #111; color: white; font-weight: 700; font-size: 32px; line-height: 180px; text-align: center; box-shadow: 0 0 20px #0ff; transition: box-shadow 0.3s ease; } .front  { transform: translateZ(90px); } .back   { transform: rotateY(180deg) translateZ(90px); } .right  { transform: rotateY(90deg) translateZ(90px); } .left   { transform: rotateY(-90deg) translateZ(90px); } .top    { transform: rotateX(90deg) translateZ(90px); } .bottom { transform: rotateX(-90deg) translateZ(90px); }",
         "js": "const cube9 = document.getElementById('cube9'); let hue = 0; function animate() { hue = (hue + 2) % 360; cube9.style.transform = `rotateX(${hue}deg) rotateY(${hue}deg)`; const color = `hsl(${hue}, 100%, 70%)`; cube9.querySelectorAll('.face').forEach(face => { face.style.boxShadow = `0 0 30px 10px ${color}`; face.style.borderColor = color; }); requestAnimationFrame(animate); } animate();"
       },
       {
-        "id": 23,
-        "type": "Khối lập phương",
+        "id": 37,
         "author": "Thanh Tự",
-        "title": "Hiệu ứng bọt nổi 3D",
-        "html": "<div id='bubbles' style='position: relative; width: 300px; height: 300px; margin: 100px auto; perspective: 800px; background: #111; border-radius: 20px; overflow: hidden;'></div>",
-        "css": ".bubble { position: absolute; width: 30px; height: 30px; background: radial-gradient(circle, #1091b9 60%, transparent 100%); border-radius: 50%; filter: drop-shadow(0 0 5px #f0ecf2); opacity: 0.8; transform-style: preserve-3d; }",
-        "js": "const container = document.getElementById('bubbles'); const bubbleCount = 15; let bubbles = []; for(let i=0; i < bubbleCount; i++) { const bubble = document.createElement('div'); bubble.className = 'bubble'; bubble.style.left = `${Math.random() * 270}px`; bubble.style.bottom = `${-30 - Math.random() * 100}px`; bubble.style.transform = `translateZ(${Math.random() * 200}px)`; container.appendChild(bubble); bubbles.push({ el: bubble, x: parseFloat(bubble.style.left), z: Math.random() * 200, speed: 0.5 + Math.random(), y: -30 - Math.random() * 100 }); } function animateBubbles() { bubbles.forEach(b => { b.y += b.speed; if(b.y > 330) { b.y = -30; b.x = Math.random() * 270; b.z = Math.random() * 200; } b.el.style.bottom = `${b.y}px`; b.el.style.left = `${b.x}px`; b.el.style.transform = `translateZ(${b.z}px)`; }); requestAnimationFrame(animateBubbles); } animateBubbles();"
-      },
-      {
-        "id": 24,
         "type": "Khối lập phương",
-        "author": "Thanh Tự",
         "title": "Sóng 3D uốn lượn",
         "html": "<div style='perspective: 1000px; width: 600px; margin: 80px auto; display: flex; gap: 10px; justify-content: center;'> <div class='wave-block' style='width:40px; height: 40px; background:#3498db; border-radius: 6px; transform-style: preserve-3d;'></div> <div class='wave-block' style='width:40px; height: 40px; background:#3498db; border-radius: 6px; transform-style: preserve-3d;'></div> <div class='wave-block' style='width:40px; height: 40px; background:#3498db; border-radius: 6px; transform-style: preserve-3d;'></div> <div class='wave-block' style='width:40px; height: 40px; background:#3498db; border-radius: 6px; transform-style: preserve-3d;'></div> <div class='wave-block' style='width:40px; height: 40px; background:#3498db; border-radius: 6px; transform-style: preserve-3d;'></div> </div>",
         "css": "",
         "js": "const blocks = document.querySelectorAll('.wave-block'); let time = 0; function waveAnimate() { blocks.forEach((block, i) => { const angle = time + i * 0.7; const translateY = Math.sin(angle) * 30; const rotateX = Math.cos(angle) * 20; block.style.transform = `translateY(${translateY}px) rotateX(${rotateX}deg)`; }); time += 0.1; requestAnimationFrame(waveAnimate); } waveAnimate();"
       },
       {
-        "id": 25,
-        "type": "Khối lập phương",
+        "id": 38,
         "author": "Thanh Tự",
+        "type": "Khối lập phương",
         "title": "Khối 3D xoay gradient động theo chuột ",
         "html": "<div style='perspective: 1200px; height: 300px; display:flex; justify-content:center; align-items:center;'> <div id='cubeGrad' class='cube-grad'> <div class='face front'>Gradient</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div> </div>",
         "css": ".cube-grad { width: 200px; height: 200px; position: relative; transform-style: preserve-3d; border-radius: 20px; } .cube-grad .face { position: absolute; width: 200px; height: 200px; border-radius: 20px; border: 2px solid #222; color: white; font-weight: 700; font-size: 32px; line-height: 200px; text-align: center; background: linear-gradient(45deg, #ff416c, #ff4b2b); transition: background 0.3s ease; } .front  { transform: translateZ(100px); } .back   { transform: rotateY(180deg) translateZ(100px); } .right  { transform: rotateY(90deg) translateZ(100px); } .left   { transform: rotateY(-90deg) translateZ(100px); } .top    { transform: rotateX(90deg) translateZ(100px); } .bottom { transform: rotateX(-90deg) translateZ(100px); }",
         "js": "const cubeGrad = document.getElementById('cubeGrad'); const facesGrad = cubeGrad.querySelectorAll('.face'); document.addEventListener('mousemove', e => { const cx = window.innerWidth / 2; const cy = window.innerHeight / 2; const dx = (e.clientX - cx) / cx; const dy = (e.clientY - cy) / cy; const rotateX = dy * 30; const rotateY = dx * 30; cubeGrad.style.transform = `rotateX(${-rotateX}deg) rotateY(${rotateY}deg)`; const gradient1 = `linear-gradient(45deg, hsl(${(dx + 1)*180}, 80%, 60%), hsl(${(dy + 1)*180}, 80%, 60%))`; facesGrad.forEach(face => { face.style.background = gradient1; }); });"
       },
       {
-        "id": 17,
+        "id": 39,
         "author": "Thế Vĩnh",
         "type": "Icon",
         "title": "Hiệu Ứng 3D Icon Bay Lên Neon",
@@ -1630,7 +1650,8 @@
         "js": ""
       },
       {
-        "id": 1,
+        "id": 40,
+        "author": "VanBao",
         "type": "Button",
         "title": "Neon Glowing 3D Button",
         "html": "<button class='neon-btn'>Click Me</button>",
@@ -1638,7 +1659,7 @@
         "js": ""
       },
       {
-        "id": 3,
+        "id": 41,
         "author": "VanBao",
         "type": "Card",
         "title": "Kéo thẻ sang trái/phải để lật & hiện thẻ bên dưới với BG đẹp, glow khi kéo",
@@ -1647,7 +1668,7 @@
         "js": "const stack = document.querySelector('.drag-stack');\nlet cards = [...document.querySelectorAll('.card')];\n\nlet startX = 0;\nlet currentX = 0;\nlet draggingCard = null;\n\nfunction setCardTransforms() {\n  cards.forEach((card, index) => {\n    const offsetY = -30 * index;\n    const offsetZ = -40 * index;\n    card.style.transform = `translateX(0px) translateY(${offsetY}px) translateZ(${offsetZ}px) rotateY(0deg)`;\n    card.style.transition = 'transform 0.3s ease';\n    card.classList.remove('dragging');\n  });\n}\n\nfunction onPointerDown(e) {\n  if (cards.length === 0) return;\n  draggingCard = cards[0];\n  startX = e.clientX || (e.touches && e.touches[0].clientX);\n  draggingCard.style.transition = 'none';\n  draggingCard.classList.add('dragging');\n  stack.style.userSelect = 'none';\n}\n\nfunction onPointerMove(e) {\n  if (!draggingCard) return;\n  currentX = e.clientX || (e.touches && e.touches[0].clientX);\n  const deltaX = currentX - startX;\n  const rotateY = deltaX * 0.3;\n  draggingCard.style.transform = `translateX(${deltaX}px) translateY(calc(var(--i) * -30px)) translateZ(calc(var(--i) * -40px)) rotateY(${rotateY}deg)`;\n}\n\nfunction onPointerUp(e) {\n  if (!draggingCard) return;\n  const deltaX = currentX - startX;\n  const threshold = 120;\n\n  if (Math.abs(deltaX) > threshold) {\n    draggingCard.style.transition = 'transform 0.4s ease, opacity 0.4s ease';\n    draggingCard.style.opacity = '0';\n    draggingCard.style.transform = `translateX(${deltaX > 0 ? 500 : -500}px) translateY(calc(var(--i) * -30px)) translateZ(calc(var(--i) * -40px)) rotateY(${deltaX > 0 ? 45 : -45}deg)`;\n    setTimeout(() => {\n      if (draggingCard && draggingCard.parentNode === stack) {\n        stack.removeChild(draggingCard);\n      }\n      cards = [...document.querySelectorAll('.card')];\n      updateCardIndexes();\n      setCardTransforms();\n    }, 400);\n  } else {\n    draggingCard.style.transition = 'transform 0.4s ease';\n    draggingCard.style.transform = `translateX(0) translateY(calc(var(--i) * -30px)) translateZ(calc(var(--i) * -40px)) rotateY(0deg)`;\n  }\n  draggingCard.classList.remove('dragging');\n  draggingCard = null;\n  stack.style.userSelect = '';\n}\n\nfunction updateCardIndexes() {\n  cards.forEach((card, idx) => {\n    card.style.setProperty('--i', idx);\n    card.style.zIndex = 100 - idx;\n  });\n}\n\nstack.addEventListener('mousedown', onPointerDown);\nstack.addEventListener('touchstart', onPointerDown);\nwindow.addEventListener('mousemove', onPointerMove);\nwindow.addEventListener('touchmove', onPointerMove);\nwindow.addEventListener('mouseup', onPointerUp);\nwindow.addEventListener('touchend', onPointerUp);\n\nupdateCardIndexes();\nsetCardTransforms();"
       },
       {
-        "id": 4,
+        "id": 42,
         "author": "VanBao",
         "type": "3D",
         "title": "Kéo xoay 3D Sphere lật mặt trước/sau",
@@ -1656,7 +1677,7 @@
         "js": "const sphere = document.querySelector('.gradient-sphere-container');\nconst sphereInner = document.querySelector('.gradient-sphere');\n\nlet isDragging = false;\nlet startX;\nlet currentRotationY = 0;\n\nsphere.addEventListener('mousedown', (e) => {\n  isDragging = true;\n  startX = e.clientX;\n  sphere.style.cursor = 'grabbing';\n});\n\nwindow.addEventListener('mouseup', () => {\n  isDragging = false;\n  sphere.style.cursor = 'grab';\n});\n\nwindow.addEventListener('mousemove', (e) => {\n  if (!isDragging) return;\n\n  const deltaX = e.clientX - startX;\n  startX = e.clientX;\n\n  currentRotationY += deltaX * 0.5;\n  sphereInner.style.transform = `rotateY(${currentRotationY}deg)`;\n});"
       },
       {
-        "id": 5,
+        "id": 43,
         "author": "VanBao",
         "type": "3D",
         "title": "Kiếm Rồng 3D với hoa văn, hiệu ứng chém sáng tiên hiệp",
@@ -1665,43 +1686,7 @@
         "js": "const canvas = document.getElementById('slashCanvas');\nconst ctx = canvas.getContext('2d');\nlet width, height;\n\nfunction resize() {\n  width = window.innerWidth;\n  height = window.innerHeight;\n  const dpr = window.devicePixelRatio || 1;\n  canvas.width = width * dpr;\n  canvas.height = height * dpr;\n  canvas.style.width = width + 'px';\n  canvas.style.height = height + 'px';\n  ctx.setTransform(1, 0, 0, 1, 0, 0);\n  ctx.scale(dpr, dpr);\n}\nresize();\nwindow.addEventListener('resize', resize);\n\nclass Slash {\n  constructor(x, y, dx, dy) {\n    this.x = x;\n    this.y = y;\n    this.dx = dx * 5;\n    this.dy = dy * 5;\n    this.alpha = 1;\n    this.length = 100;\n    this.life = 20;\n    this.age = 0;\n  }\n  update() {\n    this.x += this.dx;\n    this.y += this.dy;\n    this.age++;\n    this.alpha = 1 - this.age / this.life;\n  }\n  draw() {\n    ctx.save();\n    ctx.lineCap = 'round';\n    ctx.strokeStyle = `rgba(255, 230, 130, ${this.alpha})`;\n    ctx.shadowColor = `rgba(255, 230, 130, ${this.alpha})`;\n    ctx.shadowBlur = 20;\n    ctx.lineWidth = 6 * this.alpha;\n    ctx.beginPath();\n    ctx.moveTo(this.x, this.y);\n    ctx.lineTo(this.x - this.dx * this.length, this.y - this.dy * this.length);\n    ctx.stroke();\n    ctx.restore();\n  }\n}\n\nconst slashes = [];\n\nfunction animate() {\n  ctx.clearRect(0, 0, width, height);\n  for (let i = slashes.length -1; i >= 0; i--) {\n    const s = slashes[i];\n    s.update();\n    s.draw();\n    if (s.age >= s.life) slashes.splice(i,1);\n  }\n  requestAnimationFrame(animate);\n}\nanimate();\n\nlet lastX = 0;\nlet lastY = 0;\nlet isDragging = false;\n\nconst sword = document.getElementById('sword');\nsword.addEventListener('pointerdown', e => {\n  isDragging = true;\n  lastX = e.clientX;\n  lastY = e.clientY;\n});\nwindow.addEventListener('pointerup', e => {\n  isDragging = false;\n});\nwindow.addEventListener('pointermove', e => {\n  if (!isDragging) return;\n  const dx = e.clientX - lastX;\n  const dy = e.clientY - lastY;\n  if (Math.abs(dx) > 3 || Math.abs(dy) > 3) {\n    slashes.push(new Slash(e.clientX, e.clientY, dx, dy));\n    lastX = e.clientX;\n    lastY = e.clientY;\n  }\n});"
       },
       {
-        "id": 6,
-        "author": "VanBao",
-        "type": "Card",
-        "title": "Hiệu ứng 3D lộn xộn, nhấn để di chuyển ngăn nắp",
-        "html": "<div class='container' id='3dContainer'>\n  <div class='box' style='--i:0'></div>\n  <div class='box' style='--i:1'></div>\n  <div class='box' style='--i:2'></div>\n  <div class='box' style='--i:3'></div>\n  <div class='box' style='--i:4'></div>\n</div>",
-        "css": "html, body {\n  margin: 0;\n  padding: 0;\n  height: 100%;\n  background-color: #1a1a1a;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n}\n\n.container {\n  width: 300px;\n  height: 300px;\n  display: flex;\n  flex-wrap: wrap;\n  position: relative;\n  transform-style: preserve-3d;\n  transform: rotateX(-20deg) rotateY(30deg);\n  transition: transform 0.5s ease, box-shadow 0.5s ease;\n  box-shadow: 0 0 40px rgba(0, 255, 255, 0.5);\n  background: linear-gradient(135deg, rgba(0,255,255,0.2), rgba(255, 255, 255, 0.1));\n}\n\n.container.clicked {\n  transform: rotateX(0deg) rotateY(0deg);\n  box-shadow: 0 0 80px rgba(0, 255, 255, 0.9);\n}\n\n.box {\n  width: 50px;\n  height: 50px;\n  margin: 5px;\n  background: linear-gradient(135deg, #00ffff, #00b3b3);\n  border-radius: 12px;\n  box-shadow: 0 8px 16px rgba(0, 255, 255, 0.5);\n  position: absolute;\n  transition: transform 0.5s ease, box-shadow 0.5s ease;\n  transform: rotateY(calc(var(--i) * 45deg)) translateZ(150px);\n  cursor: pointer;\n  transform: rotateX(calc(1000 * (Math.random() - 0.5))) rotateY(calc(1000 * (Math.random() - 0.5))) translateZ(1000px);\n}\n\n.box:hover {\n  background: linear-gradient(135deg, #00ffff, #009999);\n  box-shadow: 0 15px 30px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.7);\n}\n\n.container.clicked .box {\n  position: relative;\n  transform: translateX(0) translateY(0) translateZ(0);\n  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.7);\n}",
-        "js": "const container = document.getElementById('3dContainer');\ncontainer.addEventListener('click', () => {\n  container.classList.toggle('clicked');\n});"
-      },
-      {
-        "id": 8,
-        "author": "VanBao",
-        "type": "Text",
-        "title": "3D Flip Text",
-        "html": "<div class='flip-text'>Flip Me!</div>",
-        "css": ".flip-text { font-size: 4rem; font-weight: 900; text-align: center; margin: 80px auto; perspective: 1000px; cursor: pointer; } .flip-text:hover { animation: flip 1s forwards; } @keyframes flip { 0% { transform: rotateX(0deg); color: #000; } 50% { color: #ff3c78; } 100% { transform: rotateX(360deg); color: #000; } }",
-        "js": ""
-      },
-      {
-        "id": 9,
-        "author": "VanBao",
-        "type": "Box",
-        "title": "Rotating Cube Loader",
-        "html": "<div class='loader-cube'><div class='face front'></div><div class='face back'></div><div class='face right'></div><div class='face left'></div><div class='face top'></div><div class='face bottom'></div></div>",
-        "css": ".loader-cube { width: 100px; height: 100px; margin: 60px auto; perspective: 800px; position: relative; animation: loaderSpin 2.5s linear infinite; } .face { position: absolute; width: 100px; height: 100px; background: linear-gradient(135deg, #fc5c7d, #6a82fb); border-radius: 10px; box-shadow: 0 0 20px rgba(252,92,125,0.7); } .front { transform: translateZ(50px); } .back { transform: rotateY(180deg) translateZ(50px); } .right { transform: rotateY(90deg) translateZ(50px); } .left { transform: rotateY(-90deg) translateZ(50px); } .top { transform: rotateX(90deg) translateZ(50px); } .bottom { transform: rotateX(-90deg) translateZ(50px); } @keyframes loaderSpin { 0% { transform: rotateX(0) rotateY(0); } 100% { transform: rotateX(360deg) rotateY(360deg); } }",
-        "js": ""
-      },
-      {
-        "id": 10,
-        "author": "VanBao",
-        "type": "Box",
-        "title": "3D Sliding Doors",
-        "html": "<div class='doors'><div class='door left'>Left</div><div class='door right'>Right</div></div>",
-        "css": ".doors { width: 320px; height: 200px; margin: 60px auto; perspective: 1200px; position: relative; } .door { width: 160px; height: 100%; position: absolute; top: 0; background: linear-gradient(45deg, #ff416c, #ff4b2b); color: white; font-weight: 700; font-size: 2rem; display: flex; justify-content: center; align-items: center; border-radius: 15px; transition: transform 0.7s ease; cursor: pointer; } .door.left { left: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; } .door.right { right: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; } .doors:hover .door.left { transform: translateX(-50%) rotateY(15deg); } .doors:hover .door.right { transform: translateX(50%) rotateY(-15deg); }",
-        "js": ""
-      },
-      {
-        "id": 11,
+        "id": 44,
         "author": "VanBao",
         "type": "3D",
         "title": "Bouncing 3D Sphere",
@@ -1710,7 +1695,7 @@
         "js": ""
       },
       {
-        "id": 12,
+        "id": 45,
         "author": "VanBao",
         "type": "3D",
         "title": "3D Image Flip",
@@ -1719,16 +1704,7 @@
         "js": ""
       },
       {
-        "id": 13,
-        "author": "VanBao",
-        "type": "Box",
-        "title": "3D Galaxy",
-        "html": "<div class='galaxy-container'><canvas id='galaxyCanvas'></canvas></div>",
-        "css": ".galaxy-container { perspective: 1200px; width: 400px; height: 400px; background: #000; margin: auto; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.7); } canvas { width: 100%; height: 100%; display: block; }",
-        "js": "const canvas = document.getElementById('galaxyCanvas'); const ctx = canvas.getContext('2d'); const stars = []; class Star { constructor() { this.x = Math.random() * canvas.width - canvas.width/2; this.y = Math.random() * canvas.height - canvas.height/2; this.z = Math.random() * 1000; this.speed = 2; } update() { this.z -= this.speed; if (this.z <= 0) { this.z = 1000; this.x = Math.random() * canvas.width - canvas.width/2; this.y = Math.random() * canvas.height - canvas.height/2; } } draw() { const x = this.x/(this.z/1000) + canvas.width/2; const y = this.y/(this.z/1000) + canvas.height/2; const size = (1000 - this.z)/30; ctx.beginPath(); ctx.arc(x, y, size, 0, Math.PI * 2); ctx.fillStyle = '#4f46e5'; ctx.fill(); } } for(let i = 0; i < 200; i++) { stars.push(new Star()); } function animate() { ctx.fillStyle = 'rgba(0,0,0,0.1)'; ctx.fillRect(0, 0, canvas.width, canvas.height); stars.forEach(star => { star.update(); star.draw(); }); requestAnimationFrame(animate); } animate();"
-      },
-      {
-        "id": 15,
+        "id": 46,
         "author": "VanBao",
         "type": "3D",
         "title": "Rotating 3D Tunnel with Gradient Rings",
@@ -1737,7 +1713,7 @@
         "js": ""
       },
       {
-        "id": 16,
+        "id": 47,
         "author": "VanBao",
         "type": "3D",
         "title": "Interactive 3D Crystal Sphere with Glowing Effects",
@@ -1746,16 +1722,7 @@
         "js": "const sphere = document.querySelector('.crystal-sphere');\nconst core = document.querySelector('.core');\n\n// Add mouse move effect to increase glow based on mouse position\nsphere.addEventListener('mousemove', (e) => {\n  const x = e.clientX / window.innerWidth;\n  const y = e.clientY / window.innerHeight;\n  const lightStrength = (x + y) * 100;\n  core.style.boxShadow = `0 0 ${lightStrength}px #7c3aed, 0 0 ${lightStrength / 2}px #ff00b3`;\n});\n\n// Reset glow on mouse leave\nsphere.addEventListener('mouseleave', () => {\n  core.style.boxShadow = '0 0 60px #7c3aed, 0 0 40px #ff00b3';\n});"
       },
       {
-        "id": 17,
-        "author": "VanBao",
-        "type": "Box",
-        "title": "Energy Vortex Canvas",
-        "html": "<canvas id='vortex'></canvas>",
-        "css": "canvas#vortex { display: block; margin: 50px auto; width: 400px; height: 400px; background: black; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.8); }",
-        "js": "const canvasV=document.getElementById('vortex');const ctxV=canvasV.getContext('2d');canvasV.width=400;canvasV.height=400;class Particle{constructor(){this.angle=Math.random()*2*Math.PI;this.radius=Math.random()*100+50;this.speed=0.03;}update(){this.angle+=this.speed;this.x=canvasV.width/2+Math.cos(this.angle)*this.radius;this.y=canvasV.height/2+Math.sin(this.angle)*this.radius;this.radius-=0.1;if(this.radius<0){this.radius=150;}}draw(){ctxV.beginPath();ctxV.arc(this.x,this.y,2,0,2*Math.PI);ctxV.fillStyle='#7c3aed';ctxV.fill();}}const particlesV=[];for(let i=0;i<120;i++){particlesV.push(new Particle());}function animateV(){ctxV.fillStyle='rgba(0,0,0,0.2)';ctxV.fillRect(0,0,canvasV.width,canvasV.height);particlesV.forEach(p=>{p.update();p.draw();});requestAnimationFrame(animateV);}animateV();"
-      },
-      {
-        "id": 18,
+        "id": 48,
         "author": "VanBao",
         "type": "3D",
         "title": "Double Rotating Cubes",
@@ -1764,7 +1731,7 @@
         "js": ""
       },
       {
-        "id": 19,
+        "id": 49,
         "author": "VanBao",
         "type": "3D",
         "title": "Rotating Rings",
@@ -1773,13 +1740,79 @@
         "js": ""
       },
       {
-        "id": 20,
+        "id": 50,
         "author": "VanBao",
-        "type": "Box",
+        "type": "3D",
+        "title": "Rotating Cube Loader",
+        "html": "<div class='loader-cube'><div class='face front'></div><div class='face back'></div><div class='face right'></div><div class='face left'></div><div class='face top'></div><div class='face bottom'></div></div>",
+        "css": ".loader-cube { width: 100px; height: 100px; margin: 60px auto; perspective: 800px; position: relative; animation: loaderSpin 2.5s linear infinite; } .face { position: absolute; width: 100px; height: 100px; background: linear-gradient(135deg, #fc5c7d, #6a82fb); border-radius: 10px; box-shadow: 0 0 20px rgba(252,92,125,0.7); } .front { transform: translateZ(50px); } .back { transform: rotateY(180deg) translateZ(50px); } .right { transform: rotateY(90deg) translateZ(50px); } .left { transform: rotateY(-90deg) translateZ(50px); } .top { transform: rotateX(90deg) translateZ(50px); } .bottom { transform: rotateX(-90deg) translateZ(50px); } @keyframes loaderSpin { 0% { transform: rotateX(0) rotateY(0); } 100% { transform: rotateX(360deg) rotateY(360deg); } }",
+        "js": ""
+      },
+      {
+        "id": 51,
+        "author": "VanBao",
+        "type": "3D",
+        "title": "3D Sliding Doors",
+        "html": "<div class='doors'><div class='door left'>Left</div><div class='door right'>Right</div></div>",
+        "css": ".doors { width: 320px; height: 200px; margin: 60px auto; perspective: 1200px; position: relative; } .door { width: 160px; height: 100%; position: absolute; top: 0; background: linear-gradient(45deg, #ff416c, #ff4b2b); color: white; font-weight: 700; font-size: 2rem; display: flex; justify-content: center; align-items: center; border-radius: 15px; transition: transform 0.7s ease; cursor: pointer; } .door.left { left: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; } .door.right { right: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; } .doors:hover .door.left { transform: translateX(-50%) rotateY(15deg); } .doors:hover .door.right { transform: translateX(50%) rotateY(-15deg); }",
+        "js": ""
+      },
+      
+      {
+        "id": 52,
+        "author": "VanBao",
+        "type": "3D",
+        "title": "3D Galaxy",
+        "html": "<div class='galaxy-container'><canvas id='galaxyCanvas'></canvas></div>",
+        "css": ".galaxy-container { perspective: 1200px; width: 400px; height: 400px; background: #000; margin: auto; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.7); } canvas { width: 100%; height: 100%; display: block; }",
+        "js": "const canvas = document.getElementById('galaxyCanvas'); const ctx = canvas.getContext('2d'); const stars = []; class Star { constructor() { this.x = Math.random() * canvas.width - canvas.width/2; this.y = Math.random() * canvas.height - canvas.height/2; this.z = Math.random() * 1000; this.speed = 2; } update() { this.z -= this.speed; if (this.z <= 0) { this.z = 1000; this.x = Math.random() * canvas.width - canvas.width/2; this.y = Math.random() * canvas.height - canvas.height/2; } } draw() { const x = this.x/(this.z/1000) + canvas.width/2; const y = this.y/(this.z/1000) + canvas.height/2; const size = (1000 - this.z)/30; ctx.beginPath(); ctx.arc(x, y, size, 0, Math.PI * 2); ctx.fillStyle = '#4f46e5'; ctx.fill(); } } for(let i = 0; i < 200; i++) { stars.push(new Star()); } function animate() { ctx.fillStyle = 'rgba(0,0,0,0.1)'; ctx.fillRect(0, 0, canvas.width, canvas.height); stars.forEach(star => { star.update(); star.draw(); }); requestAnimationFrame(animate); } animate();"
+      },
+      
+      {
+        "id": 53,
+        "author": "VanBao",
+        "type": "3D",
+        "title": "Energy Vortex Canvas",
+        "html": "<canvas id='vortex'></canvas>",
+        "css": "canvas#vortex { display: block; margin: 50px auto; width: 400px; height: 400px; background: black; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.8); }",
+        "js": "const canvasV=document.getElementById('vortex');const ctxV=canvasV.getContext('2d');canvasV.width=400;canvasV.height=400;class Particle{constructor(){this.angle=Math.random()*2*Math.PI;this.radius=Math.random()*100+50;this.speed=0.03;}update(){this.angle+=this.speed;this.x=canvasV.width/2+Math.cos(this.angle)*this.radius;this.y=canvasV.height/2+Math.sin(this.angle)*this.radius;this.radius-=0.1;if(this.radius<0){this.radius=150;}}draw(){ctxV.beginPath();ctxV.arc(this.x,this.y,2,0,2*Math.PI);ctxV.fillStyle='#7c3aed';ctxV.fill();}}const particlesV=[];for(let i=0;i<120;i++){particlesV.push(new Particle());}function animateV(){ctxV.fillStyle='rgba(0,0,0,0.2)';ctxV.fillRect(0,0,canvasV.width,canvasV.height);particlesV.forEach(p=>{p.update();p.draw();});requestAnimationFrame(animateV);}animateV();"
+      },
+      
+      {
+        "id": 54,
+        "author": "VanBao",
+        "type": "3D",
         "title": "Nebula Particle Field",
         "html": "<canvas id='nebula'></canvas>",
         "css": "canvas#nebula { display: block; margin: 50px auto; width: 400px; height: 400px; border-radius: 20px; background: #0b0c10; box-shadow: 0 15px 40px rgba(0,0,0,0.9); }",
         "js": "const canvasN=document.getElementById('nebula');const ctxN=canvasN.getContext('2d');canvasN.width=400;canvasN.height=400;class ParticleN{constructor(){this.x=Math.random()*canvasN.width;this.y=Math.random()*canvasN.height;this.size=Math.random()*3;this.speedX=(Math.random()-0.5)*1.5;this.speedY=(Math.random()-0.5)*1.5;this.color=`hsl(${Math.random()*60+240},100%,50%)`;}update(){this.x+=this.speedX;this.y+=this.speedY;if(this.x>canvasN.width||this.x<0)this.speedX*=-1;if(this.y>canvasN.height||this.y<0)this.speedY*=-1;}draw(){ctxN.beginPath();ctxN.arc(this.x,this.y,this.size,0,2*Math.PI);ctxN.fillStyle=this.color;ctxN.fill();ctxN.shadowColor=this.color;ctxN.shadowBlur=15;} }const particlesN=[];for(let i=0;i<120;i++){particlesN.push(new ParticleN());}function animateN(){ctxN.fillStyle='rgba(11,12,16,0.2)';ctxN.fillRect(0,0,canvasN.width,canvasN.height);particlesN.forEach(p=>{p.update();p.draw();});requestAnimationFrame(animateN);}animateN();"
+      },
+      {
+        "id": 55,
+        "author": "Thanh Tự",
+        "type": "3D",
+        "title": "Khối lập phương xoay tự động và thay đổi độ trong suốt",
+        "html": "<div class='cube19'> <div class='face front'>Opacity</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
+        "css": ".cube19 { width: 150px; height: 150px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: rotateFade 10s linear infinite; } .face { position: absolute; width: 150px; height: 150px; background: rgba(255, 0, 0, 0.8); border: 2px solid #800000; color: white; font-weight: bold; font-size: 20px; line-height: 150px; text-align: center; } .front { transform: translateZ(75px); } .back { transform: rotateY(180deg) translateZ(75px); } .right { transform: rotateY(90deg) translateZ(75px); } .left { transform: rotateY(-90deg) translateZ(75px); } .top { transform: rotateX(90deg) translateZ(75px); } .bottom { transform: rotateX(-90deg) translateZ(75px); } @keyframes rotateFade { 0% { transform: rotateX(0deg) rotateY(0deg); opacity: 1; } 50% { opacity: 0.3; } 100% { transform: rotateX(360deg) rotateY(360deg); opacity: 1; } }",
+        "js": ""
+      },
+      {
+        "id": 56,
+        "author": "Thanh Tự",
+        "type": "3D",
+        "title": "Khối lập phương có đèn sáng phía trước và bóng dưới",
+        "html": "<div class='cube13'> <div class='face front'>Lighted</div> <div class='face back'>Back</div> <div class='face right'>Right</div> <div class='face left'>Left</div> <div class='face top'>Top</div> <div class='face bottom'>Bottom</div> </div>",
+        "css": ".cube13 { width: 140px; height: 140px; margin: 50px auto; position: relative; transform-style: preserve-3d; animation: spinAndLight 8s linear infinite; filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5)); } .face { position: absolute; width: 140px; height: 140px; background: linear-gradient(135deg, #ff9966 0%, #ff5e62 100%); border: 2px solid #cc4d4d; color: white; font-weight: bold; font-size: 20px; line-height: 140px; text-align: center; box-shadow: 0 0 15px rgba(255, 94, 98, 0.7); } .front { transform: translateZ(70px); } .back { transform: rotateY(180deg) translateZ(70px); } .right { transform: rotateY(90deg) translateZ(70px); } .left { transform: rotateY(-90deg) translateZ(70px); } .top { transform: rotateX(90deg) translateZ(70px); } .bottom { transform: rotateX(-90deg) translateZ(70px); } @keyframes spinAndLight { 0% { transform: rotateX(0deg) rotateY(0deg) translateZ(0); } 50% { filter: drop-shadow(0 20px 20px rgba(255,0,0,0.8)); } 100% { transform: rotateX(360deg) rotateY(360deg) translateZ(0); } }",
+        "js": ""
+      },
+      {
+        "id": 57,
+        "author": "Thanh Tự",
+        "type": "3D",
+        "title": "Hiệu ứng bọt nổi 3D",
+        "html": "<div id='bubbles' style='position: relative; width: 300px; height: 300px; margin: 100px auto; perspective: 800px; background: #111; border-radius: 20px; overflow: hidden;'></div>",
+        "css": ".bubble { position: absolute; width: 30px; height: 30px; background: radial-gradient(circle, #1091b9 60%, transparent 100%); border-radius: 50%; filter: drop-shadow(0 0 5px #f0ecf2); opacity: 0.8; transform-style: preserve-3d; }",
+        "js": "const container = document.getElementById('bubbles'); const bubbleCount = 15; let bubbles = []; for(let i=0; i < bubbleCount; i++) { const bubble = document.createElement('div'); bubble.className = 'bubble'; bubble.style.left = `${Math.random() * 270}px`; bubble.style.bottom = `${-30 - Math.random() * 100}px`; bubble.style.transform = `translateZ(${Math.random() * 200}px)`; container.appendChild(bubble); bubbles.push({ el: bubble, x: parseFloat(bubble.style.left), z: Math.random() * 200, speed: 0.5 + Math.random(), y: -30 - Math.random() * 100 }); } function animateBubbles() { bubbles.forEach(b => { b.y += b.speed; if(b.y > 330) { b.y = -30; b.x = Math.random() * 270; b.z = Math.random() * 200; } b.el.style.bottom = `${b.y}px`; b.el.style.left = `${b.x}px`; b.el.style.transform = `translateZ(${b.z}px)`; }); requestAnimationFrame(animateBubbles); } animateBubbles();"
       }
     ]
   },
@@ -1788,8 +1821,8 @@
     "effects": [
       {
         "id": 1,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-1'></div>",
         "css": ".spinner-1 { width: 50px; aspect-ratio: 1; border-radius: 50%; border: 8px solid; border-color: #000 #0000; animation: s1 1s infinite; } @keyframes s1 {to{transform: rotate(.5turn)}}",
@@ -1797,8 +1830,8 @@
       },
       {
         "id": 2,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-2'></div>",
         "css": ".spinner-2 { width: 50px; aspect-ratio: 1; border-radius: 50%; border: 8px solid lightblue; border-right-color: orange; animation: s2 1s infinite linear; } @keyframes s2 {to{transform: rotate(1turn)}}",
@@ -1806,8 +1839,8 @@
       },
       {
         "id": 3,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-3'></div>",
         "css": ".spinner-3 { width: 50px; padding: 8px; aspect-ratio: 1; border-radius: 50%; background: #25b09b; --_m: conic-gradient(#0000 10%,#000), linear-gradient(#000 0 0) content-box; -webkit-mask: var(--_m); mask: var(--_m); -webkit-mask-composite: source-out; mask-composite: subtract; animation: s3 1s infinite linear; } @keyframes s3 {to{transform: rotate(1turn)}}",
@@ -1815,8 +1848,8 @@
       },
       {
         "id": 4,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-4'></div>",
         "css": ".spinner-4 { width: 50px; --b: 8px; /* the border thickness */ aspect-ratio: 1; border-radius: 50%; padding: 1px; background: conic-gradient(#0000 10%,#f03355) content-box; -webkit-mask: repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg), radial-gradient(farthest-side,#0000 calc(100% - var(--b) - 1px),#000 calc(100% - var(--b))); -webkit-mask-composite: destination-in; mask-composite: intersect; animation:s4 1s infinite steps(10); } @keyframes s4 {to{transform: rotate(1turn)}}",
@@ -1824,8 +1857,8 @@
       },
       {
         "id": 5,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-5'></div>",
         "css": ".spinner-5 { width: 50px; --b: 8px; /* the border thickness */ aspect-ratio: 1; border-radius: 50%; background: #514b82; -webkit-mask: repeating-conic-gradient(#0000 0deg,#000 1deg 70deg,#0000 71deg 90deg), radial-gradient(farthest-side,#0000 calc(100% - var(--b) - 1px),#000 calc(100% - var(--b))); -webkit-mask-composite: destination-in; mask-composite: intersect; animation: s5 1s infinite; } @keyframes s5 {to{transform: rotate(.5turn)}}",
@@ -1833,8 +1866,8 @@
       },
       {
         "id": 6,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-6'></div>",
         "css": ".spinner-6 { width: 50px; aspect-ratio: 1; border-radius: 50%; padding: 3px; background: radial-gradient(farthest-side,#ffa516 95%,#0000) 50% 0/12px 12px no-repeat, radial-gradient(farthest-side,#0000 calc(100% - 5px),#ffa516 calc(100% - 4px)) content-box; animation: s6 2s infinite ; } @keyframes s6 {to{transform: rotate(1turn)}}",
@@ -1842,8 +1875,8 @@
       },
       {
         "id": 7,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-7'></div>",
         "css": ".spinner-7 { width: 50px; aspect-ratio: 1; --_c: radial-gradient(farthest-side,#25b09b 92%,#0000); background: var(--_c) top, var(--_c) left, var(--_c) right, var(--_c) bottom; background-size: 12px 12px; background-repeat: no-repeat; animation: s7 1s infinite; } @keyframes s7 {to{transform: rotate(.5turn)}}",
@@ -1851,8 +1884,8 @@
       },
       {
         "id": 8,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-8'></div>",
         "css": ".spinner-8 { width: 50px; aspect-ratio: 1; color: #f03355; --_c: no-repeat radial-gradient(farthest-side,currentColor 92%,#0000); background: var(--_c) 50% 0   /12px 12px, var(--_c) 50% 100%/12px 12px, var(--_c) 100% 50%/12px 12px, var(--_c) 0    50%/12px 12px, var(--_c) 50%  50%/12px 12px, conic-gradient(from 90deg at 4px 4px,#0000 90deg,currentColor 0) -4px -4px/calc(50% + 2px) calc(50% + 2px); animation: s8 1s infinite linear; } @keyframes s8 {to{transform: rotate(.5turn)}}",
@@ -1860,8 +1893,8 @@
       },
       {
         "id": 9,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-9'></div>",
         "css": ".spinner-9 { width: 50px; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(farthest-side,#f03355 95%,#0000) 50% 1px/12px 12px no-repeat, radial-gradient(farthest-side,#0000 calc(100% - 14px),#ccc 0); animation: s9 2s infinite linear; } @keyframes s9 {to{transform: rotate(1turn)}}",
@@ -1869,8 +1902,8 @@
       },
       {
         "id": 10,
-        "type": "The Spinner",
         "author": "Thanh Tự",
+        "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-10'></div>",
         "css": ".spinner-10 { width: 50px; aspect-ratio: 1; color: #854f1d; border-radius: 50%; display: grid; background: conic-gradient(from 90deg at 4px 4px,#0000 90deg,currentColor 0) -4px -4px/calc(50% + 2px) calc(50% + 2px), radial-gradient(farthest-side,currentColor 6px,#0000 7px calc(100% - 6px),currentColor calc(100% - 5px)) no-repeat; animation: s10 2s infinite linear; position: relative; } .spinner-10:before { content: ''; border-radius: inherit; background: inherit; transform: rotate(45deg); } @keyframes s10 {to{transform: rotate(.5turn)}}",
@@ -1878,8 +1911,8 @@
       },
       {
         "id": 11,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-1'></div>",
         "css": ".shapes-1 { width: 40px; height: 40px; border-radius: 50%; background:#f03355; clip-path: polygon(0 0,100% 0,100% 100%,0 100%); animation: sh1 2s infinite cubic-bezier(0.3,1,0,1); } @keyframes sh1 { 33% {border-radius: 0;background:#514b82 ;clip-path: polygon(0 0,100% 0,100% 100%,0 100%)} 66% {border-radius: 0;background:#ffa516 ;clip-path: polygon(50% 0,50% 0,100% 100%,0 100%)} }",
@@ -1887,8 +1920,8 @@
       },
       {
         "id": 12,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-2'></div>",
         "css": ".shapes-2 { width: 40px; height: 40px; background:#25b09b; clip-path: polygon(0 0,100% 0,100% 100%); animation: sh2 2s infinite cubic-bezier(0.3,1,0,1); } @keyframes sh2 { 25%  {clip-path: polygon(0    0,100% 0   ,0 100%)} 50%  {clip-path: polygon(0    0,100% 100%,0 100%)} 75%  {clip-path: polygon(100% 0,100% 100%,0 100%)} 100% {clip-path: polygon(100% 0,100% 100%,0 0   )} }",
@@ -1896,8 +1929,8 @@
       },
       {
         "id": 13,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-3'></div>",
         "css": ".shapes-3 { width: 50px; height: 50px; display: flex; transform:rotate(45deg); animation: sh3-0 1.5s infinite linear; } .shapes-3:before, .shapes-3:after { content: ''; width:50%; background:#514b82; clip-path: polygon(0 50%,100% 0,100% 100%); animation: inherit; animation-name: sh3-1; } .shapes-3:after { clip-path: polygon(0 0,100% 50%,0% 100%); animation-name: sh3-2; } @keyframes sh3-0 { 25% {width:50px;height:50px;transform:rotate(0)} 50% {width:50px;height:50px} 75% {width:70.70px;height:35.35px} 100%{width:70.70px;height:35.35px;transform:rotate(0)} } @keyframes sh3-1 { 0%,25% {clip-path: polygon(0 50% ,100% 0,100% 100%);transform:translate(0.3px)} 50%    {clip-path: polygon(0 50% ,100% 0,100% 100%);transform:translate(-5px)} 75%    {clip-path: polygon(0 100%,0    0,100% 100%);transform:translate(-5px)} 100%   {clip-path: polygon(0 100%,0    0,100% 100%);transform:translate(17.7px)} } @keyframes sh3-2 { 0%,25% {clip-path: polygon(0 0,100% 50%,0    100%);transform:translate(-0.3px) } 50%    {clip-path: polygon(0 0,100% 50%,0    100%);transform:translate(5px) } 75%    {clip-path: polygon(0 0,100% 0  ,100% 100%);transform:translate(5px)} 100%   {clip-path: polygon(0 0,100% 0  ,100% 100%);transform:translate(-17.7px) } }",
@@ -1905,8 +1938,8 @@
       },
       {
         "id": 14,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-4'></div>",
         "css": ".shapes-4 { width: 40px; height: 40px; color:#f03355; background: conic-gradient(from  -45deg at top    20px left 50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg), conic-gradient(from   45deg at right  20px top  50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg), conic-gradient(from  135deg at bottom 20px left 50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg), conic-gradient(from -135deg at left   20px top  50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg); animation: sh4 1.5s infinite cubic-bezier(0.3,1,0,1); } @keyframes sh4 { 50%  {width:60px;height: 60px;transform: rotate(180deg)} 100% {transform: rotate(360deg)} }",
@@ -1914,8 +1947,8 @@
       },
       {
         "id": 15,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-5'></div>",
         "css": ".shapes-5 { width: 40px; height: 40px; color:orange; background: linear-gradient(currentColor 0 0), linear-gradient(currentColor 0 0), linear-gradient(currentColor 0 0), linear-gradient(currentColor 0 0); background-size: 21px 21px; background-repeat:no-repeat; animation: sh5 1.5s infinite cubic-bezier(0.3,1,0,1); } @keyframes sh5 { 0%   {background-position: 0    0,100% 0   ,100% 100%,0 100%} 33%  {background-position: 0    0,100% 0   ,100% 100%,0 100%;width:60px;height: 60px} 66%  {background-position: 100% 0,100% 100%,0    100%,0 0   ;width:60px;height: 60px} 100% {background-position: 100% 0,100% 100%,0    100%,0 0   } }",
@@ -1923,8 +1956,8 @@
       },
       {
         "id": 16,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-6'></div>",
         "css": ".shapes-6 { width: 40px; height: 40px; display: grid; animation: sh6-0 1.5s infinite linear; } .shapes-6:before, .shapes-6:after { content: ''; grid-area: 1/1; background:#514b82; animation: sh6-1 1.5s infinite linear, sh6-2 1.5s infinite linear; } .shapes-6:after { --s:-1; animation-direction: reverse; } @keyframes sh6-0 { 0%,9%,91%,100% {background:#514b82} 10%,90%        {background:#0000} } @keyframes sh6-1 { 0%,33%   {clip-path: polygon(0   0,50% 100%,100% 0,100% 100%,0 100%)} 66%,100% {clip-path: polygon(50% 0,50% 100%,50%  0,100% 100%,0 100%)} } @keyframes sh6-2 { 0%,10%,90%,100% {transform: scale(var(--s,1)) translateY(0)} 33%,66%         {transform: scale(var(--s,1)) translateY(50%)} }",
@@ -1932,8 +1965,8 @@
       },
       {
         "id": 17,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-7'></div>",
         "css": ".shapes-7 { width: 40px; height: 40px; color:#f03355; position: relative; background: conic-gradient(from 134deg at top   ,currentColor 92deg,#0000 0) top, conic-gradient(from -46deg at bottom,currentColor 92deg,#0000 0) bottom; background-size:100% 50%; background-repeat: no-repeat; } .shapes-7:before { content:''; position: absolute; inset: 0; --g:currentColor 14.5px,#0000 0 calc(100% - 14.5px),currentColor 0; background: linear-gradient( 45deg,var(--g)), linear-gradient(-45deg,var(--g)); animation: sh7 1.5s infinite cubic-bezier(0.3,1,0,1); } @keyframes sh7 { 33%  {inset:-10px;transform: rotate(0deg)} 66%  {inset:-10px;transform: rotate(90deg)} 100% {inset:0    ;transform: rotate(90deg)} }",
@@ -1941,8 +1974,8 @@
       },
       {
         "id": 18,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-8'></div>",
         "css": ".shapes-8 { width: 40px; height: 40px; display: grid; animation: sh8-0 1.5s infinite linear; } .shapes-8:before, .shapes-8:after { content: ''; grid-area: 1/1; background:#25b09b; clip-path: polygon(0 0%,100% 0,100% 100%); animation: inherit; animation-name: sh8-1; } .shapes-8:after { --s:-1; } @keyframes sh8-0 { 66%      {transform: skewX(0deg)} 80%,100% {transform: skewX(-45deg)} } @keyframes sh8-1 { 0%   {transform:scale(var(--s,1)) translate(-0.5px,0)} 33%  {transform:scale(var(--s,1)) translate(calc(1px - 50%),calc(1px - 50%))} 66%  {transform:scale(var(--s,1)) translate(calc(1px - 50%),0%)} 100% {transform:scale(var(--s,1)) translate(calc(0.5px - 50%),0%)} }",
@@ -1950,8 +1983,8 @@
       },
       {
         "id": 19,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-9'></div>",
         "css": ".shapes-9 { width: 40px; height: 20px; background:orange; position: relative; animation: sh9-0 1.5s infinite linear; } .shapes-9:before, .shapes-9:after { content:''; position: absolute; background:inherit; bottom: 100%; width: 50%; height: 100%; animation: inherit; animation-name: sh9-1; } .shapes-9:before { left:0; transform-origin: bottom left; --s:-1; } .shapes-9:after { right:0; transform-origin: bottom right; } @keyframes sh9-0 { 0%,10%   {transform:translateY(0%)    scaleY(1)} 49.99%   {transform:translateY(-50%)  scaleY(1)} 50%      {transform:translateY(-50%)  scaleY(-1)} 90%,100% {transform:translateY(-100%) scaleY(-1)} } @keyframes sh9-1 { 10%,90% {transform: rotate(0deg)} 50%     {transform: rotate(calc(var(--s,1)*180deg))} }",
@@ -1959,8 +1992,8 @@
       },
       {
         "id": 20,
-        "type": "The Shapes",
         "author": "Thanh Tự",
+        "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-10'></div>",
         "css": ".shapes-10 { display: flex; width:50px; height:50px; animation: sh10-0 1.5s infinite linear; } .shapes-10:before, .shapes-10:after { content: ''; width:50%; background:#514b82; clip-path: polygon(0 0,100% 50%,0% 100%); animation: inherit; animation-name: sh10-1; transform-origin: bottom left; } .shapes-10:before { clip-path: polygon(0 50%,100% 0,100% 100%); transform-origin: bottom right; --s:-1; } @keyframes sh10-0 { 0%,34.99% {transform: scaley(1)} 35%,70%   {transform: scaley(-1)} 90%,100%  {transform: scaley(-1) rotate(180deg)} } @keyframes sh10-1 { 0%,10%,70%,100%{transform:translateY(-100%) rotate(calc(var(--s,1)*135deg))} 35%            {transform:translateY(0%)    rotate(0deg)} }",
