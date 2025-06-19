@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Animation Effects</h2>
+    <h2>Loading Effects</h2>
 
     <div class="sidebar">
       <ul>
@@ -13,7 +13,7 @@
       </ul>
     </div>
 
-    <div v-for="effect in allAnimationEffects" :key="effect.id" :ref="setEffectRef(effect)" style="margin-bottom: 60px;">
+    <div v-for="effect in allLoadingEffects" :key="effect.id" :ref="setEffectRef(effect)" style="margin-bottom: 60px;">
       <EffectTabs :effect="effect" />
     </div>
   </div>
@@ -32,18 +32,19 @@ export default {
     };
   },
   computed: {
-    allAnimationEffects() {
-      const group = effectsData.find((g) => g.category === 'animation');
+    allLoadingEffects() {
+      const group = effectsData.find((g) => g.category === 'loading');
       return group ? group.effects : [];
     },
     types() {
-      const typesSet = new Set(this.allAnimationEffects.map((e) => e.type));
+      const typesSet = new Set(this.allLoadingEffects.map((e) => e.type));
       return Array.from(typesSet);
     }
   },
   watch: {
     selectedType(newType) {
-      if (!newType) return; 
+      if (!newType) return;
+
       this.$nextTick(() => {
         const ref = this.effectRefs[newType];
         if (ref && ref[0]) {

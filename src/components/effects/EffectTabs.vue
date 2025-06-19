@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ effect.id }}. {{ effect.title }}</h1>
+  <h1>{{ effect.id }}. {{ effect.title }}. {{ effect.author }}</h1>
   <div>
     <div class="tabs">
       <button v-for="tab in tabs" :key="tab" @click="activeTab = tab" :class="{ active: activeTab === tab }">
@@ -27,6 +27,7 @@
 <script>
 import hljs from 'highlight.js'
 import 'highlight.js/styles/github-dark.css'
+import { effect } from 'vue'
 
 export default {
   props: {
@@ -43,7 +44,7 @@ export default {
     generatedPreview() {
       return `
         <html>
-          <head><style>${this.effect.css}</style></head>
+          <head>${this.effect.link ?? ''}<style>${this.effect.css}</style></head>
           <body>
             ${this.effect.html}
             <script>${this.effect.js}<\/script>
@@ -72,42 +73,32 @@ export default {
       })
     },
     formatCode(code) {
-      // Format CSS/JS với indent và xuống dòng hợp lý
       let indentLevel = 0
       const indentSize = 2
-
-      // Escape HTML để hiển thị đúng trên trang
-      const escaped = code
-        .replace(/&/g, '&amp;')  // thêm escape &
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-
-      // Tách thành các phần kết thúc bằng {, }, hoặc ;
-      const lines = escaped.match(/[^{};]+[{};]?/g) || []
-
-      return lines
-        .map((line) => {
-          line = line.trim()
-
-          if (line.endsWith('}')) indentLevel--
-
-          const indentation = ' '.repeat(indentLevel * indentSize)
-          const formattedLine = indentation + line
-
-          if (line.endsWith('{')) indentLevel++
-
-          return formattedLine
-        })
-        .join('\n')
-    },
-    formatHtmlCode(code) {
-      // Escape để hiển thị an toàn
       const escaped = code
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
 
-      // Cắt chuỗi thành từng thẻ hoặc nội dung giữa thẻ
+      const lines = escaped.match(/[^{};]+[{};]?/g) || []
+
+      return lines
+        .map((line) => {
+          line = line.trim()
+          if (line.endsWith('}')) indentLevel--
+          const indentation = ' '.repeat(indentLevel * indentSize)
+          const formattedLine = indentation + line
+          if (line.endsWith('{')) indentLevel++
+          return formattedLine
+        })
+        .join('\n')
+    },
+    formatHtmlCode(code) {
+      const escaped = code
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+
       const tokens = escaped.split(/(&lt;[^&]+&gt;)/).filter(token => token.trim() !== '')
 
       let indentLevel = 0
@@ -115,67 +106,47 @@ export default {
 
       return tokens.map(token => {
         const trimmed = token.trim()
-
-        // Nếu là thẻ đóng (</div>) => giảm indent trước
         if (/^&lt;\/[^>]+&gt;$/.test(trimmed)) indentLevel--
-
         const indentation = ' '.repeat(indentLevel * indentSize)
         const line = indentation + trimmed
-
-        // Nếu là thẻ mở mà không phải tự đóng => tăng indent sau
         if (
           /^&lt;[^\/!][^&]*[^\/]&gt;$/.test(trimmed) &&
           !/^&lt;(input|img|br|hr|meta|link)[^&]*\/?&gt;$/.test(trimmed)
         ) {
           indentLevel++
         }
-
         return line
       }).join('\n')
     },
     formatPlainCode(code) {
       if (this.activeTab === 'html') {
-        // HTML: Format có indent và xuống dòng nhưng KHÔNG escape
         const tokens = code.split(/(<[^>]+>)/).filter(token => token.trim() !== '')
-
         let indentLevel = 0
         const indentSize = 2
-
         return tokens.map(token => {
           const trimmed = token.trim()
-
           if (/^<\/[^>]+>$/.test(trimmed)) indentLevel--
-
           const indentation = ' '.repeat(indentLevel * indentSize)
           const line = indentation + trimmed
-
           if (
             /^<[^/!][^>]*>$/.test(trimmed) &&
             !/^<(input|img|br|hr|meta|link)[^>]*\/?>$/.test(trimmed)
           ) {
             indentLevel++
           }
-
           return line
         }).join('\n')
       } else {
-        // CSS / JS thì giữ nguyên logic cũ
         let indentLevel = 0
         const indentSize = 2
-
         const lines = code.match(/[^{};]+[{};]?/g) || []
-
         return lines
           .map((line) => {
             line = line.trim()
-
             if (line.endsWith('}')) indentLevel--
-
             const indentation = ' '.repeat(indentLevel * indentSize)
             const formattedLine = indentation + line
-
             if (line.endsWith('{')) indentLevel++
-
             return formattedLine
           })
           .join('\n')
@@ -189,7 +160,6 @@ export default {
     },
     copyToClipboard() {
       let content = ''
-
       if (this.activeTab === 'html') {
         content = this.formatPlainCode(this.effect.html)
       } else if (this.activeTab === 'css') {
@@ -200,7 +170,6 @@ export default {
         this.showToast('Chỉ có thể copy HTML, CSS hoặc JS')
         return
       }
-
       navigator.clipboard
         .writeText(content)
         .then(() => {
@@ -245,36 +214,31 @@ export default {
   border-radius: 6px;
 }
 
-.tab-content {
+.tab-content,
+.tab-content_result {
   background: #0d1117;
-  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 0 0 6px 6px;
-  min-height: 200px;
+  height: 300px;
+  max-height: 350px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
+  overflow-y: auto;
   overflow-x: auto;
 }
 
 .tab-content_result {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  background: #f6f6f6;
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 0 0 6px 6px;
-  min-height: 200px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  overflow-x: auto;
+  background: white;
+  min-height: 300px;
+  max-height: 1000px;
+  overflow: visible;
 }
 
 iframe {
   width: 100%;
-  max-width: 800px; 
-  height: 200px; 
+  height: auto;
   border: none;
+  min-height: 300px;
   display: block;
 }
 

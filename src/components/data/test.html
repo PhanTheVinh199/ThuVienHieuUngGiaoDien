@@ -1,87 +1,365 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Menu Hover + Click</title>
+  <title>10 Nút 3D Wow</title>
   <style>
-    /* Cơ bản */
     body {
-      font-family: sans-serif;
-    }
-    .menu {
-      position: relative;
-      display: inline-block;
-      background: #3498db;
-      padding: 10px 20px;
-      color: white;
-      cursor: pointer;
-      border-radius: 8px;
+      background: #121212;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      min-height: 100vh;
+      margin: 0;
+      padding: 40px 0;
     }
 
-    /* Dropdown khi hover */
-    .dropdown {
-      display: none;
+    button {
+      cursor: pointer;
+      border: none;
+      outline: none;
+      border-radius: 14px;
+      user-select: none;
+      font-weight: 700;
+      transition: all 0.3s ease;
+    }
+
+    /* 1. Glow */
+    .btn-glow {
+      position: relative;
+      padding: 16px 40px;
+      font-size: 18px;
+      color: #fff;
+      background: linear-gradient(45deg, #ff0057, #590fb7);
+      box-shadow: 0 6px 20px rgba(255, 0, 87, 0.6), 0 0 40px rgba(89, 15, 183, 0.6);
+      overflow: hidden;
+    }
+
+    .btn-glow::before {
+      content: '';
       position: absolute;
-      background-color: #ecf0f1;
-      top: 40px;
-      left: 0;
-      min-width: 150px;
-      border-radius: 5px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      top: 0;
+      left: -75%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+      transform: skewX(-25deg);
+      animation: shine 2.5s infinite;
+      pointer-events: none;
+      border-radius: 14px;
+      z-index: 0;
+    }
+
+    @keyframes shine {
+      0% {
+        left: -75%;
+      }
+
+      100% {
+        left: 125%;
+      }
+    }
+
+    .btn-glow:hover {
+      transform: scale(1.1);
+      box-shadow: 0 10px 30px rgba(255, 0, 87, 0.8), 0 0 60px rgba(89, 15, 183, 0.8);
       z-index: 1;
     }
 
-    .dropdown a {
-      color: #333;
-      padding: 10px 15px;
-      text-decoration: none;
-      display: block;
+    .btn-glow:active {
+      transform: scale(0.95);
     }
 
-    .dropdown a:hover {
-      background-color: #bdc3c7;
+    /* 2. Pop */
+    .btn-3d-pop {
+      background: linear-gradient(145deg, #4a90e2, #357ABD);
+      padding: 16px 48px;
+      font-size: 20px;
+      color: white;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3), inset 0 -4px 8px rgba(255, 255, 255, 0.2);
     }
 
-    .menu:hover .dropdown {
-      display: block;
+    .btn-3d-pop:hover {
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5), inset 0 -6px 12px rgba(255, 255, 255, 0.3);
+      transform: translateY(-4px) scale(1.05);
     }
 
-    /* Submenu khi click vào Mục 1 */
-    .submenu {
-      display: none;
-      background-color: #dfe6e9;
-      padding-left: 15px;
+    .btn-3d-pop:active {
+      transform: translateY(2px) scale(0.95);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0 -2px 5px rgba(255, 255, 255, 0.1);
     }
 
-    .submenu a {
-      padding: 8px 10px;
+    /* 3. Flip */
+    .btn-flip {
+      width: 120px;
+      height: 50px;
+      perspective: 600px;
+      position: relative;
+    }
+
+    .btn-flip>div {
+      width: 120px;
+      height: 50px;
+      border-radius: 8px;
+      text-align: center;
+      line-height: 50px;
+      color: white;
+      font-weight: 700;
+      position: absolute;
+      backface-visibility: hidden;
+      transition: transform 0.6s ease;
+      user-select: none;
+      cursor: pointer;
+    }
+
+    .btn-flip .front {
+      background: #3498db;
+      z-index: 2;
+    }
+
+    .btn-flip .back {
+      background: #2ecc71;
+      transform: rotateY(180deg);
+    }
+
+    .btn-flip:hover .front {
+      transform: rotateY(180deg);
+    }
+
+    .btn-flip:hover .back {
+      transform: rotateY(0);
+    }
+
+    /* 4. Flash */
+    .btn-flash {
+      padding: 15px 40px;
+      font-weight: 700;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(90deg, #ff3c3c, #ff833c);
+      border-radius: 12px;
+      box-shadow: 0 0 20px #ff3c3c;
+      animation: flashGlow 3s infinite;
+    }
+
+    @keyframes flashGlow {
+
+      0%,
+      100% {
+        box-shadow: 0 0 20px #ff3c3c;
+      }
+
+      50% {
+        box-shadow: 0 0 40px #ff833c;
+      }
+    }
+
+    .btn-flash:hover {
+      animation-play-state: paused;
+      box-shadow: 0 0 50px #ff833c;
+      transform: scale(1.05);
+    }
+
+    .btn-flash:active {
+      transform: scale(0.95);
+    }
+
+    /* 5. Shadow */
+    .btn-shadow {
+      padding: 14px 38px;
+      font-weight: 700;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      border-radius: 15px;
+      box-shadow:
+        0 0 10px #6e8efb,
+        0 0 20px #a777e3,
+        0 0 30px #6e8efb,
+        0 0 40px #a777e3;
+    }
+
+    .btn-shadow:hover {
+      transform: translateY(-6px) scale(1.1);
+      box-shadow:
+        0 0 15px #6e8efb,
+        0 0 25px #a777e3,
+        0 0 35px #6e8efb,
+        0 0 50px #a777e3;
+    }
+
+    .btn-shadow:active {
+      transform: translateY(3px) scale(0.95);
+      box-shadow:
+        0 0 8px #6e8efb,
+        0 0 12px #a777e3;
+    }
+
+    /* 6. Convex */
+    .btn-convex {
+      padding: 15px 45px;
+      font-weight: 700;
+      font-size: 18px;
+      color: #fff;
+      background: linear-gradient(145deg, #1e90ff, #003f87);
+      border-radius: 12px;
+      box-shadow:
+        inset 3px 3px 8px rgba(255, 255, 255, 0.4),
+        inset -3px -3px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .btn-convex:hover {
+      box-shadow:
+        inset 5px 5px 12px rgba(255, 255, 255, 0.6),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.8);
+    }
+
+    .btn-convex:active {
+      box-shadow:
+        inset 2px 2px 6px rgba(255, 255, 255, 0.3),
+        inset -2px -2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    /* 7. Concave */
+    .btn-concave {
+      padding: 15px 45px;
+      font-weight: 700;
+      font-size: 18px;
+      color: #fff;
+      background: linear-gradient(145deg, #7b4397, #dc2430);
+      border-radius: 14px;
+      box-shadow:
+        inset -4px -4px 8px rgba(255, 255, 255, 0.3),
+        inset 4px 4px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .btn-concave:hover {
+      box-shadow:
+        inset -6px -6px 12px rgba(255, 255, 255, 0.5),
+        inset 6px 6px 12px rgba(0, 0, 0, 0.9);
+    }
+
+    .btn-concave:active {
+      box-shadow:
+        inset -2px -2px 6px rgba(255, 255, 255, 0.2),
+        inset 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    /* 8. Neon */
+    .btn-neon {
+      padding: 16px 48px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #0ff;
+      background: #111;
+      box-shadow:
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff,
+        0 0 80px #0ff;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      border-radius: 14px;
+      user-select: none;
+      font-weight: 700;
+      transition: all 0.3s ease;
+    }
+
+    .btn-neon:hover {
+      box-shadow:
+        0 0 20px #0ff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 120px #0ff;
+      transform: scale(1.1);
+    }
+
+    .btn-neon:active {
+      transform: scale(0.95);
+    }
+
+    /* 9. Outline Glow */
+    .btn-outline-glow {
+      padding: 15px 50px;
+      font-weight: 700;
+      font-size: 18px;
+      color: #fff;
+      background: transparent;
+      border: 2px solid #ff4081;
+      border-radius: 14px;
+      box-shadow:
+        0 0 10px #ff4081,
+        0 0 20px #ff4081;
+    }
+
+    .btn-outline-glow:hover {
+      box-shadow:
+        0 0 20px #ff4081,
+        0 0 40px #ff4081;
+      background-color: #ff4081;
+    }
+
+    .btn-outline-glow:active {
+      background-color: #e91e63;
+      box-shadow: 0 0 10px #e91e63;
+    }
+
+    /* 10. Soft Shadow */
+    .btn-soft-shadow {
+      padding: 16px 48px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #222;
+      background: #e0e0e0;
+      border-radius: 20px;
+      box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.1),
+        0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-soft-shadow:hover {
+      box-shadow:
+        0 6px 15px rgba(0, 0, 0, 0.15),
+        0 12px 30px rgba(0, 0, 0, 0.15);
+      transform: translateY(-4px);
+    }
+
+    .btn-soft-shadow:active {
+      transform: translateY(2px);
+      box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.1),
+        0 4px 12px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
+
 <body>
 
-  <div class="menu">
-    Menu
-    <div class="dropdown">
-      <a href="#" onclick="toggleSubmenu(event)">Mục 1</a>
-      <div class="submenu" id="submenu">
-        <a href="#">Lựa chọn 1.1</a>
-        <a href="#">Lựa chọn 1.2</a>
-        <a href="#">Lựa chọn 1.3</a>
-      </div>
-      <a href="#">Mục 2</a>
-      <a href="#">Mục 3</a>
-    </div>
+  <button class="btn-glow">Glow Button</button>
+  <button class="btn-3d-pop">Pop Button</button>
+
+  <div class="btn-flip">
+    <div class="front">Front</div>
+    <div class="back">Back</div>
   </div>
 
+  <button class="btn-flash">Flash Button</button>
+  <button class="btn-shadow">Shadow Button</button>
+  <button class="btn-convex">Convex Button</button>
+  <button class="btn-concave">Concave Button</button>
+  <button class="btn-neon">Neon Button</button>
+  <button class="btn-outline-glow">Outline Glow</button>
+  <button class="btn-soft-shadow">Soft Shadow</button>
+
   <script>
-    function toggleSubmenu(event) {
-      event.preventDefault(); // Ngăn href chuyển trang
-      const submenu = document.getElementById('submenu');
-      submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
-    }
+    // Flip button hover effect handled by CSS
   </script>
 
 </body>
+
 </html>
