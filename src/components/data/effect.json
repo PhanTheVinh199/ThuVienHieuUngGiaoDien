@@ -304,7 +304,7 @@
       },
       {
         "id": 31,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "Button",
         "title": "Button đổi màu nền",
         "link": "",
@@ -314,7 +314,7 @@
       },
       {
         "id": 32,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "Button",
         "title": "Button phóng to khi hover",
         "link": "",
@@ -1821,7 +1821,7 @@
     "effects": [
       {
         "id": 1,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-1'></div>",
@@ -1830,7 +1830,7 @@
       },
       {
         "id": 2,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-2'></div>",
@@ -1839,7 +1839,7 @@
       },
       {
         "id": 3,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-3'></div>",
@@ -1848,7 +1848,7 @@
       },
       {
         "id": 4,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-4'></div>",
@@ -1857,7 +1857,7 @@
       },
       {
         "id": 5,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-5'></div>",
@@ -1866,7 +1866,7 @@
       },
       {
         "id": 6,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-6'></div>",
@@ -1875,7 +1875,7 @@
       },
       {
         "id": 7,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-7'></div>",
@@ -1884,7 +1884,7 @@
       },
       {
         "id": 8,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-8'></div>",
@@ -1893,7 +1893,7 @@
       },
       {
         "id": 9,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-9'></div>",
@@ -1902,7 +1902,7 @@
       },
       {
         "id": 10,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Spinner",
         "title": "",
         "html": "<div class='spinner-10'></div>",
@@ -1911,7 +1911,7 @@
       },
       {
         "id": 11,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-1'></div>",
@@ -1920,7 +1920,7 @@
       },
       {
         "id": 12,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-2'></div>",
@@ -1929,7 +1929,7 @@
       },
       {
         "id": 13,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-3'></div>",
@@ -1938,7 +1938,7 @@
       },
       {
         "id": 14,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-4'></div>",
@@ -1947,7 +1947,7 @@
       },
       {
         "id": 15,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-5'></div>",
@@ -1956,7 +1956,7 @@
       },
       {
         "id": 16,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-6'></div>",
@@ -1965,7 +1965,7 @@
       },
       {
         "id": 17,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-7'></div>",
@@ -1974,7 +1974,7 @@
       },
       {
         "id": 18,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-8'></div>",
@@ -1983,7 +1983,7 @@
       },
       {
         "id": 19,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-9'></div>",
@@ -1992,7 +1992,7 @@
       },
       {
         "id": 20,
-        "author": "Thanh Tự",
+        "author": "Phan Vĩnh",
         "type": "The Shapes",
         "title": "",
         "html": "<div class='shapes-10'></div>",
