@@ -1,36 +1,43 @@
+# 📚 Thư Viện Hiệu Ứng Giao Diện
 
-# ThuVienHieuUngGiaoDien
+Thư viện hiệu ứng giao diện UI tái sử dụng được xây dựng bằng Vue.js. Dễ dàng tích hợp vào các dự án để tạo trải nghiệm người dùng sinh động và đẹp mắt.
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🚀 Tính năng nổi bật
 
-## Recommended IDE Setup
+- Hiệu ứng hover hiện đại
+- Hiệu ứng scroll (AOS, Locomotive, v.v)
+- Dễ dàng tái sử dụng
+- Cấu trúc thư mục rõ ràng, dễ mở rộng
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📁 Cấu trúc thư mục
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+src/
+├── components/    # Các component hiệu ứng
+├── assets/        # Hình ảnh, icon
+├── views/         # Các trang mẫu demo
+├── App.vue
+└── main.js
 ```
 
-### Compile and Hot-Reload for Development
+## ⚙️ Cài đặt & Chạy dự án
 
-```sh
+```bash
+# Clone repository
+git clone https://github.com/PhanTheVinh199/ThuVienHieuUngGiaoDien.git
+
+# Cài đặt dependencies
+cd ThuVienHieuUngGiaoDien
+npm install
+
+# Chạy local
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 👨‍💻 Nhóm phát triển
+- Phan Thế Vĩnh 
+- Nguyễn Thanh Tự 
+- Nguyễn Văn Bảo
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## ⚙️ Thông Tin Dự Án
+- Dự án vẫn được phát triển và nâng cấp từng ngày.
